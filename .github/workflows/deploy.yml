@@ -1,0 +1,38 @@
+name: Deploy to Dash Enterprise
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: ['opened', 'edited', 'synchronize', 'closed']
+
+jobs:
+  find_changed_apps:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ env.MATRIX_JSON }}
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0  # Fetches all history for all branches and tags
+      - name: "Find all changed apps"
+        run: |
+          bash find_changed_apps.sh
+
+  deploy_changed_apps:
+    needs: find_changed_apps
+    runs-on: ubuntu-latest
+    strategy:
+      matrix: ${{fromJson(needs.find_changed_apps.outputs.matrix)}}
+      fail-fast: false
+    steps:
+      - uses: actions/checkout@v2
+      - uses: plotly/de-deploy@v2
+        with:
+          DE_HOST: ${{ secrets.DASH_ENTERPRISE_HOST }}
+          DE_USERNAME: ${{ secrets.DASH_ENTERPRISE_USERNAME }}
+          DE_PASSWORD: ${{ secrets.DASH_ENTERPRISE_PASSWORD }}
+          GH_ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          app_name: ${{ matrix.app_name }}
+          app_directory: ./${{ matrix.app_name }}
