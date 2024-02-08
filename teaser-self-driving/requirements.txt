@@ -1,0 +1,9 @@
+dash
+gunicorn
+pandas
+numpy
+dash-design-kit
+opencv-python
+Flask-Caching
+requests
+redis
