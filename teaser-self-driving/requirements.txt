@@ -1,9 +1,10 @@
-dash
-gunicorn
-pandas
-numpy
+dash==2.12.1
+gunicorn==20.0.4
+pandas==1.5.1
+numpy==1.26.3
 dash-design-kit
 opencv-python
-Flask-Caching
-requests
-redis
+Flask-Caching==2.0.2
+requests==2.31.0
+redis==3.5.3
+# libgl1
