@@ -6,11 +6,8 @@ import urllib
 
 import cv2
 import dash
-# import dash_core_components as dcc
 import dash_design_kit as ddk
-# import dash_html_components as html
 from dash import dcc, html, Input, Output, State
-# from dash.dependencies import Input, Output, State
 from flask_caching import Cache
 import numpy as np
 import pandas as pd
@@ -22,9 +19,7 @@ from theme import custom_theme
 
 
 os.environ["REDIS_URL"] = os.environ.get("REDIS_URL", "redis://127.0.0.1:6379")
-# os.environ["DATABASE_URL"] = os.getenv(
-#     "DATABASE_URL", os.getenv("EXTERNAL_DATABASE_URL")
-# )
+
 
 
 def array_to_b64(img, enc="jpg"):
