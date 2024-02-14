@@ -19,10 +19,10 @@ server = app.server
 app.config.suppress_callback_exceptions = True
 
 # Path
-BASE_PATH = pathlib.Path(__file__).parent.parent.resolve()
-print(BASE_PATH)
-DATA_PATH = BASE_PATH.joinpath("data").resolve()
-print(DATA_PATH)
+# BASE_PATH = pathlib.Path(__file__).parent.parent.resolve()
+# print(BASE_PATH)
+# DATA_PATH = BASE_PATH.joinpath("data").resolve()
+# print(DATA_PATH)
 # Read data
 df = pd.read_csv("data/clinical_analytics.csv.gz")
 
