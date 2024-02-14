@@ -20,10 +20,11 @@ app.config.suppress_callback_exceptions = True
 
 # Path
 BASE_PATH = pathlib.Path(__file__).parent.parent.resolve()
+print(BASE_PATH)
 DATA_PATH = BASE_PATH.joinpath("data").resolve()
-
+print(DATA_PATH)
 # Read data
-df = pd.read_csv(DATA_PATH.joinpath("clinical_analytics.csv.gz"))
+df = pd.read_csv("./data/clinical_analytics.csv.gz")
 
 clinic_list = df["Clinic Name"].unique()
 df["Admit Source"] = df["Admit Source"].fillna("Not Identified")
