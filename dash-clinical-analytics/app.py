@@ -19,7 +19,7 @@ server = app.server
 app.config.suppress_callback_exceptions = True
 
 # Path
-BASE_PATH = pathlib.Path(__file__).parent.resolve()
+BASE_PATH = pathlib.Path(__file__).parent.parent.resolve()
 DATA_PATH = BASE_PATH.joinpath("data").resolve()
 
 # Read data
