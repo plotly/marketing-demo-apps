@@ -24,7 +24,7 @@ print(BASE_PATH)
 DATA_PATH = BASE_PATH.joinpath("data").resolve()
 print(DATA_PATH)
 # Read data
-df = pd.read_csv("./data/clinical_analytics.csv.gz")
+df = pd.read_csv("data/clinical_analytics.csv.gz")
 
 clinic_list = df["Clinic Name"].unique()
 df["Admit Source"] = df["Admit Source"].fillna("Not Identified")
