@@ -7,6 +7,7 @@ from plotly import graph_objs as go
 from plotly.graph_objs import *
 from datetime import datetime as dt
 from dash import dcc, html
+import plotly.express as px
 
 
 app = dash.Dash(
@@ -17,7 +18,8 @@ server = app.server
 
 
 # Plotly mapbox public token
-mapbox_access_token = "pk.eyJ1IjoicGxvdGx5bWFwYm94IiwiYSI6ImNrOWJqb2F4djBnMjEzbG50amg0dnJieG4ifQ.Zme1-Uzoi75IaFbieBDl3A"
+mapbox_access_token = "pk.eyJ1IjoicGxvdGx5LWRvY3MiLCJhIjoiY2xzejNpNHBlMDhpeDJrbHBvZzQ4ZmlzNyJ9.RB6OFUu460lCOxJei9LadA"
+
 
 # Dictionary of important locations in New York
 list_of_locations = {
@@ -49,7 +51,6 @@ df = pd.concat([df1, df2, df3], axis=0)
 df["Date/Time"] = pd.to_datetime(df["Date/Time"], format="%Y-%m-%d %H:%M")
 df.index = df["Date/Time"]
 df.drop("Date/Time", 1, inplace=True)
-
 # totalList = []
 # for month in df.groupby(df.index.month):
 #     print(month)
@@ -446,11 +447,9 @@ def update_graph(datePicked, selectedData, selectedLocation):
     monthPicked = date_picked.month - 4
     dayPicked = date_picked.day - 1
     listCoords = getLatLonColor(selectedData, monthPicked, dayPicked)
-
-    return go.Figure(
-        data=[
-            # Data for all rides based on date and time
-            go.Scattermapbox(
+    print(listCoords)
+    # fig = px.scatter_mapbox()
+    fig = go.Figure(go.Scattermapbox(
                 lat=listCoords["Lat"],
                 lon=listCoords["Lon"],
                 mode="markers",
@@ -490,63 +489,62 @@ def update_graph(datePicked, selectedData, selectedLocation):
                     ),
                 ),
             ),
-            # Plot of important locations on the map
-            go.Scattermapbox(
-                lat=[list_of_locations[i]["lat"] for i in list_of_locations],
-                lon=[list_of_locations[i]["lon"] for i in list_of_locations],
-                mode="markers",
-                hoverinfo="text",
-                text=[i for i in list_of_locations],
-                marker=dict(size=8, color="#ffa0a0"),
-            ),
-        ],
-        layout=go.Layout(
-            autosize=True,
+    )
+    fig.add_trace(go.Scattermapbox(
+            lat=[list_of_locations[i]["lat"] for i in list_of_locations],
+            lon=[list_of_locations[i]["lon"] for i in list_of_locations],
+            mode="markers",
+            hoverinfo="text",
+            text=[i for i in list_of_locations],
+            marker=dict(size=8, color="#ffa0a0"),
+        )
+    ),
+    fig.update_layout(
+            # autosize=True,
             margin=go.layout.Margin(l=0, r=35, t=0, b=0),
             showlegend=False,
             mapbox=dict(
                 accesstoken=mapbox_access_token,
                 center=dict(lat=latInitial, lon=lonInitial),  # 40.7272  # -73.991251
-                style="dark",
+                # style="dark",
                 bearing=bearing,
                 zoom=zoom,
             ),
-            updatemenus=[
-                dict(
-                    buttons=(
-                        [
-                            dict(
-                                args=[
-                                    {
-                                        "mapbox.zoom": 12,
-                                        "mapbox.center.lon": "-73.991251",
-                                        "mapbox.center.lat": "40.7272",
-                                        "mapbox.bearing": 0,
-                                        "mapbox.style": "dark",
-                                    }
-                                ],
-                                label="Reset Zoom",
-                                method="relayout",
-                            )
-                        ]
-                    ),
-                    direction="left",
-                    pad={"r": 0, "t": 0, "b": 0, "l": 0},
-                    showactive=False,
-                    type="buttons",
-                    x=0.45,
-                    y=0.02,
-                    xanchor="left",
-                    yanchor="bottom",
-                    bgcolor="#323130",
-                    borderwidth=1,
-                    bordercolor="#6d6d6d",
-                    font=dict(color="#FFFFFF"),
-                )
-            ],
+            # updatemenus=[
+            #     dict(
+            #         buttons=(
+            #             [
+            #                 dict(
+            #                     args=[
+            #                         {
+            #                             "mapbox.zoom": 12,
+            #                             "mapbox.center.lon": "-73.991251",
+            #                             "mapbox.center.lat": "40.7272",
+            #                             "mapbox.bearing": 0,
+            #                             "mapbox.style": "dark",
+            #                         }
+            #                     ],
+            #                     label="Reset Zoom",
+            #                     method="relayout",
+            #                 )
+            #             ]
+            #         ),
+            #         direction="left",
+            #         pad={"r": 0, "t": 0, "b": 0, "l": 0},
+            #         showactive=False,
+            #         type="buttons",
+            #         x=0.45,
+            #         y=0.02,
+            #         xanchor="left",
+            #         yanchor="bottom",
+            #         bgcolor="#323130",
+            #         borderwidth=1,
+            #         bordercolor="#6d6d6d",
+            #         font=dict(color="#FFFFFF"),
+            #     )
+            # ],
         ),
-    )
-
+    return fig
 
 if __name__ == "__main__":
     app.run_server(debug=True)
