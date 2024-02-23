@@ -18,11 +18,9 @@ app = dash.Dash(
 # This is for gunicorn
 server = app.server
 
-# Mapbox
-MAPBOX_ACCESS_TOKEN = "pk.eyJ1IjoicGxvdGx5bWFwYm94IiwiYSI6ImNrOWJqb2F4djBnMjEzbG50amg0dnJieG4ifQ.Zme1-Uzoi75IaFbieBDl3A"
+# Plotly mapbox public token. Note that this token is URL locked to the services server, and will not work from your local machine. You can get a tiling plan from Mapbox here: https://www.mapbox.com/. You will need a (free) public token.MAPBOX_ACCESS_TOKEN = "pk.eyJ1IjoicGxvdGx5LWRvY3MiLCJhIjoiY2xzejNpNHBlMDhpeDJrbHBvZzQ4ZmlzNyJ9.RB6OFUu460lCOxJei9LadA"
 MAPBOX_STYLE = "mapbox://styles/plotlymapbox/cjyivwt3i014a1dpejm5r7dwr"
-
-# Dash_DAQ elements
+MAPBOX_ACCESS_TOKEN = 'pk.eyJ1IjoicGxvdGx5LWRvY3MiLCJhIjoiY2xzejNpNHBlMDhpeDJrbHBvZzQ4ZmlzNyJ9.RB6OFUu460lCOxJei9LadA'
 
 utc = html.Div(
     id="control-panel-utc",
