@@ -17,7 +17,7 @@ app.title = "New York Uber Rides"
 server = app.server
 
 
-# Plotly mapbox public token
+# Plotly mapbox public token. Note that this token is URL locked to the services server, and will not work from your local machine. You can get a tiling plan from Mapbox here: https://www.mapbox.com/. You will need a (free) public token.
 mapbox_access_token = "pk.eyJ1IjoicGxvdGx5LWRvY3MiLCJhIjoiY2xzejNpNHBlMDhpeDJrbHBvZzQ4ZmlzNyJ9.RB6OFUu460lCOxJei9LadA"
 
 
@@ -51,16 +51,7 @@ df = pd.concat([df1, df2, df3], axis=0)
 df["Date/Time"] = pd.to_datetime(df["Date/Time"], format="%Y-%m-%d %H:%M")
 df.index = df["Date/Time"]
 df.drop("Date/Time", 1, inplace=True)
-# totalList = []
-# for month in df.groupby(df.index.month):
-#     print(month)
-#     dailyList = []
-#     for day in month[1].groupby(month[1].index.day):
-#         dailyList.append(day[1])
-#     totalList.append(dailyList)
-#     # print(dailyList)
-# totalList = np.array(totalList)
-#================================================================================================
+
 totalList = []
 max_days = 0
 
@@ -500,49 +491,49 @@ def update_graph(datePicked, selectedData, selectedLocation):
         )
     ),
     fig.update_layout(
-            # autosize=True,
+            autosize=True,
             margin=go.layout.Margin(l=0, r=35, t=0, b=0),
             showlegend=False,
             mapbox=dict(
                 accesstoken=mapbox_access_token,
                 center=dict(lat=latInitial, lon=lonInitial),  # 40.7272  # -73.991251
-                # style="dark",
+                style="dark",
                 bearing=bearing,
                 zoom=zoom,
             ),
-            # updatemenus=[
-            #     dict(
-            #         buttons=(
-            #             [
-            #                 dict(
-            #                     args=[
-            #                         {
-            #                             "mapbox.zoom": 12,
-            #                             "mapbox.center.lon": "-73.991251",
-            #                             "mapbox.center.lat": "40.7272",
-            #                             "mapbox.bearing": 0,
-            #                             "mapbox.style": "dark",
-            #                         }
-            #                     ],
-            #                     label="Reset Zoom",
-            #                     method="relayout",
-            #                 )
-            #             ]
-            #         ),
-            #         direction="left",
-            #         pad={"r": 0, "t": 0, "b": 0, "l": 0},
-            #         showactive=False,
-            #         type="buttons",
-            #         x=0.45,
-            #         y=0.02,
-            #         xanchor="left",
-            #         yanchor="bottom",
-            #         bgcolor="#323130",
-            #         borderwidth=1,
-            #         bordercolor="#6d6d6d",
-            #         font=dict(color="#FFFFFF"),
-            #     )
-            # ],
+            updatemenus=[
+                dict(
+                    buttons=(
+                        [
+                            dict(
+                                args=[
+                                    {
+                                        "mapbox.zoom": 12,
+                                        "mapbox.center.lon": "-73.991251",
+                                        "mapbox.center.lat": "40.7272",
+                                        "mapbox.bearing": 0,
+                                        "mapbox.style": "dark",
+                                    }
+                                ],
+                                label="Reset Zoom",
+                                method="relayout",
+                            )
+                        ]
+                    ),
+                    direction="left",
+                    pad={"r": 0, "t": 0, "b": 0, "l": 0},
+                    showactive=False,
+                    type="buttons",
+                    x=0.45,
+                    y=0.02,
+                    xanchor="left",
+                    yanchor="bottom",
+                    bgcolor="#323130",
+                    borderwidth=1,
+                    bordercolor="#6d6d6d",
+                    font=dict(color="#FFFFFF"),
+                )
+            ],
         ),
     return fig
 
