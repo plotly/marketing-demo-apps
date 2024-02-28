@@ -4,8 +4,7 @@ import time
 from textwrap import dedent
 
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc, html
 from dash.dependencies import Input, Output
 
 import dask
@@ -73,7 +72,9 @@ def blank_fig(height):
 
 
 # Load mapbox token
-token = os.getenv("MAPBOX_TOKEN")
+# Plotly mapbox public token. Note that this token is URL locked to the services server, and will not work from your local machine. You can get a tiling plan from Mapbox here: https://www.mapbox.com/. You will need a (free) public token.
+token = 'pk.eyJ1IjoicGxvdGx5LWRvY3MiLCJhIjoiY2xzejNpNHBlMDhpeDJrbHBvZzQ4ZmlzNyJ9.RB6OFUu460lCOxJei9LadA'
+
 if not token:
     token = open(".mapbox_token").read()
 
