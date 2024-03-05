@@ -32,7 +32,7 @@ body {
 /*Side panel*/
 /**********************************************************************************************************************/
 #panel-side {
-    padding: 7rem 4rem;
+    padding: 3rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -47,7 +47,7 @@ body {
     font-size: 2rem;
     font-weight: normal;
     word-break: normal;
-    margin: 0 0 1rem 0;
+    margin: 0 0 .5rem 0;
 }
 
 .has-value.Select--single > .Select-control .Select-value .Select-value-label,
@@ -186,25 +186,19 @@ body {
     display: flex;
     flex-direction: column;
     flex: 5 83%;
-    padding: 4rem 3rem;
+    height: 70%
 }
 
-@media (max-width: 550px) {
-    #panel-upper-lower {
-        padding: 3rem 1rem;
-    }
-}
 
 /**********************************************************************************************************************/
 /*Upper Panel*/
 /**********************************************************************************************************************/
 
 #world-map-wrapper {
-    height: 50rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin-bottom: 3rem;
+    height: 100%;
 }
 
 #world-map {
@@ -214,6 +208,8 @@ body {
 
 #control-panel-toggle-map {
     margin: 0 !important;
+    padding-top: .3rem;
+    padding-right: 1rem;
 }
 
 #world-map-wrapper .sc-bdVaJa.fsmTNM, .sc-bdVaJa.bQWqnK {
@@ -232,16 +228,7 @@ body {
     cursor: pointer;
 }
 
-@media (max-width: 1250px) {
-    #world-map-wrapper {
-        height: 40rem;
-    }
-}
-
 @media (max-width: 700px) {
-    #world-map-wrapper {
-        height: 30rem;
-    }
 
     .sc-ifAKCX.dlqMgb, .sc-ifAKCX.dlqMgb:hover, .sc-ifAKCX.igrnnx, .sc-ifAKCX.igrnnx:hover {
         background-color: #fec036;
@@ -257,9 +244,6 @@ body {
 }
 
 @media (max-width: 500px) {
-    #world-map-wrapper {
-        height: 20rem;
-    }
 
     #control-panel-toggle-map {
         width: 110px !important;
@@ -377,38 +361,40 @@ body {
     flex-direction: column;
     align-items: stretch;
     justify-content: space-evenly;
-    flex: 6 60%;
-    margin-left: 2rem;
+    width: 100%;
+    margin-left: .5rem;
     background-color: #2b2b2b;
     font-weight: normal;
-    padding: 2rem;
     flex-wrap: wrap;
 }
 
 #panel-lower-0, #panel-lower-1 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    padding: .5rem;
     justify-content: space-evenly;
 }
 
-#panel-lower-0 {
-    margin-bottom: 2rem;
-}
 
 #control-panel-elevation, #control-panel-temperature, #control-panel-latitude, #control-panel-longitude,
 #control-panel-speed, #control-panel-fuel, #control-panel-battery {
     cursor: pointer;
     color: #f3f6fa !important;
+    padding: 1rem;
 }
 
 @media (max-width: 1800px) {
     #panel-lower {
         margin: 2rem 0 0 0;
+        padding: 1rem;
+        width: 100%;
     }
 
     #panel-lower-0 {
         margin: 3rem 0;
+        padding: 1rem;
     }
 
     #panel-lower-1 {
@@ -418,17 +404,18 @@ body {
 
 @media (max-width: 1000px) {
     #panel-lower-0 {
-        display: grid;
-        grid-template-columns: 2fr 2fr 3fr;
+        display: flex;
+        flex-wrap: wrap;
         grid-template-rows: auto auto;
         grid-template-areas: "time . ." "elevation temperature speed";
         align-items: end;
+        width: 100%;
     }
 
     #panel-lower-1 {
         margin: 0 0 1rem 0;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-wrap: wrap;
         grid-template-rows: auto auto;
         grid-template-areas: "led grad" "indicators indicators";
     }
@@ -440,14 +427,12 @@ body {
     }
     #panel-lower-0 {
         display: grid;
-        grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto auto;
         grid-template-areas: "time time" "speed speed" "elevation temperature";
     }
 
     #panel-lower-1 {
         display: grid;
-        grid-template-columns: 1fr;
         grid-template-rows: auto auto auto;
         grid-template-areas: "led" "grad" "indicators";
     }
@@ -522,9 +507,7 @@ body {
 }
 
 @media (max-width: 1800px) {
-    #control-panel-elevation, #control-panel-temperature {
-        transform: scale(1.2, 1.2);
-    }
+
 
     .sc-bwzfXH.eYbLCt {
         font-size: 0.75rem !important;
@@ -653,11 +636,6 @@ body {
     fill: #2b2b2b;
 }
 
-@media (max-width: 1800px) {
-    #control-panel-speed {
-        transform: scale(1.2, 1.2);
-    }
-}
 
 @media (max-width: 1500px) {
     #control-panel-speed {
@@ -683,11 +661,6 @@ body {
     margin-left: -1rem;
 }
 
-@media (max-width: 1800px) {
-    #control-panel-utc {
-        transform: scale(1.5, 1.5);
-    }
-}
 
 @media (max-width: 1500px) {
     #control-panel-utc {
@@ -782,7 +755,6 @@ body {
 
 @media (max-width: 1000px) {
     #panel-lower-indicators {
-        margin-top: 2rem;
         justify-content: center;
     }
 
@@ -793,7 +765,7 @@ body {
 
     #control-panel-solar-panel-0, #control-panel-solar-panel-1, #control-panel-camera, #control-panel-thrusters,
     #control-panel-motor, #control-panel-communication-signal {
-        width: 100px;
+        width: 75x;
     }
 }
 
@@ -841,12 +813,6 @@ body {
     padding-top: 15px;
 }
 
-@media (max-width: 1800px) {
-    #panel-lower-graduated-bars {
-        transform: scale(1.2, 1.2);
-    }
-}
-
 @media (max-width: 1500px) {
     #panel-lower-graduated-bars {
         transform: scale(1, 1);
@@ -856,5 +822,39 @@ body {
 @media (max-width: 700px) {
     #panel-lower-graduated-bars {
         margin-bottom: 3rem;
+    }
+}
+
+
+.panel-upper {
+    display: flex;
+}
+
+@media (max-width: 1250px) {
+    .panel-upper {
+        flex-direction: column;
+    }
+    .panel-side-wrapper-container {
+        width: 100%;
+    }
+    .world-map-wrapper-container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1251px) {
+    .panel-upper {
+        flex-direction: row;
+    }
+    .panel-side-wrapper-container {
+        width: 20%;
+        height: 100%;
+    }
+    .world-map-wrapper-container {
+        width: 80%;
+        height: 100%;
+    }
+    .satellite-description {
+        font-size: 0.7rem;
     }
 }

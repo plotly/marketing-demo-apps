@@ -233,6 +233,40 @@ minute_toggle = daq.ToggleSwitch(
 
 # Side panel
 
+# Histogram
+
+histogram = html.Div(
+    id="histogram-container",
+    children=[
+                html.H1(
+                    id="histogram-title", children=["Select A Property To Display"]
+                ),
+                minute_toggle,
+        dcc.Graph(
+            id="histogram-graph",
+            figure={
+                "data": [
+                    {
+                        "x": [i for i in range(60)],
+                        "y": [i for i in range(60)],
+                        "type": "scatter",
+                        "marker": {"color": "#fec036"},
+                    }
+                ],
+                "layout": {
+                    "margin": {"t": 30, "r": 35, "b": 40, "l": 50},
+                    "xaxis": {"dtick": 5, "gridcolor": "#636363", "showline": False},
+                    "yaxis": {"showgrid": False},
+                    "plot_bgcolor": "#2b2b2b",
+                    "paper_bgcolor": "#2b2b2b",
+                    "font": {"color": "gray"},
+                },
+            },
+            config={"displayModeBar": False}, style={'height': '100px'},
+        ),
+    ]
+)
+
 satellite_dropdown = dcc.Dropdown(
     id="satellite-dropdown-component",
     options=[
@@ -259,6 +293,7 @@ side_panel_layout = html.Div(
         satellite_dropdown_text,
         html.Div(id="satellite-dropdown", children=satellite_dropdown),
         html.Div(id="panel-side-text", children=[satellite_title, satellite_body]),
+        html.Div(histogram, hidden=True),
     ],
 )
 
@@ -317,68 +352,35 @@ map_graph = html.Div(
             figure={"data": map_data, "layout": map_layout},
             config={"displayModeBar": False, "scrollZoom": False},
         ),
-    ],
+    ], style={'margin': 0, 'height': '100%'}
 )
 
-# Histogram
-
-histogram = html.Div(
-    id="histogram-container",
-    children=[
-        html.Div(
-            id="histogram-header",
-            children=[
-                html.H1(
-                    id="histogram-title", children=["Select A Property To Display"]
-                ),
-                minute_toggle,
-            ],
-        ),
-        dcc.Graph(
-            id="histogram-graph",
-            figure={
-                "data": [
-                    {
-                        "x": [i for i in range(60)],
-                        "y": [i for i in range(60)],
-                        "type": "scatter",
-                        "marker": {"color": "#fec036"},
-                    }
-                ],
-                "layout": {
-                    "margin": {"t": 30, "r": 35, "b": 40, "l": 50},
-                    "xaxis": {"dtick": 5, "gridcolor": "#636363", "showline": False},
-                    "yaxis": {"showgrid": False},
-                    "plot_bgcolor": "#2b2b2b",
-                    "paper_bgcolor": "#2b2b2b",
-                    "font": {"color": "gray"},
-                },
-            },
-            config={"displayModeBar": False},
-        ),
-    ],
-)
 
 # Control panel + map
 main_panel_layout = html.Div(
     id="panel-upper-lower",
     children=[
         dcc.Interval(id="interval", interval=1 * 2000, n_intervals=0),
-        map_graph,
+        html.Div(
+            className='panel-upper',
+            children=[
+                html.Div(side_panel_layout, className='panel-side-wrapper-container'),
+                html.Div(map_graph, className='world-map-wrapper-container'),
+            ],
+        ),
         html.Div(
             id="panel",
             children=[
-                histogram,
                 html.Div(
                     id="panel-lower",
                     children=[
                         html.Div(
                             id="panel-lower-0",
-                            children=[elevation, temperature, speed, utc],
-                        ),
-                        html.Div(
-                            id="panel-lower-1",
                             children=[
+                                elevation, 
+                                temperature, 
+                                speed, 
+                                utc,
                                 html.Div(
                                     id="panel-lower-led-displays",
                                     children=[latitude, longitude],
@@ -518,7 +520,6 @@ root_layout = html.Div(
         ),
         # For the case no components were clicked, we need to know what type of graph to preserve
         dcc.Store(id="store-data-config", data={"info_type": "", "satellite_type": 0}),
-        side_panel_layout,
         main_panel_layout,
     ],
 )
