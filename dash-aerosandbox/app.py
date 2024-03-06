@@ -2,7 +2,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 import plotly.subplots as sub
 import dash
-from dash import dbc, html, dcc, Input, Output, State
+from dash import html, dcc, Input, Output, State
+import dash_bootstrap_components as dbc
 import aerosandbox as asb
 import casadi as cas
 from airplane import make_airplane
