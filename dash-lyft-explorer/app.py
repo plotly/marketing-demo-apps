@@ -3,11 +3,9 @@ import time
 
 import colorlover as cl
 import dash
+from dash import dcc, html, Input, Output, State
 import dash_bootstrap_components as dbc
-import dash_core_components as dcc
-import dash_html_components as html
 import dash_deck
-from dash.dependencies import Input, Output, State
 from lyft_dataset_sdk.lyftdataset import LyftDataset, LyftDatasetExplorer
 from lyft_dataset_sdk.utils.data_classes import Box, LidarPointCloud, RadarPointCloud
 import numpy as np
