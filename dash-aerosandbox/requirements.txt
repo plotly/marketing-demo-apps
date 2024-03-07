@@ -1,0 +1,10 @@
+aerosandbox==1.1.20
+plotly>= 4.6.0
+dash==2.12.1
+dash_bootstrap_components==1.5.0
+numpy>=1.24.4
+casadi>=3.5
+gunicorn==20.0.4
+pandas==1.5.1
+seaborn
+importlib-resources
