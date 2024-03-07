@@ -3,10 +3,8 @@ import pathlib
 import re
 
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc, html, Input, Output, State
 import pandas as pd
-from dash.dependencies import Input, Output, State
 import cufflinks as cf
 
 # Initialize app
