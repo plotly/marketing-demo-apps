@@ -1,6 +1,5 @@
 import dash
-from dash.dependencies import Input, Output
-import dash_html_components as html
+from dash import Input, Output, html
 import dash_pivottable
 
 from data import data
