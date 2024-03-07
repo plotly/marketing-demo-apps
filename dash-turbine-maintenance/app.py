@@ -1,12 +1,10 @@
 import pandas as pd
 import dash
+from dash import html, dcc, Input, Output, State
 import dash_bootstrap_components as dbc
-import dash_core_components as dcc
-import dash_html_components as html
 import dash_daq as daq
 
 import plotly.graph_objs as go
-from dash.dependencies import Input, Output, State
 from datetime import datetime, date
 from data_preprocessing import data_preprocessing
 import pickle
