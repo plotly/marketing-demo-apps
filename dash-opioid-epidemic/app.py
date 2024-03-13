@@ -3,7 +3,7 @@ import pathlib
 import re
 
 import dash
-from dash import dcc, html, Input, Output, State
+from dash import dcc, html, Input, Output, State, Patch
 import plotly.express as px
 import pandas as pd
 import cufflinks as cf
@@ -137,7 +137,7 @@ app.layout = html.Div(
                                     id="years-slider",
                                     min=min(YEARS),
                                     max=max(YEARS),
-                                    value=min(YEARS),
+                                    # value=min(YEARS),
                                     step=1,
                                     marks={
                                         str(year): {
@@ -232,10 +232,14 @@ app.layout = html.Div(
     [Input("years-slider", "value")],
     [State("county-choropleth", "figure")],
 )
-def display_map(year, figure):
+def display_map(year, fig):
+    if not year: return dash.no_update
+    # print(figure)
+    print(year)
+    print(type(year))
     cm = dict(zip(BINS, DEFAULT_COLORSCALE))
     # print(cm)
-    df_lat_lon = calculate_death_rates(year)
+    # df_lat_lon = calculate_death_rates(year)
     data = [
         dict(
             lat=df_lat_lon["Latitude "],
@@ -279,14 +283,14 @@ def display_map(year, figure):
         )
         # print(annotations)
 
-    if "layout" in figure:
-        lat = figure["layout"]["mapbox"]["center"]["lat"]
-        lon = figure["layout"]["mapbox"]["center"]["lon"]
-        zoom = figure["layout"]["mapbox"]["zoom"]
-    else:
-        lat = 38.72490
-        lon = -95.61446
-        zoom = 3.5
+    # if "layout" in figure:
+    #     lat = figure["layout"]["mapbox"]["center"]["lat"]
+    #     lon = figure["layout"]["mapbox"]["center"]["lon"]
+    #     zoom = figure["layout"]["mapbox"]["zoom"]
+    # else:
+    lat = 38.72490
+    lon = -95.61446
+    zoom = 3.5
 
     layout = dict(
         mapbox=dict(
@@ -303,7 +307,7 @@ def display_map(year, figure):
     )
     base_url = "https://raw.githubusercontent.com/jackparmer/mapbox-counties/master/"
     for bin in BINS:
-        print(base_url + str(year) + "/" + bin + ".geojson")
+        # print(base_url + str(year) + "/" + bin + ".geojson")
         geo_layer = dict(
             sourcetype="geojson",
             source=base_url + str(year) + "/" + bin + ".geojson",
@@ -315,7 +319,10 @@ def display_map(year, figure):
         )
         # print(geo_layer)
         layout["mapbox"]["layers"].append(geo_layer)
-    fig = dict(data=data, layout=layout)
+
+    fig = Patch()
+    fig['data']=data[0], 
+    fig['layout']=layout
     # print(counties)
     # fig = px.choropleth_mapbox(
     #     df_lat_lon, 
