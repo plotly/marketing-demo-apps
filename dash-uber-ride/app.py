@@ -438,7 +438,7 @@ def update_graph(datePicked, selectedData, selectedLocation):
     monthPicked = date_picked.month - 4
     dayPicked = date_picked.day - 1
     listCoords = getLatLonColor(selectedData, monthPicked, dayPicked)
-    print(listCoords)
+    # print(listCoords)
     # fig = px.scatter_mapbox()
     fig = go.Figure(go.Scattermapbox(
                 lat=listCoords["Lat"],

@@ -4,8 +4,14 @@ import re
 
 import dash
 from dash import dcc, html, Input, Output, State
+import plotly.express as px
 import pandas as pd
 import cufflinks as cf
+from urllib.request import urlopen
+import json
+
+with urlopen('https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json') as response:
+        counties = json.load(response)
 
 # Initialize app
 
@@ -132,6 +138,7 @@ app.layout = html.Div(
                                     min=min(YEARS),
                                     max=max(YEARS),
                                     value=min(YEARS),
+                                    step=1,
                                     marks={
                                         str(year): {
                                             "label": str(year),
@@ -227,7 +234,8 @@ app.layout = html.Div(
 )
 def display_map(year, figure):
     cm = dict(zip(BINS, DEFAULT_COLORSCALE))
-
+    # print(cm)
+    df_lat_lon = calculate_death_rates(year)
     data = [
         dict(
             lat=df_lat_lon["Latitude "],
@@ -252,7 +260,9 @@ def display_map(year, figure):
     ]
 
     for i, bin in enumerate(reversed(BINS)):
+        # print(i, bin)
         color = cm[bin]
+        # print(color)
         annotations.append(
             dict(
                 arrowcolor=color,
@@ -267,6 +277,7 @@ def display_map(year, figure):
                 font=dict(color="#2cfec1"),
             )
         )
+        # print(annotations)
 
     if "layout" in figure:
         lat = figure["layout"]["mapbox"]["center"]["lat"]
@@ -290,9 +301,9 @@ def display_map(year, figure):
         annotations=annotations,
         dragmode="lasso",
     )
-
     base_url = "https://raw.githubusercontent.com/jackparmer/mapbox-counties/master/"
     for bin in BINS:
+        print(base_url + str(year) + "/" + bin + ".geojson")
         geo_layer = dict(
             sourcetype="geojson",
             source=base_url + str(year) + "/" + bin + ".geojson",
@@ -302,9 +313,24 @@ def display_map(year, figure):
             # CHANGE THIS
             fill=dict(outlinecolor="#afafaf"),
         )
+        # print(geo_layer)
         layout["mapbox"]["layers"].append(geo_layer)
-
     fig = dict(data=data, layout=layout)
+    # print(counties)
+    # fig = px.choropleth_mapbox(
+    #     df_lat_lon, 
+    #     geojson=counties, 
+    #     locations='FIPS ', 
+    #     color='Deaths', 
+    #     color_continuous_scale="Viridis", 
+    #     range_color=(0, 12),
+    #     center={'lat': 38.72490, 'lon': -95.61446}, zoom = 3.5,
+    # ),
+    # fig.update_layout(
+    #     margin={"r":0,"t":0,"l":0,"b":0},
+    #     mapbox_accesstoken=mapbox_access_token,
+    # )
+
     return fig
 
 
@@ -447,6 +473,32 @@ def display_selected_data(selectedData, chart_dropdown, year):
         ] = "Age-adjusted death rate per county per year <br>(only 1st 500 shown)"
 
     return fig
+
+def calculate_death_rates(year):
+    df = df_full_data.drop(
+        [
+        'Crude Rate Lower 95% Confidence Interval',
+        'Crude Rate Upper 95% Confidence Interval', 
+        'Age Adjusted Rate',
+        'Age Adjusted Rate Lower 95% Confidence Interval',
+        'Age Adjusted Rate Upper 95% Confidence Interval'
+        ], axis=1
+    )
+
+    df = df[df['Year'] == year]
+    df[['Deaths', 'Population']] = df[['Deaths', 'Population']].fillna('Missing')
+    df['Year'] = df['Year'].astype(str)
+    # print(df['County Code'])
+    merged_df = df_lat_lon.merge(df[['Deaths', 'Population', 'County Code']], 
+                            left_on=['FIPS '], 
+                            right_on=['County Code'], 
+                            how='left')#.drop(['Unnamed: 0', 'Sort '], axis=1)
+    merged_df['Hover'] = merged_df.apply(format_hover, axis=1)
+    df = df.replace({'Missing': 0})
+    return merged_df
+
+def format_hover(row):
+    return f"{row['County ']} {row['State']}<br>Population: {row['Population']}<br>Deaths: {row['Deaths']}<br>{row['County Code']}"
 
 
 if __name__ == "__main__":
