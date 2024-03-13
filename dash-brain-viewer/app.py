@@ -1,8 +1,9 @@
 import os
 import json
 import dash
-from dash import dcc, html, Input, Output, State, PreventUpdate
+from dash import dcc, html, Input, Output, State
 import dash_colorscales as dcs
+from dash.exceptions import PreventUpdate
 from mni import create_mesh_data, default_colorscale
 
 
