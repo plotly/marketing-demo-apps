@@ -1,9 +1,7 @@
 import dash
 import dash_table
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc, html, State, Input, Output
 import plotly.graph_objs as go
-from dash.dependencies import State, Input, Output
 from dash.exceptions import PreventUpdate
 
 import pandas as pd
