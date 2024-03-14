@@ -92,31 +92,31 @@ mapbox_style = "mapbox://styles/plotlymapbox/cjvprkf3t1kns1cqjxuxmwixz"
 app.layout = html.Div(
     id="root",
     children=[
-        html.Div(
-            id="header",
-            children=[
-                html.A(
-                    html.Img(id="logo", src=app.get_asset_url("dash-logo.png")),
-                    href="https://plotly.com/dash/",
-                ),
-                html.A(
-                    html.Button("Enterprise Demo", className="link-button"),
-                    href="https://plotly.com/get-demo/",
-                ),
-                html.A(
-                    html.Button("Source Code", className="link-button"),
-                    href="https://github.com/plotly/dash-sample-apps/tree/main/apps/dash-opioid-epidemic",
-                ),
-                html.H4(children="Rate of US Poison-Induced Deaths"),
-                html.P(
-                    id="description",
-                    children="† Deaths are classified using the International Classification of Diseases, \
-                    Tenth Revision (ICD–10). Drug-poisoning deaths are defined as having ICD–10 underlying \
-                    cause-of-death codes X40–X44 (unintentional), X60–X64 (suicide), X85 (homicide), or Y10–Y14 \
-                    (undetermined intent).",
-                ),
-            ],
-        ),
+        # html.Div(
+        #     id="header",
+        #     children=[
+        #         html.A(
+        #             html.Img(id="logo", src=app.get_asset_url("dash-logo.png")),
+        #             href="https://plotly.com/dash/",
+        #         ),
+        #         html.A(
+        #             html.Button("Enterprise Demo", className="link-button"),
+        #             href="https://plotly.com/get-demo/",
+        #         ),
+        #         html.A(
+        #             html.Button("Source Code", className="link-button"),
+        #             href="https://github.com/plotly/dash-sample-apps/tree/main/apps/dash-opioid-epidemic",
+        #         ),
+        #         html.H4(children="Rate of US Poison-Induced Deaths"),
+        #         html.P(
+        #             id="description",
+        #             children="† Deaths are classified using the International Classification of Diseases, \
+        #             Tenth Revision (ICD–10). Drug-poisoning deaths are defined as having ICD–10 underlying \
+        #             cause-of-death codes X40–X44 (unintentional), X60–X64 (suicide), X85 (homicide), or Y10–Y14 \
+        #             (undetermined intent).",
+        #         ),
+        #     ],
+        # ),
         html.Div(
             id="app-container",
             children=[
@@ -134,7 +134,7 @@ app.layout = html.Div(
                                     id="years-slider",
                                     min=min(YEARS),
                                     max=max(YEARS),
-                                    # value=min(YEARS),
+                                    # value=min(YEARS), # CHORO BUG: Uncomment this if you want map on load.
                                     step=1,
                                     marks={
                                         str(year): {
@@ -158,21 +158,21 @@ app.layout = html.Div(
                                 ),
                                 dcc.Graph(
                                     id="county-choropleth",
-                                    # figure=dict(
-                                    #     layout=dict(
-                                    #         mapbox=dict(
-                                    #             layers=[],
-                                    #             accesstoken=mapbox_access_token,
-                                    #             style=mapbox_style,
-                                    #             center=dict(
-                                    #                 lat=38.72490, lon=-95.61446
-                                    #             ),
-                                    #             pitch=0,
-                                    #             zoom=3.5,
-                                    #         ),
-                                    #         autosize=True,
-                                    #     ),
-                                    # ),
+                                    figure=dict( # CHORO BUG: This is here and the State is in the callback, but it can also be in the callback obviously. I didn't see a difference.
+                                        layout=dict(
+                                            mapbox=dict(
+                                                layers=[],
+                                                accesstoken=mapbox_access_token,
+                                                style=mapbox_style,
+                                                center=dict(
+                                                    lat=38.72490, lon=-95.61446
+                                                ),
+                                                pitch=0,
+                                                zoom=3.5,
+                                            ),
+                                            autosize=True,
+                                        ),
+                                    ),
                                 ),
                             ],
                         ),
@@ -227,20 +227,23 @@ app.layout = html.Div(
 @app.callback(
     Output("county-choropleth", "figure"),
     [Input("years-slider", "value")],
-    # [State("county-choropleth", "figure")],
+    [State("county-choropleth", "figure")],
 )
 def display_map(
     year, 
-    # figure
+    fig
 ):
     if not year: return dash.no_update
     # print(figure['data'])
-    print(year)
-    print(type(year))
+    # print(year)
+    # print(type(year))
     cm = dict(zip(BINS, DEFAULT_COLORSCALE))
     # print(cm)
     df_lat_lon = calculate_death_rates(year)
     # print(df_lat_lon.head())
+    # CHORO BUG: Method one, create data, annotations and layout separately, 
+    # add them to a dict (line 324) and return that dict by commenting everything
+    # from 324 to the return.
     data = [
         dict(
             lat=df_lat_lon["Latitude "],
@@ -320,15 +323,16 @@ def display_map(
         # print(geo_layer)
         layout["mapbox"]["layers"].append(geo_layer)
 
-    fig=dict(layout=layout, data=data)
+    # fig=dict(layout=layout, data=data)
     # ================================================================================================
-    
-    # fig = Patch()
-    # fig['data']=data[0], 
-    # fig['layout']=layout
+    # Method 2, grab the current figure and patch it.
+    fig = Patch()
+    fig['data']=data[0], 
+    fig['layout']=layout
     # print(counties)
 
     # ================================================================================================
+    # Method 3 Make a new figure with the data each time. 
     # fig = px.choropleth_mapbox(
     #     df_lat_lon, 
     #     locations='FIPS ', 
@@ -344,6 +348,8 @@ def display_map(
     #     margin={"r":0,"t":0,"l":0,"b":0},
     # )
     # fig['layout'] = layout
+    # All three methods work on the first triggered callback right now, but the 403 (or the JS/React error)
+    # break subsequent reloads. 
     return fig
 
 
