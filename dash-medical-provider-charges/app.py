@@ -1,6 +1,5 @@
 import dash
-import dash_table
-from dash import dcc, html, State, Input, Output
+from dash import dcc, html, State, Input, Output, dash_table
 import plotly.graph_objs as go
 from dash.exceptions import PreventUpdate
 
