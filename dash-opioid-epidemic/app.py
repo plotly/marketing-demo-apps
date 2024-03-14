@@ -137,7 +137,7 @@ app.layout = html.Div(
                                     id="years-slider",
                                     min=min(YEARS),
                                     max=max(YEARS),
-                                    # value=min(YEARS),
+                                    value=min(YEARS),
                                     step=1,
                                     marks={
                                         str(year): {
@@ -232,14 +232,15 @@ app.layout = html.Div(
     [Input("years-slider", "value")],
     [State("county-choropleth", "figure")],
 )
-def display_map(year, fig):
+def display_map(year, figure):
     if not year: return dash.no_update
-    # print(figure)
+    # print(figure['data'])
     print(year)
     print(type(year))
     cm = dict(zip(BINS, DEFAULT_COLORSCALE))
     # print(cm)
-    # df_lat_lon = calculate_death_rates(year)
+    df_lat_lon = calculate_death_rates(year)
+    # print(df_lat_lon.head())
     data = [
         dict(
             lat=df_lat_lon["Latitude "],
@@ -282,12 +283,11 @@ def display_map(year, fig):
             )
         )
         # print(annotations)
-
     # if "layout" in figure:
     #     lat = figure["layout"]["mapbox"]["center"]["lat"]
     #     lon = figure["layout"]["mapbox"]["center"]["lon"]
     #     zoom = figure["layout"]["mapbox"]["zoom"]
-    # else:
+    # # else:
     lat = 38.72490
     lon = -95.61446
     zoom = 3.5
@@ -320,10 +320,14 @@ def display_map(year, fig):
         # print(geo_layer)
         layout["mapbox"]["layers"].append(geo_layer)
 
-    fig = Patch()
-    fig['data']=data[0], 
-    fig['layout']=layout
+    fig=dict(layout=layout, data=data)
+
+    # fig = Patch()
+    # fig['data']=data[0], 
+    # fig['layout']=layout
     # print(counties)
+    # fig['layout']['title'] = year
+
     # fig = px.choropleth_mapbox(
     #     df_lat_lon, 
     #     geojson=counties, 
@@ -337,7 +341,7 @@ def display_map(year, fig):
     #     margin={"r":0,"t":0,"l":0,"b":0},
     #     mapbox_accesstoken=mapbox_access_token,
     # )
-
+    # print(figure['data'])
     return fig
 
 
