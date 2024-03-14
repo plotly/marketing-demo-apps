@@ -3,7 +3,7 @@ from textwrap import dedent
 
 import dash_avs_ui
 import dash
-from dash.dependencies import Input, Output, State, dcc, html
+from dash import Input, Output, State, dcc, html
 import dash_bootstrap_components as dbc
 
 
