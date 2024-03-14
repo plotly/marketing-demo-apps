@@ -10,9 +10,6 @@ import cufflinks as cf
 from urllib.request import urlopen
 import json
 
-with urlopen('https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json') as response:
-        counties = json.load(response)
-
 # Initialize app
 
 app = dash.Dash(
@@ -137,7 +134,7 @@ app.layout = html.Div(
                                     id="years-slider",
                                     min=min(YEARS),
                                     max=max(YEARS),
-                                    value=min(YEARS),
+                                    # value=min(YEARS),
                                     step=1,
                                     marks={
                                         str(year): {
@@ -161,21 +158,21 @@ app.layout = html.Div(
                                 ),
                                 dcc.Graph(
                                     id="county-choropleth",
-                                    figure=dict(
-                                        layout=dict(
-                                            mapbox=dict(
-                                                layers=[],
-                                                accesstoken=mapbox_access_token,
-                                                style=mapbox_style,
-                                                center=dict(
-                                                    lat=38.72490, lon=-95.61446
-                                                ),
-                                                pitch=0,
-                                                zoom=3.5,
-                                            ),
-                                            autosize=True,
-                                        ),
-                                    ),
+                                    # figure=dict(
+                                    #     layout=dict(
+                                    #         mapbox=dict(
+                                    #             layers=[],
+                                    #             accesstoken=mapbox_access_token,
+                                    #             style=mapbox_style,
+                                    #             center=dict(
+                                    #                 lat=38.72490, lon=-95.61446
+                                    #             ),
+                                    #             pitch=0,
+                                    #             zoom=3.5,
+                                    #         ),
+                                    #         autosize=True,
+                                    #     ),
+                                    # ),
                                 ),
                             ],
                         ),
@@ -230,9 +227,12 @@ app.layout = html.Div(
 @app.callback(
     Output("county-choropleth", "figure"),
     [Input("years-slider", "value")],
-    [State("county-choropleth", "figure")],
+    # [State("county-choropleth", "figure")],
 )
-def display_map(year, figure):
+def display_map(
+    year, 
+    # figure
+):
     if not year: return dash.no_update
     # print(figure['data'])
     print(year)
@@ -302,7 +302,7 @@ def display_map(year, figure):
         ),
         hovermode="closest",
         margin=dict(r=0, l=0, t=0, b=0),
-        annotations=annotations,
+        # annotations=annotations,
         dragmode="lasso",
     )
     base_url = "https://raw.githubusercontent.com/jackparmer/mapbox-counties/master/"
@@ -321,27 +321,29 @@ def display_map(year, figure):
         layout["mapbox"]["layers"].append(geo_layer)
 
     fig=dict(layout=layout, data=data)
-
+    # ================================================================================================
+    
     # fig = Patch()
     # fig['data']=data[0], 
     # fig['layout']=layout
     # print(counties)
-    # fig['layout']['title'] = year
 
+    # ================================================================================================
     # fig = px.choropleth_mapbox(
     #     df_lat_lon, 
-    #     geojson=counties, 
     #     locations='FIPS ', 
     #     color='Deaths', 
     #     color_continuous_scale="Viridis", 
     #     range_color=(0, 12),
+    #     mapbox_style=mapbox_style,
     #     center={'lat': 38.72490, 'lon': -95.61446}, zoom = 3.5,
     # ),
+    # fig = fig[0]
     # fig.update_layout(
-    #     margin={"r":0,"t":0,"l":0,"b":0},
     #     mapbox_accesstoken=mapbox_access_token,
+    #     margin={"r":0,"t":0,"l":0,"b":0},
     # )
-    # print(figure['data'])
+    # fig['layout'] = layout
     return fig
 
 
