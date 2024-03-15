@@ -45,8 +45,8 @@ app.layout = html.Div(
                             className="title",
                         ),
                         dcc.Markdown(
-                            """This interactive report is a rendition of a
-                [New York Times original](https://www.nytimes.com/interactive/2015/03/19/upshot/3d-yield-curve-economic-growth.html).""".replace(
+                            """This interactive report is a rendition of a 2015
+                [New York Times article](https://www.nytimes.com/interactive/2015/03/19/upshot/3d-yield-curve-economic-growth.html).""".replace(
                                 "  ", ""
                             ),
                             className="subtitle",
@@ -69,6 +69,7 @@ app.layout = html.Div(
                             min=0,
                             max=5,
                             value=0,
+                            step=1,
                             marks={i: "".format(i + 1) for i in range(6)},
                             id="slider",
                         )
@@ -163,8 +164,8 @@ TEXTS = {
         "  ", ""
     ),
     1: """
-    ##### Where we stand
-    On Wednesday, both short-term and long-term rates were lower than they have
+    ##### Where we stood in 2015
+    Both short-term and long-term rates were lower than they have
     been for most of history – a reflection of the continuing hangover
     from the financial crisis.
     
@@ -175,20 +176,19 @@ TEXTS = {
     ),
     2: """
     ##### Deep in the valley
-    In response to the last recession, the Federal Reserve has kept short-term
-    rates very low — near zero — since 2008. (Lower interest rates stimulate
+    In response to the 2008 recession, the Federal Reserve kept short-term
+    rates very low — near zero. (Lower interest rates stimulate
     the economy, by making it cheaper for people to borrow money, but also
     spark inflation.)
     
-    Now, the Fed is getting ready to raise rates again, possibly as early as
+    In early 2015, the Fed was getting ready to raise rates again, possibly as early as
     June.
     """.replace(
         "  ", ""
     ),
     3: """
     ##### Last time, a puzzle
-    The last time the Fed started raising rates was in 2004. From 2004 to 2006,
-    short-term rates rose steadily.
+    From 2004 to 2006, short-term rates rose steadily.
     
     But long-term rates didn't rise very much.
     
@@ -200,19 +200,19 @@ TEXTS = {
         "  ", ""
     ),
     4: """
-    ##### Long-term rates are low now, too
-    Foreign buyers have helped keep long-term rates low recently, too — as have
+    ##### Long-term rates were low in 2015 as well
+    Foreign buyers helped keep long-term rates low — as did
     new rules encouraging banks to hold government debt and expectations that
     economic growth could be weak for a long time.
     
     The 10-year Treasury yield was as low as it has ever been in July 2012 and
-    has risen only modestly since.
-    Some economists refer to the economic pessimism as “the new normal.”
+    had risen only modestly in the meantime.
+    Some economists refered to the economic pessimism as “the new normal.”
     """.replace(
         "  ", ""
     ),
     5: """
-    ##### Long-term rates are low now, too
+    ##### Long-term rates were low in 2015, too
     Here is the same chart viewed from above.
     """.replace(
         "  ", ""
