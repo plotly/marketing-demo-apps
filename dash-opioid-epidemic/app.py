@@ -84,7 +84,7 @@ DEFAULT_COLORSCALE = [
 
 DEFAULT_OPACITY = 0.8
 
-mapbox_access_token = "pk.eyJ1IjoicGxvdGx5bWFwYm94IiwiYSI6ImNrOWJqb2F4djBnMjEzbG50amg0dnJieG4ifQ.Zme1-Uzoi75IaFbieBDl3A"
+mapbox_access_token = "pk.eyJ1IjoicGxvdGx5LWRvY3MiLCJhIjoiY2s1MnJ3M3E4MDEweDNtbWNldjJscmN4YyJ9.SKegztUXh4SxUWwMm8PqXw"
 mapbox_style = "mapbox://styles/plotlymapbox/cjvprkf3t1kns1cqjxuxmwixz"
 
 # App layout
@@ -92,31 +92,31 @@ mapbox_style = "mapbox://styles/plotlymapbox/cjvprkf3t1kns1cqjxuxmwixz"
 app.layout = html.Div(
     id="root",
     children=[
-        # html.Div(
-        #     id="header",
-        #     children=[
-        #         html.A(
-        #             html.Img(id="logo", src=app.get_asset_url("dash-logo.png")),
-        #             href="https://plotly.com/dash/",
-        #         ),
-        #         html.A(
-        #             html.Button("Enterprise Demo", className="link-button"),
-        #             href="https://plotly.com/get-demo/",
-        #         ),
-        #         html.A(
-        #             html.Button("Source Code", className="link-button"),
-        #             href="https://github.com/plotly/dash-sample-apps/tree/main/apps/dash-opioid-epidemic",
-        #         ),
-        #         html.H4(children="Rate of US Poison-Induced Deaths"),
-        #         html.P(
-        #             id="description",
-        #             children="† Deaths are classified using the International Classification of Diseases, \
-        #             Tenth Revision (ICD–10). Drug-poisoning deaths are defined as having ICD–10 underlying \
-        #             cause-of-death codes X40–X44 (unintentional), X60–X64 (suicide), X85 (homicide), or Y10–Y14 \
-        #             (undetermined intent).",
-        #         ),
-        #     ],
-        # ),
+        html.Div(
+            id="header",
+            children=[
+                html.A(
+                    html.Img(id="logo", src=app.get_asset_url("dash-logo.png")),
+                    href="https://plotly.com/dash/",
+                ),
+                html.A(
+                    html.Button("Enterprise Demo", className="link-button"),
+                    href="https://plotly.com/get-demo/",
+                ),
+                html.A(
+                    html.Button("Source Code", className="link-button"),
+                    href="https://github.com/plotly/dash-sample-apps/tree/main/apps/dash-opioid-epidemic",
+                ),
+                html.H4(children="Rate of US Poison-Induced Deaths"),
+                html.P(
+                    id="description",
+                    children="† Deaths are classified using the International Classification of Diseases, \
+                    Tenth Revision (ICD–10). Drug-poisoning deaths are defined as having ICD–10 underlying \
+                    cause-of-death codes X40–X44 (unintentional), X60–X64 (suicide), X85 (homicide), or Y10–Y14 \
+                    (undetermined intent).",
+                ),
+            ],
+        ),
         html.Div(
             id="app-container",
             children=[
@@ -134,7 +134,7 @@ app.layout = html.Div(
                                     id="years-slider",
                                     min=min(YEARS),
                                     max=max(YEARS),
-                                    # value=min(YEARS), # CHORO BUG: Uncomment this if you want map on load.
+                                    value=min(YEARS),
                                     step=1,
                                     marks={
                                         str(year): {
@@ -158,7 +158,7 @@ app.layout = html.Div(
                                 ),
                                 dcc.Graph(
                                     id="county-choropleth",
-                                    figure=dict( # CHORO BUG: This is here and the State is in the callback, but it can also be in the callback obviously. I didn't see a difference.
+                                    figure=dict(
                                         layout=dict(
                                             mapbox=dict(
                                                 layers=[],
@@ -233,17 +233,8 @@ def display_map(
     year, 
     fig
 ):
-    if not year: return dash.no_update
-    # print(figure['data'])
-    # print(year)
-    # print(type(year))
     cm = dict(zip(BINS, DEFAULT_COLORSCALE))
-    # print(cm)
     df_lat_lon = calculate_death_rates(year)
-    # print(df_lat_lon.head())
-    # CHORO BUG: Method one, create data, annotations and layout separately, 
-    # add them to a dict (line 324) and return that dict by commenting everything
-    # from 324 to the return.
     data = [
         dict(
             lat=df_lat_lon["Latitude "],
@@ -268,9 +259,7 @@ def display_map(
     ]
 
     for i, bin in enumerate(reversed(BINS)):
-        # print(i, bin)
         color = cm[bin]
-        # print(color)
         annotations.append(
             dict(
                 arrowcolor=color,
@@ -285,15 +274,14 @@ def display_map(
                 font=dict(color="#2cfec1"),
             )
         )
-        # print(annotations)
-    # if "layout" in figure:
-    #     lat = figure["layout"]["mapbox"]["center"]["lat"]
-    #     lon = figure["layout"]["mapbox"]["center"]["lon"]
-    #     zoom = figure["layout"]["mapbox"]["zoom"]
-    # # else:
-    lat = 38.72490
-    lon = -95.61446
-    zoom = 3.5
+    if "layout" in fig:
+        lat = fig["layout"]["mapbox"]["center"]["lat"]
+        lon = fig["layout"]["mapbox"]["center"]["lon"]
+        zoom = fig["layout"]["mapbox"]["zoom"]
+    else:
+        lat = 38.72490
+        lon = -95.61446
+        zoom = 3.5
 
     layout = dict(
         mapbox=dict(
@@ -305,51 +293,25 @@ def display_map(
         ),
         hovermode="closest",
         margin=dict(r=0, l=0, t=0, b=0),
-        # annotations=annotations,
+        annotations=annotations,
         dragmode="lasso",
     )
     base_url = "https://raw.githubusercontent.com/jackparmer/mapbox-counties/master/"
     for bin in BINS:
-        # print(base_url + str(year) + "/" + bin + ".geojson")
         geo_layer = dict(
             sourcetype="geojson",
             source=base_url + str(year) + "/" + bin + ".geojson",
             type="fill",
             color=cm[bin],
             opacity=DEFAULT_OPACITY,
-            # CHANGE THIS
             fill=dict(outlinecolor="#afafaf"),
         )
-        # print(geo_layer)
         layout["mapbox"]["layers"].append(geo_layer)
 
-    # fig=dict(layout=layout, data=data)
-    # ================================================================================================
-    # Method 2, grab the current figure and patch it.
     fig = Patch()
     fig['data']=data[0], 
     fig['layout']=layout
-    # print(counties)
 
-    # ================================================================================================
-    # Method 3 Make a new figure with the data each time. 
-    # fig = px.choropleth_mapbox(
-    #     df_lat_lon, 
-    #     locations='FIPS ', 
-    #     color='Deaths', 
-    #     color_continuous_scale="Viridis", 
-    #     range_color=(0, 12),
-    #     mapbox_style=mapbox_style,
-    #     center={'lat': 38.72490, 'lon': -95.61446}, zoom = 3.5,
-    # ),
-    # fig = fig[0]
-    # fig.update_layout(
-    #     mapbox_accesstoken=mapbox_access_token,
-    #     margin={"r":0,"t":0,"l":0,"b":0},
-    # )
-    # fig['layout'] = layout
-    # All three methods work on the first triggered callback right now, but the 403 (or the JS/React error)
-    # break subsequent reloads. 
     return fig
 
 
@@ -493,6 +455,7 @@ def display_selected_data(selectedData, chart_dropdown, year):
 
     return fig
 
+# This slims down the data and improves the Hover text
 def calculate_death_rates(year):
     df = df_full_data.drop(
         [
@@ -507,11 +470,10 @@ def calculate_death_rates(year):
     df = df[df['Year'] == year]
     df[['Deaths', 'Population']] = df[['Deaths', 'Population']].fillna('Missing')
     df['Year'] = df['Year'].astype(str)
-    # print(df['County Code'])
     merged_df = df_lat_lon.merge(df[['Deaths', 'Population', 'County Code']], 
                             left_on=['FIPS '], 
                             right_on=['County Code'], 
-                            how='left')#.drop(['Unnamed: 0', 'Sort '], axis=1)
+                            how='left')
     merged_df['Hover'] = merged_df.apply(format_hover, axis=1)
     df = df.replace({'Missing': 0})
     return merged_df
