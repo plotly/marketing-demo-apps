@@ -1,0 +1,10 @@
+--extra-index-url=https://dash-gallery.plotly.host/Docs/packages
+dash-design-kit
+dash-snapshots
+dash==1.13.0
+gunicorn==19.9.0
+pandas==0.25.3
+redis==3.3.6
+
+xlrd==1.2.0
+plotly==4.14.1
