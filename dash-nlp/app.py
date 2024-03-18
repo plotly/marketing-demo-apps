@@ -8,17 +8,14 @@ import json
 from datetime import datetime
 import flask
 import dash
-import dash_table
+from dash import dash_table, dcc, html, Output, Input, State
 import matplotlib.colors as mcolors
 import dash_bootstrap_components as dbc
-import dash_core_components as dcc
-import dash_html_components as html
 import plotly.graph_objs as go
 import plotly.express as px
 import pandas as pd
 import numpy as np
 from precomputing import add_stopwords
-from dash.dependencies import Output, Input, State
 from dateutil import relativedelta
 from wordcloud import WordCloud, STOPWORDS
 from ldacomplaints import lda_analysis
