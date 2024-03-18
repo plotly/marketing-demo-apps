@@ -177,7 +177,7 @@ def make_marks_time_slider(mini, maxi):
     A helper function to generate a dictionary that should look something like:
     {1420066800: '2015', 1427839200: 'Q2', 1435701600: 'Q3', 1443650400: 'Q4',
     1451602800: '2016', 1459461600: 'Q2', 1467324000: 'Q3', 1475272800: 'Q4',
-     1483225200: '2017', 1490997600: 'Q2', 1498860000: 'Q3', 1506808800: 'Q4'}
+    1483225200: '2017', 1490997600: 'Q2', 1498860000: 'Q3', 1506808800: 'Q4'}
     """
     step = relativedelta.relativedelta(months=+1)
     start = datetime(year=mini.year, month=1, day=1)
