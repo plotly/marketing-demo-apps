@@ -1,19 +1,17 @@
 import dash
 import pandas as pd
-import dash_core_components as dcc
-from dash.dependencies import Input, Output, State
-import dash_html_components as html
-import dash_table
-from dash_table.Format import Format, Scheme, Sign, Symbol
+import dash
+from dash import Input, Output, State, html, dash_table, dash_table, dcc, callback_context
 import dash_design_kit as ddk
 import plotly.graph_objects as go
+from dash.dash_table.Format import Format, Scheme, Sign, Symbol
 
 from utils.constants import SANKEY_COLORS, SANKEY_LINK_COLORS
 from utils.helpers import HorizontalControlCard
 from app import app, snap, generate_snapshot_layout
 
 # Dataset
-xls = pd.ExcelFile("./data/plotly_mockup_v3.xlsx")
+xls = pd.ExcelFile("./data/mockup_data.xlsx")
 
 # Scope
 df_scope = pd.read_excel(xls, "Scope")
@@ -111,27 +109,31 @@ def layout():
                                             width=100 / 3,
                                             label="Banner",
                                         ),
-                                        ddk.ControlItem(
-                                            dcc.Dropdown(
-                                                id="mch1-dropdown",
-                                                options=[
-                                                    {
-                                                        "label": "-".join(
-                                                            item.split("-")[1:]
-                                                        ),
-                                                        "value": item,
-                                                    }
-                                                    for item in df_scope[
-                                                        "MCH_1"
-                                                    ].dropna()
-                                                ],
-                                                placeholder="MCH 1 ...",
-                                                value=df_scope["MCH_1"]
-                                                .dropna()
-                                                .iloc[0],
-                                            ),
-                                            width=100,
-                                            label="MCH 1",
+                                        html.Div(
+                                            [
+                                                ddk.ControlItem(
+                                                    dcc.Dropdown(
+                                                        id="mch1-dropdown",
+                                                        options=[
+                                                            {
+                                                                "label": "-".join(
+                                                                    item.split("-")[1:]
+                                                                ),
+                                                                "value": item,
+                                                            }
+                                                            for item in df_scope[
+                                                                "MCH_1"
+                                                            ].dropna()
+                                                        ],
+                                                        placeholder="MCH 1 ...",
+                                                        value=df_scope["MCH_1"]
+                                                        .dropna()
+                                                        .iloc[0],
+                                                    ),
+                                                    width=100,
+                                                    label="MCH 1",
+                                                ),
+                                            ], hidden=True
                                         ),
                                         ddk.ControlItem(
                                             dcc.Dropdown(
@@ -436,7 +438,7 @@ def update_transference_options(mch0_sel, mch1_sel, reg_sel, prov_sel, ban_sel):
             # Relabel data and parse volume for hover labels, would be more efficient to do this
             # computation in initial dataset
             col_names = df_T_Mat_sel.columns.str.split("__")
-            col_names = [col_data[1] for col_data in col_names]
+            col_names = [col_data for col_data in col_names]
 
             options_tup = list(zip(col_names, df_T_Mat_sel.index.tolist()))
             options = [{"label": item[0], "value": item[1]} for item in options_tup]
@@ -487,36 +489,28 @@ def update_sankey_graph(
         # Relabel data and parse volume for hover labels, would be more efficient to do this
         # computation in initial dataset
         col_names = df_T_Mat_sel.columns.str.split("__")
-        idx_names = df_T_Mat_sel.index.str.split("__")
-
+        col_names = df_T_Mat_sel.columns.str.split("__").tolist()
+        idx_names = df_T_Mat_sel.index.str.split("__").to_list()
+        col_labels = [item for sublist in col_names for item in sublist]
+        idx_labels = [item for sublist in idx_names for item in sublist]
         hover_names = [
-            ["volume: {}{}".format(col_data[3].replace(" ", ""), col_data[2])]
-            for col_data in col_names
+            ["volume: {}{}".format(col_data.replace(" ", ""), col_data)]
+            for col_data in col_labels
         ]
         hover_names.extend(hover_names)
-
-        # col_names = [col_data[1] for col_data in col_names]
-        # idx_names = [idx_data[1] for idx_data in idx_names]
-        col_labels = [col_data[1] for col_data in col_names]
-        idx_labels = [idx_data[1] for idx_data in idx_names]
-
-        col_codes = [col_data[0] for col_data in col_names]
-        idx_codes = [idx_data[0] for idx_data in idx_names]
-
-        col_names = ["{}-{}".format(col_data[0], col_data[1]) for col_data in col_names]
-        idx_names = ["{}-{}".format(idx_data[0], idx_data[1]) for idx_data in idx_names]
-
-        label = col_labels + idx_labels
-        codes = col_codes + idx_codes
-
+        # print(hover_names)
         # col_codes = [col_data[0] for col_data in col_names]
         # idx_codes = [idx_data[0] for idx_data in idx_names]
-        # codes = col_codes + idx_codes
+        idx_names = df_T_Mat_sel.index.str.split("__").tolist()        
+        label = col_labels + idx_labels
 
-        # label = col_names + idx_names
+        # col_codes = [col_data for col_data in col_names]
+        # idx_codes = [idx_data for idx_data in idx_names]
 
-        df_T_Mat_sel.index = idx_names
-        df_T_Mat_sel.columns = col_names
+        label = col_names + idx_names
+
+        df_T_Mat_sel.index = idx_labels
+        df_T_Mat_sel.columns = col_labels
 
         # Create sankey data
         source = []
@@ -529,16 +523,21 @@ def update_sankey_graph(
         source_colors = SANKEY_LINK_COLORS
         target_colors = SANKEY_COLORS[:cols_len]
 
+        col_codes = [col_data[0] for col_data in col_names]
+        idx_codes = [idx_data[0] for idx_data in idx_names]
+        codes = col_codes + idx_codes
         for number in range(0, cols_len):
             source_val = [number + rows_len] * rows_len
             target_val = [itr for itr in range(0, rows_len)]
+            # print(target_val)
 
             source.extend(source_val)
             target.extend(target_val)
 
         for index, rows in df_T_Mat_sel.iterrows():
             value.extend(rows.tolist())
-
+            # print(value)
+        # print(label)
         fig = go.Figure(
             data=[
                 go.Sankey(
@@ -556,6 +555,7 @@ def update_sankey_graph(
                         source=source,  # indices correspond to labels, eg A1, A2, A2, B1, ...
                         target=target,
                         value=value,
+                        customdata=label,
                     ),
                 )
             ]
@@ -597,16 +597,11 @@ def update_uplift_table(clickData, uplift_table_stored):
         {"categories": "On Hand (Current)", "value": " ",},
         {"categories": "Historical Fill Rate", "value": " ",},
     ]
-
     if clickData is not None:
 
         # Get label of selected node
         try:
-            selected_node = (
-                clickData["points"][0]["customdata"]
-                + "-"
-                + clickData["points"][0]["label"]
-            )
+            selected_node = (clickData["points"][0]["customdata"])
         except:
             # If this errors it means we clicked the sankey links
             raise dash.exceptions.PreventUpdate
@@ -616,42 +611,34 @@ def update_uplift_table(clickData, uplift_table_stored):
         if selected_node == "" or selected_node not in df_T_Mat_sel.index:
             raise dash.exceptions.PreventUpdate
 
-        selected_node = (
-            clickData["points"][0]["customdata"] + "-" + clickData["points"][0]["label"]
-        )
-
         # Find the output nodes connected to the selected input node and drop nan/0 values
         df_T_Mat_sel = df_T_Mat_sel.loc[[selected_node], :].dropna(axis=1)
-        df_T_Mat_sel.loc[~(df_T_Mat_sel == 0).all(axis=1)]
+        column_names = df_T_Mat_sel.columns.to_list()
 
-        # Get article numbers
-        selected_article_number = int(selected_node.split("-")[0])
-        article_numbers = [int(column.split("-")[0]) for column in df_T_Mat_sel.columns]
-
-        dff_uplift = df_uplift[df_uplift["article_number"].isin(article_numbers)].copy()
-
+        dff_uplift = df_uplift[df_uplift["article_description"].isin(column_names)].copy()
         # Check if article numbers are missing in uplift recommendation (this happens b/c we don't have full dataset)
-        if len(dff_uplift["article_number"]) != len(article_numbers):
+        if len(dff_uplift["article_number"]) != len(column_names):
             dff_article_list = dff_uplift["article_number"].tolist()
-            missing_vals = list(set(article_numbers) - set(dff_article_list))
+            missing_vals = list(set(column_names) - set(dff_article_list))
             print(
                 "Missing article numbers {} from Uplift Recommendation.".format(
                     missing_vals
                 )
             )
+        print('bump')
 
         # Check if dataframe filter returns empty dataframe, this can happen
         # if the uplift dataset is missing data in the transference matrix
         # Ex: Danone Oikos 0% - Cherry
         if dff_uplift.empty:
-            print("Missing article numbers for input node: ", selected_article_number)
+            print("Missing article numbers for input node: ", selected_node)
             return dash.no_update, dash.no_update, dash.no_update
 
         table_info_data[0]["value"] = round(
             dff_uplift.iloc[0]["Market share in MCH0"], 5
         )
-        table_info_data[1]["value"] = dff_uplift.iloc[0]["Current On Hand (dummy)"]
-        table_info_data[2]["value"] = dff_uplift.iloc[0]["Historical Fill Rate (dummy)"]
+        table_info_data[1]["value"] = dff_uplift.iloc[0]["Current On Hand"]
+        table_info_data[2]["value"] = dff_uplift.iloc[0]["Historical Fill Rate"]
 
         dff_uplift["article_number"] = dff_uplift["article_number"].apply(
             lambda x: abs(hash(str(x)))
@@ -669,33 +656,35 @@ def update_uplift_table(clickData, uplift_table_stored):
 @app.callback(
     Output("block-model-certainty", "children"),
     [Input("mch0-dropdown", "value"), Input("graph-sankey", "clickData")],
+    Prevent_Initial_Callback=True
 )
 def update_uplift_table(mch0_sel, clickData):
-    if mch0_sel is None:
-        return html.P("Please select a MCH_0")
-    else:
-        df_scope_filtered = df_scope[df_scope["MCH_0"] == mch0_sel]
+    if clickData is not None:
+        if mch0_sel is None:
+            return html.P("Please select a MCH_0")
+        else:
+            df_scope_filtered = df_scope[df_scope["MCH_0"] == mch0_sel]
 
-        return html.Div(
-            [
-                html.P(mch0_sel, style={"textAlign": "center"}),
-                html.P(
-                    ["Error (mock): ", html.Span("+12%", style={"color": "green"})],
-                    style={"textAlign": "center"},
-                ),
-                html.P(
-                    ["Correlation (mock): ", html.Span("-10%", style={"color": "red"})],
-                    style={"textAlign": "center"},
-                ),
-                html.P(
-                    [
-                        "Similarity (mock): ",
-                        html.Span("+15%", style={"color": "green"}),
-                    ],
-                    style={"textAlign": "center"},
-                ),
-            ]
-        )
+            return html.Div(
+                [
+                    html.P(mch0_sel, style={"textAlign": "center"}),
+                    html.P(
+                        ["Error (mock): ", html.Span("+12%", style={"color": "green"})],
+                        style={"textAlign": "center"},
+                    ),
+                    html.P(
+                        ["Correlation (mock): ", html.Span("-10%", style={"color": "red"})],
+                        style={"textAlign": "center"},
+                    ),
+                    html.P(
+                        [
+                            "Similarity (mock): ",
+                            html.Span("+15%", style={"color": "green"}),
+                        ],
+                        style={"textAlign": "center"},
+                    ),
+                ]
+            )
 
 
 # Prepopulate feedback box

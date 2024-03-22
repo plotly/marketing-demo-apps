@@ -8,7 +8,7 @@ import dash_snapshots
 import datetime
 import redis
 
-os.environ["REDIS_URL"] = os.getenv("REDIS_URL", os.getenv("EXTERNAL_REDIS_URL"))
+# os.environ["REDIS_URL"] = os.getenv("REDIS_URL", os.getenv("EXTERNAL_REDIS_URL"))
 
 
 app = dash.Dash(__name__)
