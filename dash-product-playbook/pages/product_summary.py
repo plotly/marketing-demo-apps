@@ -1,12 +1,10 @@
-import dash_html_components as html
-import dash_core_components as dcc
+from dash import html, dcc, dash_table
 import dash_design_kit as ddk
 import plotly.express as px
 
 import pandas as pd
 
 import random
-import dash_table
 import requests
 
 

@@ -1,8 +1,6 @@
 import dash
-import dash_html_components as html
 import dash_design_kit as ddk
-import dash_core_components as dcc
-from dash.dependencies import Input, Output, State
+from dash import dcc, html, Input, Output, State
 
 from app import app
 
@@ -56,7 +54,7 @@ app.layout = ddk.App(
                 ),
             ]
         ),
-        html.Div(id="overall-content", children=[]),
+        html.Div(id="overall-content"),
     ],
 )
 

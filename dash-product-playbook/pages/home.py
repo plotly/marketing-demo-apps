@@ -1,11 +1,9 @@
-import dash_core_components as dcc
 import dash_design_kit as ddk
-import dash_html_components as html
 import pandas as pd
 
 import plotly.express as px
 import plotly.graph_objects as go
-from dash.dependencies import Input, Output, State
+from dash import Input, Output, State, dcc, html
 
 from app import app
 
@@ -31,13 +29,7 @@ def control_card():
                     value=[DF["Year"].min(), DF["Year"].max()],
                     min=DF["Year"].min(),
                     max=DF["Year"].max(),
-                    marks={
-                        2019: "2019",
-                        2020: "2020",
-                        2021: "2021",
-                        2022: "2022",
-                        2023: "2023",
-                    },
+                    # marks={year: str(year) for year in sorted(DF['Year'].unique())}
                 ),
                 label="Year",
             ),

@@ -1,10 +1,8 @@
-import dash_core_components as dcc
 import dash_design_kit as ddk
-from dash.dependencies import Input, Output
 import pandas as pd
 import requests
 import dash
-import dash_html_components as html
+from dash import Input, Output, dcc, html
 
 import pages
 
