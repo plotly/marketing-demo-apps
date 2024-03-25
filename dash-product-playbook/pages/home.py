@@ -29,7 +29,14 @@ def control_card():
                     value=[DF["Year"].min(), DF["Year"].max()],
                     min=DF["Year"].min(),
                     max=DF["Year"].max(),
-                    # marks={year: str(year) for year in sorted(DF['Year'].unique())}
+                    marks={
+                        2019: "2019",
+                        2020: "2020",
+                        2021: "2021",
+                        2022: "2022",
+                        2023: "2023",
+                    },
+                    step=1
                 ),
                 label="Year",
             ),
