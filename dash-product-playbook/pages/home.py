@@ -36,7 +36,7 @@ def control_card():
                         2022: "2022",
                         2023: "2023",
                     },
-                    step=1
+                    # step=1
                 ),
                 label="Year",
             ),
