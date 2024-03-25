@@ -1,0 +1,58 @@
+.ddk-container .control {
+    padding: 0px !important;
+}
+
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner.dash-fill-width .cell-0-1, .cell-0-2, .cell-0-2, .dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner.dash-fill-width .cell-1-1 {
+    flex: unset !important;
+    width: 100% !important;
+}
+
+.ddk-container .Select--multi .Select-value-icon {
+    border-right: 0px !important;
+    width: 10% !important;
+    padding: 1px 10px 3px !important;
+}
+
+.Select--multi .Select-value-label {
+    padding: 0px 5px !important;
+    width: calc(90% - 15px) !important;
+    word-break: break-word !important;
+    white-space: pre-line !important;
+}
+
+.Select--multi .Select-multi-value-wrapper, .Select-arrow {
+    overflow-y: auto !important;
+    max-height: 175px !important;
+    min-height: 40px !important;
+    height: 175px !important;
+    /* height: 200px !important; */
+}
+
+.Select--multi .Select-value {
+    margin-right: 5px !important;
+    margin-left: 0px !important;
+}
+
+.ddk-container.ddk-container .Select-arrow-zone {
+    display: none !important;
+}
+
+.report-footer-left {
+    float: left;
+}
+
+.report-footer-center {
+    margin-left: 50%;
+}
+
+.dash-note-toolbar {
+    position: fixed;
+    top: 70px !important;
+    right: 35px;
+    z-index: 99999;
+}
+
+.ddk-container .control.control--vertical.label--top .control--label {
+    flex: 0;
+    padding-bottom: 0px !important;
+}
