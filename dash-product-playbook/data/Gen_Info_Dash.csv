@@ -1,0 +1,169 @@
+,Unnamed: 0,Product,Label,First_Value
+100,100,ProductM,Playbook Cycle,2019 Refresh Cycle
+32,32,ProductE,Date Completed,TBD
+20,20,ProductC,Playbook Cycle,2019 Refresh Cycle
+22,22,ProductC,Sku/Dose,"10MG,100MG"
+2,2,ProductA,GSCL,JOHN DOE
+43,43,ProductF,Performed By,OSPR
+12,12,ProductB,Playbook Cycle,2019 Refresh Cycle
+28,28,ProductD,Playbook Cycle,2019 Refresh Cycle
+95,95,ProductL,Status,For Review
+150,150,ProductT,Sku/Dose,"10MG,100MG"
+136,136,ProductR,Date Completed,TBD
+22,22,ProductC,Sku/Dose,"10MG,100MG"
+154,154,Sensipar,GSCL,JOHN DOE
+82,82,ProductK,GSCL,JOHN DOE
+48,48,ProductG,Date Completed,TBD
+99,99,ProductM,Performed By,OSPR
+112,112,ProductO,Date Completed,TBD
+21,21,ProductC,Presentation,"Auto Injector,Syringe,Vial"
+118,118,ProductO,Sku/Dose,"10MG,100MG"
+122,122,ProductP,GSCL,JOHN DOE
+81,81,ProductK,GOL,JANE DOE
+77,77,ProductJ,Presentation,"Lyo Vial Kit,Vial"
+55,55,ProductG,Status,For Review
+109,109,ProductN,Presentation,"Syringe,Vial"
+6,6,ProductA,Sku/Dose,"10MG,100MG"
+46,46,ProductF,Sku/Dose,"10MG,100MG"
+98,98,ProductM,GSCL,JOHN DOE
+112,112,ProductO,Date Completed,TBD
+17,17,ProductC,GOL,JANE DOE
+15,15,ProductB,Status,For Review
+0,0,ProductA,Date Completed,TBD
+56,56,ProductH,Date Completed,TBD
+147,147,ProductT,Performed By,OSPR
+77,77,ProductJ,Presentation,"Lyo Vial Kit,Vial"
+123,123,ProductP,Performed By,OSPR
+75,75,ProductJ,Performed By,OSPR
+143,143,ProductR,Status,For Review
+76,76,ProductJ,Playbook Cycle,2019 Refresh Cycle
+81,81,ProductK,GOL,JANE DOE
+30,30,ProductD,Sku/Dose,"10MG,100MG"
+91,91,ProductL,Performed By,OSPR
+113,113,ProductO,GOL,JANE DOE
+62,62,ProductH,Sku/Dose,"10MG,100MG"
+132,132,ProductQ,Playbook Cycle,2019 Refresh Cycle
+118,118,ProductO,Sku/Dose,"10MG,100MG"
+66,66,ProductI,GSCL,JOHN DOE
+98,98,ProductM,GSCL,JOHN DOE
+87,87,ProductK,Status,For Review
+140,140,ProductR,Playbook Cycle,2019 Refresh Cycle
+150,150,ProductT,Sku/Dose,"10MG,100MG"
+117,117,ProductO,Presentation,Lyo Vial Kit
+18,18,ProductC,GSCL,JOHN DOE
+74,74,ProductJ,GSCL,JOHN DOE
+140,140,ProductR,Playbook Cycle,2019 Refresh Cycle
+92,92,ProductL,Playbook Cycle,2019 Refresh Cycle
+81,81,ProductK,GOL,JANE DOE
+106,106,ProductN,GSCL,JOHN DOE
+80,80,ProductK,Date Completed,TBD
+59,59,ProductH,Performed By,OSPR
+144,144,ProductT,Date Completed,TBD
+143,143,ProductR,Status,For Review
+37,37,ProductE,Presentation,Bottle
+83,83,ProductK,Performed By,OSPR
+152,152,Sensipar,Date Completed,TBD
+162,162,brodalumab,GSCL,JOHN DOE
+21,21,ProductC,Presentation,"Auto Injector,Syringe,Vial"
+85,85,ProductK,Presentation,"10cc,30cc,50cc"
+69,69,ProductI,Presentation,Vial
+57,57,ProductH,GOL,JANE DOE
+0,0,ProductA,Date Completed,TBD
+100,100,ProductM,Playbook Cycle,2019 Refresh Cycle
+41,41,ProductF,GOL,JANE DOE
+154,154,Sensipar,GSCL,JOHN DOE
+27,27,ProductD,Performed By,OSPR
+82,82,ProductK,GSCL,JOHN DOE
+32,32,ProductE,Date Completed,TBD
+107,107,ProductN,Performed By,OSPR
+20,20,ProductC,Playbook Cycle,2019 Refresh Cycle
+56,56,ProductH,Date Completed,TBD
+28,28,ProductD,Playbook Cycle,2019 Refresh Cycle
+24,24,ProductD,Date Completed,TBD
+119,119,ProductO,Status,For Review
+119,119,ProductO,Status,For Review
+137,137,ProductR,GOL,JANE DOE
+156,156,Sensipar,Playbook Cycle,2019 Refresh Cycle
+0,0,ProductA,Date Completed,TBD
+131,131,ProductQ,Performed By,OSPR
+130,130,ProductQ,GSCL,JOHN DOE
+114,114,ProductO,GSCL,JOHN DOE
+85,85,ProductK,Presentation,"10cc,30cc,50cc"
+103,103,ProductM,Status,For Review
+42,42,ProductF,GSCL,JOHN DOE
+104,104,ProductN,Date Completed,TBD
+34,34,ProductE,GSCL,JOHN DOE
+78,78,ProductJ,Sku/Dose,"10MG,100MG"
+163,163,brodalumab,Performed By,OSPR
+52,52,ProductG,Playbook Cycle,2019 Refresh Cycle
+131,131,ProductQ,Performed By,OSPR
+90,90,ProductL,GSCL,JOHN DOE
+73,73,ProductJ,GOL,JANE DOE
+39,39,ProductE,Status,For Review
+51,51,ProductG,Performed By,OSPR
+156,156,Sensipar,Playbook Cycle,2019 Refresh Cycle
+119,119,ProductO,Status,For Review
+13,13,ProductB,Presentation,"Auto Injector,Syringe"
+32,32,ProductE,Date Completed,TBD
+68,68,ProductI,Playbook Cycle,2019 Refresh Cycle
+77,77,ProductJ,Presentation,"Lyo Vial Kit,Vial"
+129,129,ProductQ,GOL,JANE DOE
+69,69,ProductI,Presentation,Vial
+99,99,ProductM,Performed By,OSPR
+167,167,brodalumab,Status,For Review
+144,144,ProductT,Date Completed,TBD
+104,104,ProductN,Date Completed,TBD
+118,118,ProductO,Sku/Dose,"10MG,100MG"
+34,34,ProductE,GSCL,JOHN DOE
+57,57,ProductH,GOL,JANE DOE
+14,14,ProductB,Sku/Dose,"10MG,100MG"
+65,65,ProductI,GOL,JANE DOE
+5,5,ProductA,Presentation,"Auto Injector,Syringe"
+115,115,ProductO,Performed By,OSPR
+87,87,ProductK,Status,For Review
+150,150,ProductT,Sku/Dose,"10MG,100MG"
+30,30,ProductD,Sku/Dose,"10MG,100MG"
+9,9,ProductB,GOL,JANE DOE
+65,65,ProductI,GOL,JANE DOE
+117,117,ProductO,Presentation,Lyo Vial Kit
+16,16,ProductC,Date Completed,TBD
+18,18,ProductC,GSCL,JOHN DOE
+3,3,ProductA,Performed By,OSPR
+160,160,brodalumab,Date Completed,TBD
+17,17,ProductC,GOL,JANE DOE
+162,162,brodalumab,GSCL,JOHN DOE
+100,100,ProductM,Playbook Cycle,2019 Refresh Cycle
+126,126,ProductP,Sku/Dose,"10MG,100MG"
+61,61,ProductH,Presentation,Syringe
+130,130,ProductQ,GSCL,JOHN DOE
+11,11,ProductB,Performed By,OSPR
+11,11,ProductB,Performed By,OSPR
+3,3,ProductA,Performed By,OSPR
+33,33,ProductE,GOL,JANE DOE
+115,115,ProductO,Performed By,OSPR
+29,29,ProductD,Presentation,"Lyo Vial Kit,Vial"
+122,122,ProductP,GSCL,JOHN DOE
+146,146,ProductT,GSCL,JOHN DOE
+116,116,ProductO,Playbook Cycle,2019 Refresh Cycle
+113,113,ProductO,GOL,JANE DOE
+108,108,ProductN,Playbook Cycle,2019 Refresh Cycle
+48,48,ProductG,Date Completed,TBD
+153,153,Sensipar,GOL,JANE DOE
+42,42,ProductF,GSCL,JOHN DOE
+63,63,ProductH,Status,For Review
+129,129,ProductQ,GOL,JANE DOE
+69,69,ProductI,Presentation,Vial
+63,63,ProductH,Status,For Review
+8,8,ProductB,Date Completed,TBD
+25,25,ProductD,GOL,JANE DOE
+72,72,ProductJ,Date Completed,TBD
+9,9,ProductB,GOL,JANE DOE
+6,6,ProductA,Sku/Dose,"10MG,100MG"
+93,93,ProductL,Presentation,Vial
+29,29,ProductD,Presentation,"Lyo Vial Kit,Vial"
+151,151,ProductT,Status,For Review
+131,131,ProductQ,Performed By,OSPR
+144,144,ProductT,Date Completed,TBD
+108,108,ProductN,Playbook Cycle,2019 Refresh Cycle
+155,155,Sensipar,Performed By,OSPR
+165,165,brodalumab,Presentation,Syringe
