@@ -141,21 +141,21 @@ app.layout = ddk.App(
                             label="people on government sites right now",
                             icon="tv",
                             value=data.get_active_users(),
-                            width=33.3,
+                            width=50,
                         ),
-                        ddk.DataCard(
-                            id="users_month",
-                            label="total users (past month)",
-                            icon="users",
-                            value=data.get_monthly_traffic(stat="users"),
-                            width=33.3,
-                        ),
+                        # ddk.DataCard(
+                        #     id="users_month",
+                        #     label="total users (past month)",
+                        #     icon="users",
+                        #     value=data.get_monthly_traffic(stat="users"),
+                        #     width=33.3,
+                        # ),
                         ddk.DataCard(
                             id="visits_month",
                             label="total visits (past month)",
                             icon="eye",
                             value=data.get_monthly_traffic(stat="visits"),
-                            width=33.3,
+                            width=50,
                         ),
                     ]
                 ),
@@ -262,9 +262,9 @@ def update_people_card_dept(value):
     return "people on {} sites right now".format((label or "all"))
 
 
-@app.callback(Output("users_month", "value"), [Input("gov-agency", "value")])
-def update_monthly_users_card(value):
-    return data.get_monthly_traffic(dept=(value or "live"), stat="users")
+# @app.callback(Output("users_month", "value"), [Input("gov-agency", "value")])
+# def update_monthly_users_card(value):
+#     return data.get_monthly_traffic(dept=(value or "live"), stat="users")
 
 
 @app.callback(Output("visits_month", "value"), [Input("gov-agency", "value")])

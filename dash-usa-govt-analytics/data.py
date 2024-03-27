@@ -133,7 +133,7 @@ def format_hour(hour):
 
 def get_visits_today(dept="live"):
     data = load_json(GOV_URL + dept + "/today.json")["data"]
-    return dict(x=[format_hour(d["hour"]) for d in data], y=[d["visits"] for d in data])
+    return dict(x=[(d["hour"]) for d in data], y=[d["visits"] for d in data])
 
 
 def truncate_title(title):
