@@ -167,8 +167,8 @@ app.layout = ddk.App(
                             figure={
                                 "data": [
                                     {
-                                        "x": data.get_visits_today()["x"],
-                                        "y": data.get_visits_today()["y"],
+                                        "x": data.get_visits_today()["x"][1:],
+                                        "y": data.get_visits_today()["y"][1:],
                                         "type": "bar",
                                         "name": "Closed",
                                     }
@@ -268,8 +268,8 @@ def update_visits_today(value):
     return {
         "data": [
             {
-                "x": data.get_visits_today(dept=(value or "live"))["x"],
-                "y": data.get_visits_today(dept=(value or "live"))["y"],
+                "x": data.get_visits_today(dept=(value or "live"))["x"][1:],
+                "y": data.get_visits_today(dept=(value or "live"))["y"][1:],
                 "type": "bar",
                 "name": "Closed",
             }
