@@ -386,7 +386,6 @@ NAVBAR = dbc.Navbar(
                     ),
                 ],
                 align="center",
-                no_gutters=True,
             ),
             href="https://plot.ly",
         )
@@ -396,7 +395,7 @@ NAVBAR = dbc.Navbar(
     sticky="top",
 )
 
-LEFT_COLUMN = dbc.Jumbotron(
+LEFT_COLUMN = dbc.Container(
     [
         html.H4(children="Select bank & dataset size", className="display-5"),
         html.Hr(className="my-2"),
@@ -439,7 +438,7 @@ LEFT_COLUMN = dbc.Jumbotron(
             "(You can define the time frame down to month granularity)",
             style={"fontSize": 10, "font-weight": "lighter"},
         ),
-    ]
+    ], style={'background-color':'lightgrey'}
 )
 
 LDA_PLOT = dcc.Loading(
@@ -762,7 +761,7 @@ def comp_bigram_comparisons(comp_first, comp_second):
         template="plotly_white",
         color_discrete_sequence=px.colors.qualitative.Bold,
         labels={"company": "Company:", "ngram": "N-Gram"},
-        hover_data="",
+        hover_data="company",
     )
     fig.update_layout(legend=dict(x=0.1, y=1.1), legend_orientation="h")
     fig.update_yaxes(title="", showticklabels=False)
