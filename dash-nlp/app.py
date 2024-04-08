@@ -433,7 +433,14 @@ LEFT_COLUMN = dbc.Container(
             id="bank-drop", clearable=False, style={"marginBottom": 50, "font-size": 12}
         ),
         html.Label("Select time frame", className="lead"),
-        html.Div(dcc.RangeSlider(id="time-window-slider"), style={"marginBottom": 50}),
+        html.Div(
+            dcc.RangeSlider(
+                id="time-window-slider", 
+                min = 1,
+                max = 2,
+            ), 
+            style={"marginBottom": 50}
+        ),        
         html.P(
             "(You can define the time frame down to month granularity)",
             style={"fontSize": 10, "font-weight": "lighter"},
