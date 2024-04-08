@@ -380,7 +380,7 @@ NAVBAR = dbc.Navbar(
             # Use row and col to control vertical alignment of logo / brand
             dbc.Row(
                 [
-                    dbc.Col(html.Img(src=PLOTLY_LOGO, height="30px")),
+                    dbc.Col(html.Img(src=PLOTLY_LOGO, height="30px", style={'margin-left':'10px'})),
                     dbc.Col(
                         dbc.NavbarBrand("Bank Customer Complaints", className="ml-2")
                     ),
