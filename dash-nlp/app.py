@@ -376,19 +376,23 @@ spot to add to or change without having to count too many brackets.
 
 NAVBAR = dbc.Navbar(
     children=[
-        html.A(
-            # Use row and col to control vertical alignment of logo / brand
-            dbc.Row(
-                [
-                    dbc.Col(html.Img(src=PLOTLY_LOGO, height="30px", style={'margin-left':'10px'})),
-                    dbc.Col(
-                        dbc.NavbarBrand("Bank Customer Complaints", className="ml-2")
+        dbc.Row(
+            [
+                dbc.Col(
+                    html.A(
+                        html.Img(src=PLOTLY_LOGO, height="30px", style={'margin-left':'10px'}),
+                        href="https://plot.ly",
+                    )
+                ),
+                dbc.Col(
+                    dbc.NavbarBrand(
+                        html.A("Bank Customer Complaints", href="https://plot.ly", style={'text-decoration': 'none'}),
+                        className="ml-2"
                     ),
-                ],
-                align="center",
-            ),
-            href="https://plot.ly",
-        )
+                ),
+            ],
+            align="center",
+        ),
     ],
     color="dark",
     dark=True,
