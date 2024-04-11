@@ -1,4 +1,4 @@
-name: Deploy to Dash Enterprise
+name: Deploy and Copy to public folder
 
 on:
   push:
@@ -36,3 +36,41 @@ jobs:
           GH_ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           app_name: ${{ matrix.app_name }}
           app_directory: ./${{ matrix.app_name }}
+
+  find_public_apps:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ env.MATRIX_JSON }}
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0  # Fetches all history for all branches and tags
+      - name: "Find all changed apps"
+        run: |
+          bash find_public_apps.sh
+
+  copy_changed_apps:
+    needs: [find_public_apps, deploy_changed_apps]
+    runs-on: ubuntu-latest
+    strategy:
+      matrix: ${{fromJson(needs.find_public_apps.outputs.matrix)}}
+      fail-fast: false
+    steps:
+      - uses: actions/checkout@v2
+      - name: Checkout public repo
+        uses: actions/checkout@v2
+        with:
+          repository: 'plotly/marketing-gallery'
+          token: ${{ secrets.PUBLIC_REPO_ACCESS_TOKEN }}
+          path: 'public-repo'
+      - name: Copy changed apps to public repo
+        run: |
+          cp -r ${{ matrix.app_name }} public-repo/${{ matrix.app_name }}
+      - name: Commit and push changes
+        run: |
+          cd public-repo
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Update public apps"
+          git push
