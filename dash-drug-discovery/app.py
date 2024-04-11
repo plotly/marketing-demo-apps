@@ -1,7 +1,8 @@
 import dash
 import pandas as pd
 import pathlib
-from dash import Input, Output, PreventUpdate, html, dcc
+from dash import Input, Output, html, dcc
+from dash.exceptions import PreventUpdate
 from helpers import make_dash_table, create_plot
 
 
