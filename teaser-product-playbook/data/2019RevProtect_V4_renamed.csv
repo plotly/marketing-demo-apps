@@ -1,0 +1,1318 @@
+,Product,Stage,SecSite,Region,Presentation,Year,Site,%Protected,TotalRev,RevProtected,RevUnprotected,Target,Actual
+1021,Ingredient_Q,Post-production,Global,Global,Global Post-production,2023,ASM1,0.4,15000,6000,9000,4,2.5
+84,Ingredient_B,In Progress,ICON - TMEA,ICON - TMEA,Auto Injector,2022,ABR,0.65,15000,9750,5250,4,4.0
+1265,Ingredient_T,Pre-production,EU,EU,Vial,2022,AML14,0.8,15000,12000,3000,4,2.5
+1222,Ingredient_S,Pre-production,US,US,Bottle,2019,AML23,0.25,15000,3750,11250,4,2.5
+440,Ingredient_J,Pre-production,US,US,Lyo Vial Kit,2022,ADL,1.0,15000,15000,0,4,4.0
+16,Ingredient_A,In Progress,US,US,Auto Injector,2021,AML1,0.25,15000,3750,11250,4,4.0
+859,Ingredient_O,Pre-production,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2021,ADL PM2,1.0,15000,15000,0,4,2.5
+994,Ingredient_Q,Pre-production,ICON - TMEA,ICON - TMEA,Vial,2021,AML14,0.8,15000,12000,3000,4,2.5
+480,Ingredient_K,Pre-production,EU,EU,30cc,2021,ADL,1.0,15000,15000,0,4,4.0
+820,Ingredient_N,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2022,ABR,0.65,15000,9750,5250,4,2.5
+615,Ingredient_L,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2022,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+93,Ingredient_B,In Progress,JAPAC,JAPAC,Auto Injector,2022,AML1,0.25,15000,3750,11250,4,4.0
+1200,Ingredient_S,Pre-production,EU,EU,Blister,2022,AML23,0.25,15000,3750,11250,4,2.5
+794,Ingredient_N,Post-production,Global,Global,Global Post-production,2021,AML7,0.25,15000,3750,11250,4,2.5
+1312,Ingredient_T,In Progress,US,US,Vial,2019,AML1,0.25,15000,3750,11250,4,2.5
+365,Ingredient_H,Pre-production,US,US,Syringe,2022,"Patheon, IT",0.6,15000,9000,6000,4,4.0
+284,Ingredient_F,Pre-production,US,US,Reusable Auto Injector,2022,AML14,0.8,15000,12000,3000,4,4.0
+529,Ingredient_K,Pre-production,US,US,30cc,2020,ADL,1.0,15000,15000,0,4,4.0
+1196,Ingredient_R,In Progress,US,US,Syringe,2023,AML1,0.25,15000,3750,11250,4,2.5
+368,Ingredient_H,Post-production,Global,Global,Global Post-production,2020,ARI5,1.0,15000,15000,0,4,4.0
+844,Ingredient_N,In Progress,US,US,Vial,2021,AML1,0.25,15000,3750,11250,4,2.5
+1272,Ingredient_T,Pre-production,ICON - TMEA,ICON - TMEA,Vial,2019,AML14,0.8,15000,12000,3000,4,2.5
+1314,Ingredient_T,In Progress,US,US,Vial,2021,AML1,0.25,15000,3750,11250,4,2.5
+129,Ingredient_C,Pre-production,US,US,Syringe,2022,AML14,0.8,15000,12000,3000,4,4.0
+105,Ingredient_C,Pre-production,EU,EU,Auto Injector,2023,AML14,0.8,15000,12000,3000,4,4.0
+849,Ingredient_O,Pre-production,EU,EU,"Lyo Vial or Lyo Vial Kit, 250ug and 500ug",2021,ADL PM2,1.0,15000,15000,0,4,2.5
+414,Ingredient_I,In Progress,US,US,Vial,2020,LDC,0.35,15000,5250,9750,4,4.0
+1162,Ingredient_R,In Progress,ICON - TMEA,ICON - TMEA,Auto Injector,2019,ABR,0.65,15000,9750,5250,4,2.5
+1108,Ingredient_R,Pre-production,JAPAC,JAPAC,Auto Injector,2021,AML14,0.8,15000,12000,3000,4,2.5
+344,Ingredient_G,In Progress,US,US,Vial,2022,AML1,0.25,15000,3750,11250,4,4.0
+1289,Ingredient_T,Post-production,Global,Global,Global Post-production,2021,ARI5,1.0,15000,15000,0,4,2.5
+887,Ingredient_O,In Progress,EU,EU,Lyo Vial Kit,2019,ABR,0.65,15000,9750,5250,4,2.5
+13,Ingredient_A,In Progress,JAPAC,JAPAC,Auto Injector,2023,AML1,0.25,15000,3750,11250,4,4.0
+1002,Ingredient_Q,Pre-production,JAPAC,JAPAC,Vial,2019,AML14,0.8,15000,12000,3000,4,2.5
+370,Ingredient_H,Post-production,Global,Global,Global Post-production,2022,ARI5,1.0,15000,15000,0,4,4.0
+668,Ingredient_M,Pre-production,ICON - LACAN,ICON - LACAN,OnPro,2020,AML14,0.8,15000,12000,3000,4,2.5
+955,Ingredient_P,In Progress,ICON - TMEA,ICON - TMEA,Vial,2022,ABR,0.65,15000,9750,5250,4,2.5
+599,Ingredient_K,In Progress,US,US,30cc,2020,AML1,0.25,15000,3750,11250,4,4.0
+907,Ingredient_O,In Progress,US,US,Lyo Vial Kit,2019,AML1,0.25,15000,3750,11250,4,2.5
+185,Ingredient_D,Pre-production,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2023,ADL PM2,1.0,15000,15000,0,4,4.0
+411,Ingredient_I,In Progress,EU,EU,Vial,2022,LDC,0.35,15000,5250,9750,4,4.0
+502,Ingredient_K,Pre-production,ICON - LACAN,ICON - LACAN,50cc,2023,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+906,Ingredient_O,In Progress,JAPAC,JAPAC,Lyo Vial Kit,2023,ABR,0.65,15000,9750,5250,4,2.5
+763,Ingredient_N,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2020,AML14,0.8,15000,12000,3000,4,2.5
+522,Ingredient_K,Pre-production,JAPAC,JAPAC,50cc,2023,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+575,Ingredient_K,In Progress,ICON - TMEA,ICON - TMEA,50cc,2021,Sharp,0.35,15000,5250,9750,4,4.0
+133,Ingredient_C,Pre-production,US,US,Vial,2021,AML14,0.8,15000,12000,3000,4,4.0
+627,Ingredient_L,Pre-production,US,US,Vial,2021,AML14,0.8,15000,12000,3000,4,4.0
+531,Ingredient_K,Pre-production,US,US,30cc,2022,ADL,1.0,15000,15000,0,4,4.0
+733,Ingredient_M,In Progress,US,US,OnPro,2020,AML1,0.25,15000,3750,11250,4,2.5
+269,Ingredient_F,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2022,AML14,0.8,15000,12000,3000,4,4.0
+1257,Ingredient_S,In Progress,US,US,Bottle,2019,AML23,0.25,15000,3750,11250,4,2.5
+1301,Ingredient_T,In Progress,ICON - LACAN,ICON - LACAN,Vial,2023,AML1,0.25,15000,3750,11250,4,2.5
+511,Ingredient_K,Pre-production,JAPAC,JAPAC,10cc,2022,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+204,Ingredient_D,Post-production,Global,Global,Global Post-production,2022,"Lonza, UK",1.0,15000,15000,0,4,4.0
+921,Ingredient_P,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+1007,Ingredient_Q,Pre-production,US,US,Syringe,2019,AML14,0.8,15000,12000,3000,4,2.5
+784,Ingredient_N,Pre-production,US,US,Syringe,2021,AML14,0.8,15000,12000,3000,4,2.5
+455,Ingredient_J,In Progress,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2021,AML1,0.25,15000,3750,11250,4,4.0
+30,Ingredient_B,Pre-production,ICON - LACAN,ICON - LACAN,Auto Injector,2020,AML14,0.8,15000,12000,3000,4,4.0
+39,Ingredient_B,Pre-production,ICON - TMEA,ICON - TMEA,Auto Injector,2021,AML14,0.8,15000,12000,3000,4,4.0
+1031,Ingredient_Q,In Progress,EU,EU,Vial,2023,ABR,0.65,15000,9750,5250,4,2.5
+339,Ingredient_G,Post-production,Global,Global,Global Post-production,2022,ATO7,0.1,15000,1500,13500,4,4.0
+799,Ingredient_N,In Progress,EU,EU,Syringe,2021,ABR,0.65,15000,9750,5250,4,2.5
+448,Ingredient_J,Post-production,Global,Global,Global Post-production,2023,ARI5,1.0,15000,15000,0,4,4.0
+1029,Ingredient_Q,In Progress,EU,EU,Vial,2021,ABR,0.65,15000,9750,5250,4,2.5
+591,Ingredient_K,In Progress,JAPAC,JAPAC,50cc,2022,AML1,0.25,15000,3750,11250,4,4.0
+839,Ingredient_N,In Progress,US,US,Syringe,2021,AML1,0.25,15000,3750,11250,4,2.5
+854,Ingredient_O,Pre-production,EU,EU,Lyo Vial or Lyo Vial Kit; 125ug SKU,2021,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+516,Ingredient_K,Pre-production,JAPAC,JAPAC,30cc,2022,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+122,Ingredient_C,Pre-production,JAPAC,JAPAC,Syringe,2020,AML14,0.8,15000,12000,3000,4,4.0
+1198,Ingredient_S,Pre-production,EU,EU,Blister,2020,AML23,0.25,15000,3750,11250,4,2.5
+1250,Ingredient_S,In Progress,ICON - TMEA,ICON - TMEA,Blister,2022,"PCI, UK",0.3,15000,4500,10500,4,2.5
+594,Ingredient_K,In Progress,US,US,10cc,2020,AML1,0.25,15000,3750,11250,4,4.0
+855,Ingredient_O,Pre-production,EU,EU,Lyo Vial or Lyo Vial Kit; 125ug SKU,2022,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+1005,Ingredient_Q,Pre-production,JAPAC,JAPAC,Vial,2022,AML14,0.8,15000,12000,3000,4,2.5
+938,Ingredient_P,Post-production,Global,Global,Global Post-production,2020,"Bachem, CH",1.0,15000,15000,0,4,2.5
+285,Ingredient_F,Pre-production,US,US,Reusable Auto Injector,2023,AML14,0.8,15000,12000,3000,4,4.0
+790,Ingredient_N,Pre-production,US,US,Vial,2022,AML14,0.8,15000,12000,3000,4,2.5
+59,Ingredient_B,Post-production,Global,Global,Global Post-production,2020,ATO23,1.0,15000,15000,0,4,4.0
+747,Ingredient_N,Pre-production,EU,EU,Vial,2019,AML14,0.8,15000,12000,3000,4,2.5
+418,Ingredient_J,Pre-production,EU,EU,Lyo Vial Kit,2019,ADL,1.0,15000,15000,0,4,4.0
+1055,Ingredient_Q,In Progress,JAPAC,JAPAC,Syringe,2022,AML1,0.25,15000,3750,11250,4,2.5
+275,Ingredient_F,Pre-production,US,US,Auto Injector,2023,AML14,0.8,15000,12000,3000,4,4.0
+1271,Ingredient_T,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+607,Ingredient_K,In Progress,US,US,50cc,2023,AML1,0.25,15000,3750,11250,4,4.0
+1000,Ingredient_Q,Pre-production,JAPAC,JAPAC,Syringe,2022,AML14,0.8,15000,12000,3000,4,2.5
+891,Ingredient_O,In Progress,EU,EU,Lyo Vial Kit,2023,ABR,0.65,15000,9750,5250,4,2.5
+407,Ingredient_I,Post-production,Global,Global,Global Post-production,2023,AWM,1.0,15000,15000,0,4,4.0
+93,Ingredient_B,In Progress,JAPAC,JAPAC,Auto Injector,2022,AML1,0.25,15000,3750,11250,4,4.0
+404,Ingredient_I,Post-production,Global,Global,Global Post-production,2020,AWM,1.0,15000,15000,0,4,4.0
+630,Ingredient_L,Post-production,Global,Global,Global Post-production,2019,ARI5,1.0,15000,15000,0,4,4.0
+377,Ingredient_H,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2023,AML1,0.25,15000,3750,11250,4,4.0
+1218,Ingredient_S,Pre-production,JAPAC,JAPAC,Blister,2020,AML23,0.25,15000,3750,11250,4,2.5
+784,Ingredient_N,Pre-production,US,US,Syringe,2021,AML14,0.8,15000,12000,3000,4,2.5
+55,Ingredient_B,Pre-production,US,US,Auto Injector,2023,AML14,0.8,15000,12000,3000,4,4.0
+187,Ingredient_D,Pre-production,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2020,ADL PM2,1.0,15000,15000,0,4,4.0
+829,Ingredient_N,In Progress,JAPAC,JAPAC,Syringe,2021,AML1,0.25,15000,3750,11250,4,2.5
+1298,Ingredient_T,In Progress,ICON - LACAN,ICON - LACAN,Vial,2020,AML1,0.25,15000,3750,11250,4,2.5
+683,Ingredient_M,Pre-production,JAPAC,JAPAC,Syringe,2020,AML14,0.8,15000,12000,3000,4,2.5
+788,Ingredient_N,Pre-production,US,US,Vial,2020,AML14,0.8,15000,12000,3000,4,2.5
+536,Ingredient_K,Pre-production,US,US,50cc,2022,ADL,1.0,15000,15000,0,4,4.0
+1116,Ingredient_R,Pre-production,JAPAC,JAPAC,Syringe,2019,AML14,0.8,15000,12000,3000,4,2.5
+1267,Ingredient_T,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2019,AML14,0.8,15000,12000,3000,4,2.5
+55,Ingredient_B,Pre-production,US,US,Auto Injector,2023,AML14,0.8,15000,12000,3000,4,4.0
+660,Ingredient_M,Pre-production,EU,EU,OnPro,2022,AML14,0.8,15000,12000,3000,4,2.5
+963,Ingredient_P,In Progress,US,US,Vial,2020,AML1,0.25,15000,3750,11250,4,2.5
+233,Ingredient_E,Pre-production,US,US,Bottle,2021,AML23,0.25,15000,3750,11250,4,4.0
+875,Ingredient_O,Pre-production,US,US,"Lyo Vial or Lyo Vial Kit, 250ug and 500ug",2022,ADL PM2,1.0,15000,15000,0,4,2.5
+30,Ingredient_B,Pre-production,ICON - LACAN,ICON - LACAN,Auto Injector,2020,AML14,0.8,15000,12000,3000,4,4.0
+1,Ingredient_A,Pre-production,JAPAC,JAPAC,Auto Injector,2023,AML14,0.8,15000,12000,3000,4,4.0
+935,Ingredient_P,Pre-production,US,US,Vial,2022,AML14,0.8,15000,12000,3000,4,2.5
+90,Ingredient_B,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2023,ABR,0.65,15000,9750,5250,4,4.0
+773,Ingredient_N,Pre-production,JAPAC,JAPAC,Syringe,2020,AML14,0.8,15000,12000,3000,4,2.5
+480,Ingredient_K,Pre-production,EU,EU,30cc,2021,ADL,1.0,15000,15000,0,4,4.0
+1292,Ingredient_T,In Progress,EU,EU,Vial,2019,ABR,0.65,15000,9750,5250,4,2.5
+757,Ingredient_N,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2019,AML14,0.8,15000,12000,3000,4,2.5
+648,Ingredient_L,In Progress,JAPAC,JAPAC,Vial,2020,AML1,0.25,15000,3750,11250,4,4.0
+873,Ingredient_O,Pre-production,US,US,"Lyo Vial or Lyo Vial Kit, 250ug and 500ug",2020,ADL PM2,1.0,15000,15000,0,4,2.5
+1173,Ingredient_R,In Progress,JAPAC,JAPAC,Auto Injector,2021,Bushu,0.35,15000,5250,9750,4,2.5
+65,Ingredient_B,In Progress,EU,EU,Auto Injector,2021,ABR,0.65,15000,9750,5250,4,4.0
+1210,Ingredient_S,Pre-production,ICON - LACAN,ICON - LACAN,Bottle,2022,"Patheon, CA",0.6,15000,9000,6000,4,2.5
+749,Ingredient_N,Pre-production,EU,EU,Vial,2021,AML14,0.8,15000,12000,3000,4,2.5
+426,Ingredient_J,Pre-production,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2023,"Actavis, IT",0.98,15000,14700,300,4,4.0
+1222,Ingredient_S,Pre-production,US,US,Bottle,2019,AML23,0.25,15000,3750,11250,4,2.5
+805,Ingredient_N,In Progress,EU,EU,Vial,2022,ABR,0.65,15000,9750,5250,4,2.5
+729,Ingredient_M,In Progress,JAPAC,JAPAC,Syringe,2021,AML1,0.25,15000,3750,11250,4,2.5
+1183,Ingredient_R,In Progress,US,US,Auto Injector,2020,AML1,0.25,15000,3750,11250,4,2.5
+1107,Ingredient_R,Pre-production,JAPAC,JAPAC,Auto Injector,2020,AML14,0.8,15000,12000,3000,4,2.5
+325,Ingredient_F,In Progress,US,US,Reusable Auto Injector,2023,AML1,0.25,15000,3750,11250,4,4.0
+1079,Ingredient_R,Pre-production,EU,EU,Pushtronex,2021,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+177,Ingredient_D,Pre-production,EU,EU,Lyo Vial Kit,2020,ADL PM2,1.0,15000,15000,0,4,4.0
+514,Ingredient_K,Pre-production,JAPAC,JAPAC,30cc,2020,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+519,Ingredient_K,Pre-production,JAPAC,JAPAC,50cc,2020,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+842,Ingredient_N,In Progress,US,US,Vial,2019,AML1,0.25,15000,3750,11250,4,2.5
+1197,Ingredient_S,Pre-production,EU,EU,Blister,2019,AML23,0.25,15000,3750,11250,4,2.5
+905,Ingredient_O,In Progress,JAPAC,JAPAC,Lyo Vial Kit,2022,ABR,0.65,15000,9750,5250,4,2.5
+1126,Ingredient_R,Pre-production,US,US,Pushtronex,2023,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+1194,Ingredient_R,In Progress,US,US,Syringe,2021,AML1,0.25,15000,3750,11250,4,2.5
+315,Ingredient_F,In Progress,US,US,Auto Injector,2023,AML1,0.25,15000,3750,11250,4,4.0
+691,Ingredient_M,Pre-production,US,US,OnPro,2023,AML14,0.8,15000,12000,3000,4,2.5
+781,Ingredient_N,Pre-production,JAPAC,JAPAC,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+1135,Ingredient_R,Post-production,Global,Global,Global Post-production,2022,AML6,0.25,15000,3750,11250,4,2.5
+187,Ingredient_D,Pre-production,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2020,ADL PM2,1.0,15000,15000,0,4,4.0
+795,Ingredient_N,Post-production,Global,Global,Global Post-production,2022,AML7,0.25,15000,3750,11250,4,2.5
+486,Ingredient_K,Pre-production,EU,EU,50cc,2022,ADL,1.0,15000,15000,0,4,4.0
+501,Ingredient_K,Pre-production,ICON - LACAN,ICON - LACAN,50cc,2022,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+594,Ingredient_K,In Progress,US,US,10cc,2020,AML1,0.25,15000,3750,11250,4,4.0
+1175,Ingredient_R,In Progress,JAPAC,JAPAC,Auto Injector,2023,Bushu,0.35,15000,5250,9750,4,2.5
+838,Ingredient_N,In Progress,US,US,Syringe,2020,AML1,0.25,15000,3750,11250,4,2.5
+216,Ingredient_D,In Progress,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2019,AML1,0.25,15000,3750,11250,4,4.0
+1291,Ingredient_T,Post-production,Global,Global,Global Post-production,2023,ARI5,1.0,15000,15000,0,4,2.5
+747,Ingredient_N,Pre-production,EU,EU,Vial,2019,AML14,0.8,15000,12000,3000,4,2.5
+518,Ingredient_K,Pre-production,JAPAC,JAPAC,50cc,2019,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+684,Ingredient_M,Pre-production,JAPAC,JAPAC,Syringe,2021,AML14,0.8,15000,12000,3000,4,2.5
+150,Ingredient_C,In Progress,EU,EU,Syringe,2023,ABR,0.65,15000,9750,5250,4,4.0
+486,Ingredient_K,Pre-production,EU,EU,50cc,2022,ADL,1.0,15000,15000,0,4,4.0
+324,Ingredient_F,In Progress,US,US,Reusable Auto Injector,2022,AML1,0.25,15000,3750,11250,4,4.0
+843,Ingredient_N,In Progress,US,US,Vial,2020,AML1,0.25,15000,3750,11250,4,2.5
+833,Ingredient_N,In Progress,JAPAC,JAPAC,Vial,2020,AML1,0.25,15000,3750,11250,4,2.5
+606,Ingredient_K,In Progress,US,US,50cc,2022,AML1,0.25,15000,3750,11250,4,4.0
+14,Ingredient_A,In Progress,US,US,Auto Injector,2019,AML1,0.25,15000,3750,11250,4,4.0
+500,Ingredient_K,Pre-production,ICON - LACAN,ICON - LACAN,50cc,2021,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+676,Ingredient_M,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2023,AML14,0.8,15000,12000,3000,4,2.5
+675,Ingredient_M,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2022,AML14,0.8,15000,12000,3000,4,2.5
+120,Ingredient_C,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2023,AML14,0.8,15000,12000,3000,4,4.0
+691,Ingredient_M,Pre-production,US,US,OnPro,2023,AML14,0.8,15000,12000,3000,4,2.5
+559,Ingredient_K,In Progress,ICON - LACAN,ICON - LACAN,10cc,2020,AML1,0.25,15000,3750,11250,4,4.0
+987,Ingredient_Q,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2019,AML14,0.8,15000,12000,3000,4,2.5
+323,Ingredient_F,In Progress,US,US,Reusable Auto Injector,2021,AML1,0.25,15000,3750,11250,4,4.0
+943,Ingredient_P,In Progress,EU,EU,Vial,2020,ABR,0.65,15000,9750,5250,4,2.5
+564,Ingredient_K,In Progress,ICON - LACAN,ICON - LACAN,30cc,2020,AML1,0.25,15000,3750,11250,4,4.0
+1169,Ingredient_R,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2022,ABR,0.65,15000,9750,5250,4,2.5
+238,Ingredient_E,Pre-production,US,US,Solution/Ampule,2021,"Catalent, IL",0.98,15000,14700,300,4,4.0
+1143,Ingredient_R,In Progress,EU,EU,Pushtronex,2020,"PCI, US",0.3,15000,4500,10500,4,2.5
+1013,Ingredient_Q,Pre-production,US,US,Vial,2020,AML14,0.8,15000,12000,3000,4,2.5
+1014,Ingredient_Q,Pre-production,US,US,Vial,2021,AML14,0.8,15000,12000,3000,4,2.5
+988,Ingredient_Q,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2020,AML14,0.8,15000,12000,3000,4,2.5
+218,Ingredient_D,In Progress,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2021,AML1,0.25,15000,3750,11250,4,4.0
+1038,Ingredient_Q,In Progress,ICON - LACAN,ICON - LACAN,Vial,2020,AML1,0.25,15000,3750,11250,4,2.5
+1154,Ingredient_R,In Progress,ICON - LACAN,ICON - LACAN,Auto Injector,2021,AML1,0.25,15000,3750,11250,4,2.5
+47,Ingredient_B,Pre-production,JAPAC,JAPAC,Auto Injector,2020,AML14,0.8,15000,12000,3000,4,4.0
+1043,Ingredient_Q,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2020,ABR,0.65,15000,9750,5250,4,2.5
+656,Ingredient_L,In Progress,US,US,Vial,2023,AML1,0.25,15000,3750,11250,4,4.0
+1104,Ingredient_R,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2022,AML14,0.8,15000,12000,3000,4,2.5
+1046,Ingredient_Q,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2023,ABR,0.65,15000,9750,5250,4,2.5
+847,Ingredient_O,Pre-production,EU,EU,"Lyo Vial or Lyo Vial Kit, 250ug and 500ug",2019,ADL PM2,1.0,15000,15000,0,4,2.5
+886,Ingredient_O,Post-production,Global,Global,Global Post-production,2023,AML7,0.25,15000,3750,11250,4,2.5
+628,Ingredient_L,Pre-production,US,US,Vial,2022,AML14,0.8,15000,12000,3000,4,4.0
+1214,Ingredient_S,Pre-production,ICON - TMEA,ICON - TMEA,Blister,2021,AML23,0.25,15000,3750,11250,4,2.5
+1017,Ingredient_Q,Post-production,Global,Global,Global Post-production,2019,ASM1,0.4,15000,6000,9000,4,2.5
+648,Ingredient_L,In Progress,JAPAC,JAPAC,Vial,2020,AML1,0.25,15000,3750,11250,4,4.0
+118,Ingredient_C,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2021,AML14,0.8,15000,12000,3000,4,4.0
+1020,Ingredient_Q,Post-production,Global,Global,Global Post-production,2022,ASM1,0.4,15000,6000,9000,4,2.5
+1020,Ingredient_Q,Post-production,Global,Global,Global Post-production,2022,ASM1,0.4,15000,6000,9000,4,2.5
+174,Ingredient_C,In Progress,US,US,Vial,2022,AML1,0.25,15000,3750,11250,4,4.0
+79,Ingredient_B,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2022,AML1,0.25,15000,3750,11250,4,4.0
+351,Ingredient_H,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2023,AML14,0.8,15000,12000,3000,4,4.0
+1167,Ingredient_R,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2020,ABR,0.65,15000,9750,5250,4,2.5
+555,Ingredient_K,In Progress,EU,EU,50cc,2021,ABR,0.65,15000,9750,5250,4,4.0
+321,Ingredient_F,In Progress,US,US,Reusable Auto Injector,2019,AML1,0.25,15000,3750,11250,4,4.0
+1181,Ingredient_R,In Progress,JAPAC,JAPAC,Syringe,2019,AML1,0.25,15000,3750,11250,4,2.5
+1200,Ingredient_S,Pre-production,EU,EU,Blister,2022,AML23,0.25,15000,3750,11250,4,2.5
+62,Ingredient_B,Post-production,Global,Global,Global Post-production,2023,ARI5,1.0,15000,15000,0,4,4.0
+662,Ingredient_M,Pre-production,EU,EU,Syringe,2019,AML14,0.8,15000,12000,3000,4,2.5
+490,Ingredient_K,Pre-production,ICON - LACAN,ICON - LACAN,10cc,2021,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+1035,Ingredient_Q,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2022,AML1,0.25,15000,3750,11250,4,2.5
+1316,Ingredient_T,In Progress,US,US,Vial,2023,AML1,0.25,15000,3750,11250,4,2.5
+11,Ingredient_A,Post-production,Global,Global,Global Post-production,2023,ASM1,0.4,15000,6000,9000,4,4.0
+536,Ingredient_K,Pre-production,US,US,50cc,2022,ADL,1.0,15000,15000,0,4,4.0
+1266,Ingredient_T,Pre-production,EU,EU,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+1133,Ingredient_R,Post-production,Global,Global,Global Post-production,2020,ARI5,1.0,15000,15000,0,4,2.5
+237,Ingredient_E,Pre-production,US,US,Solution/Ampule,2020,"Catalent, IL",0.98,15000,14700,300,4,4.0
+667,Ingredient_M,Pre-production,ICON - LACAN,ICON - LACAN,OnPro,2019,AML14,0.8,15000,12000,3000,4,2.5
+837,Ingredient_N,In Progress,US,US,Syringe,2019,AML1,0.25,15000,3750,11250,4,2.5
+1273,Ingredient_T,Pre-production,ICON - TMEA,ICON - TMEA,Vial,2020,AML14,0.8,15000,12000,3000,4,2.5
+1303,Ingredient_T,In Progress,ICON - TMEA,ICON - TMEA,Vial,2020,ABR,0.65,15000,9750,5250,4,2.5
+409,Ingredient_I,In Progress,EU,EU,Vial,2020,LDC,0.35,15000,5250,9750,4,4.0
+56,Ingredient_B,Pre-production,US,US,Syringe,2023,AML14,0.8,15000,12000,3000,4,4.0
+1054,Ingredient_Q,In Progress,JAPAC,JAPAC,Syringe,2021,AML1,0.25,15000,3750,11250,4,2.5
+856,Ingredient_O,Pre-production,EU,EU,Lyo Vial or Lyo Vial Kit; 125ug SKU,2023,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+674,Ingredient_M,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2021,AML14,0.8,15000,12000,3000,4,2.5
+532,Ingredient_K,Pre-production,US,US,30cc,2023,ADL,1.0,15000,15000,0,4,4.0
+1139,Ingredient_R,In Progress,EU,EU,Auto Injector,2021,ABR,0.65,15000,9750,5250,4,2.5
+1039,Ingredient_Q,In Progress,ICON - LACAN,ICON - LACAN,Vial,2021,AML1,0.25,15000,3750,11250,4,2.5
+1306,Ingredient_T,In Progress,ICON - TMEA,ICON - TMEA,Vial,2023,ABR,0.65,15000,9750,5250,4,2.5
+853,Ingredient_O,Pre-production,EU,EU,Lyo Vial or Lyo Vial Kit; 125ug SKU,2020,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+189,Ingredient_D,Pre-production,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2022,ADL PM2,1.0,15000,15000,0,4,4.0
+25,Ingredient_B,Pre-production,EU,EU,Syringe,2020,AML14,0.8,15000,12000,3000,4,4.0
+9,Ingredient_A,Post-production,Global,Global,Global Post-production,2021,ASM1,0.4,15000,6000,9000,4,4.0
+25,Ingredient_B,Pre-production,EU,EU,Syringe,2020,AML14,0.8,15000,12000,3000,4,4.0
+423,Ingredient_J,Pre-production,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2020,"Actavis, IT",0.98,15000,14700,300,4,4.0
+765,Ingredient_N,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2022,AML14,0.8,15000,12000,3000,4,2.5
+414,Ingredient_I,In Progress,US,US,Vial,2020,LDC,0.35,15000,5250,9750,4,4.0
+878,Ingredient_O,Pre-production,US,US,Lyo Vial or Lyo Vial Kit; 125ug SKU,2020,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+1295,Ingredient_T,In Progress,EU,EU,Vial,2022,ABR,0.65,15000,9750,5250,4,2.5
+985,Ingredient_Q,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2022,AML14,0.8,15000,12000,3000,4,2.5
+967,Ingredient_Q,Pre-production,EU,EU,Syringe,2019,AML14,0.8,15000,12000,3000,4,2.5
+791,Ingredient_N,Pre-production,US,US,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+914,Ingredient_P,Pre-production,EU,EU,Vial,2021,AML14,0.8,15000,12000,3000,4,2.5
+1184,Ingredient_R,In Progress,US,US,Auto Injector,2021,AML1,0.25,15000,3750,11250,4,2.5
+833,Ingredient_N,In Progress,JAPAC,JAPAC,Vial,2020,AML1,0.25,15000,3750,11250,4,2.5
+81,Ingredient_B,In Progress,ICON - TMEA,ICON - TMEA,Auto Injector,2019,ABR,0.65,15000,9750,5250,4,4.0
+720,Ingredient_M,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2022,AML1,0.25,15000,3750,11250,4,2.5
+674,Ingredient_M,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2021,AML14,0.8,15000,12000,3000,4,2.5
+569,Ingredient_K,In Progress,ICON - LACAN,ICON - LACAN,50cc,2020,AML1,0.25,15000,3750,11250,4,4.0
+642,Ingredient_L,In Progress,ICON - LACAN,ICON - LACAN,Vial,2022,AML1,0.25,15000,3750,11250,4,4.0
+1072,Ingredient_R,Pre-production,EU,EU,Auto Injector,2019,AML14,0.8,15000,12000,3000,4,2.5
+1017,Ingredient_Q,Post-production,Global,Global,Global Post-production,2019,ASM1,0.4,15000,6000,9000,4,2.5
+553,Ingredient_K,In Progress,EU,EU,50cc,2019,ABR,0.65,15000,9750,5250,4,4.0
+1100,Ingredient_R,Pre-production,ICON - TMEA,ICON - TMEA,Auto Injector,2022,AML14,0.8,15000,12000,3000,4,2.5
+374,Ingredient_H,In Progress,EU,EU,Syringe,2023,ABR,0.65,15000,9750,5250,4,4.0
+641,Ingredient_L,In Progress,ICON - LACAN,ICON - LACAN,Vial,2021,AML1,0.25,15000,3750,11250,4,4.0
+704,Ingredient_M,In Progress,EU,EU,OnPro,2021,ABR,0.65,15000,9750,5250,4,2.5
+846,Ingredient_N,In Progress,US,US,Vial,2023,AML1,0.25,15000,3750,11250,4,2.5
+1183,Ingredient_R,In Progress,US,US,Auto Injector,2020,AML1,0.25,15000,3750,11250,4,2.5
+798,Ingredient_N,In Progress,EU,EU,Syringe,2020,ABR,0.65,15000,9750,5250,4,2.5
+646,Ingredient_L,In Progress,ICON - TMEA,ICON - TMEA,Vial,2023,ABR,0.65,15000,9750,5250,4,4.0
+1249,Ingredient_S,In Progress,ICON - TMEA,ICON - TMEA,Blister,2021,"PCI, UK",0.3,15000,4500,10500,4,2.5
+82,Ingredient_B,In Progress,ICON - TMEA,ICON - TMEA,Auto Injector,2020,ABR,0.65,15000,9750,5250,4,4.0
+412,Ingredient_I,In Progress,EU,EU,Vial,2023,LDC,0.35,15000,5250,9750,4,4.0
+1226,Ingredient_S,Pre-production,US,US,Bottle,2023,AML23,0.25,15000,3750,11250,4,2.5
+637,Ingredient_L,In Progress,EU,EU,Vial,2022,ABR,0.65,15000,9750,5250,4,4.0
+1146,Ingredient_R,In Progress,EU,EU,Pushtronex,2023,"PCI, US",0.3,15000,4500,10500,4,2.5
+95,Ingredient_B,In Progress,JAPAC,JAPAC,Syringe,2020,AML1,0.25,15000,3750,11250,4,4.0
+1273,Ingredient_T,Pre-production,ICON - TMEA,ICON - TMEA,Vial,2020,AML14,0.8,15000,12000,3000,4,2.5
+695,Ingredient_M,Pre-production,US,US,Syringe,2022,AML14,0.8,15000,12000,3000,4,2.5
+1281,Ingredient_T,Pre-production,JAPAC,JAPAC,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+56,Ingredient_B,Pre-production,US,US,Syringe,2023,AML14,0.8,15000,12000,3000,4,4.0
+399,Ingredient_I,Pre-production,US,US,Vial,2020,AWM,0.98,15000,14700,300,4,4.0
+33,Ingredient_B,Pre-production,ICON - LACAN,ICON - LACAN,Auto Injector,2023,AML14,0.8,15000,12000,3000,4,4.0
+676,Ingredient_M,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2023,AML14,0.8,15000,12000,3000,4,2.5
+89,Ingredient_B,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2022,ABR,0.65,15000,9750,5250,4,4.0
+980,Ingredient_Q,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2022,AML14,0.8,15000,12000,3000,4,2.5
+1208,Ingredient_S,Pre-production,ICON - LACAN,ICON - LACAN,Bottle,2020,"Patheon, CA",0.6,15000,9000,6000,4,2.5
+692,Ingredient_M,Pre-production,US,US,Syringe,2019,AML14,0.8,15000,12000,3000,4,2.5
+557,Ingredient_K,In Progress,EU,EU,50cc,2023,ABR,0.65,15000,9750,5250,4,4.0
+916,Ingredient_P,Pre-production,EU,EU,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+1208,Ingredient_S,Pre-production,ICON - LACAN,ICON - LACAN,Bottle,2020,"Patheon, CA",0.6,15000,9000,6000,4,2.5
+1007,Ingredient_Q,Pre-production,US,US,Syringe,2019,AML14,0.8,15000,12000,3000,4,2.5
+712,Ingredient_M,In Progress,ICON - LACAN,ICON - LACAN,OnPro,2019,AML1,0.25,15000,3750,11250,4,2.5
+430,Ingredient_J,Pre-production,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2022,ADL,1.0,15000,15000,0,4,4.0
+27,Ingredient_B,Pre-production,EU,EU,Syringe,2022,AML14,0.8,15000,12000,3000,4,4.0
+1022,Ingredient_Q,In Progress,EU,EU,Syringe,2019,ABR,0.65,15000,9750,5250,4,2.5
+306,Ingredient_F,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2019,AML1,0.25,15000,3750,11250,4,4.0
+85,Ingredient_B,In Progress,ICON - TMEA,ICON - TMEA,Auto Injector,2023,ABR,0.65,15000,9750,5250,4,4.0
+709,Ingredient_M,In Progress,EU,EU,Syringe,2021,ABR,0.65,15000,9750,5250,4,2.5
+713,Ingredient_M,In Progress,ICON - LACAN,ICON - LACAN,OnPro,2020,AML1,0.25,15000,3750,11250,4,2.5
+1246,Ingredient_S,In Progress,ICON - LACAN,ICON - LACAN,Bottle,2023,"Patheon, CA",0.6,15000,9000,6000,4,2.5
+923,Ingredient_P,Pre-production,ICON - TMEA,ICON - TMEA,Vial,2020,"Patheon, NC",0.6,15000,9000,6000,4,2.5
+850,Ingredient_O,Pre-production,EU,EU,"Lyo Vial or Lyo Vial Kit, 250ug and 500ug",2022,ADL PM2,1.0,15000,15000,0,4,2.5
+250,Ingredient_E,In Progress,US,US,Bottle,2023,AML23,0.25,15000,3750,11250,4,4.0
+111,Ingredient_C,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2019,AML14,0.8,15000,12000,3000,4,4.0
+1298,Ingredient_T,In Progress,ICON - LACAN,ICON - LACAN,Vial,2020,AML1,0.25,15000,3750,11250,4,2.5
+754,Ingredient_N,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2021,AML14,0.8,15000,12000,3000,4,2.5
+1053,Ingredient_Q,In Progress,JAPAC,JAPAC,Syringe,2020,AML1,0.25,15000,3750,11250,4,2.5
+1262,Ingredient_T,Pre-production,EU,EU,Vial,2019,AML14,0.8,15000,12000,3000,4,2.5
+397,Ingredient_I,Pre-production,EU,EU,Vial,2023,AWM,0.98,15000,14700,300,4,4.0
+1237,Ingredient_S,In Progress,EU,EU,Capsule,2019,"Anderson Bercon, UK",0.35,15000,5250,9750,4,2.5
+181,Ingredient_D,Pre-production,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2019,ADL PM2,1.0,15000,15000,0,4,4.0
+45,Ingredient_B,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2022,AML14,0.8,15000,12000,3000,4,4.0
+439,Ingredient_J,Pre-production,US,US,Lyo Vial Kit,2021,ADL,1.0,15000,15000,0,4,4.0
+292,Ingredient_F,Post-production,Global,Global,Global Post-production,2020,AML6,0.25,15000,3750,11250,4,4.0
+472,Ingredient_J,In Progress,US,US,Lyo Vial Kit,2023,AML1,0.25,15000,3750,11250,4,4.0
+698,Ingredient_M,Post-production,Global,Global,Global Post-production,2020,AML7,0.25,15000,3750,11250,4,2.5
+794,Ingredient_N,Post-production,Global,Global,Global Post-production,2021,AML7,0.25,15000,3750,11250,4,2.5
+1038,Ingredient_Q,In Progress,ICON - LACAN,ICON - LACAN,Vial,2020,AML1,0.25,15000,3750,11250,4,2.5
+1146,Ingredient_R,In Progress,EU,EU,Pushtronex,2023,"PCI, US",0.3,15000,4500,10500,4,2.5
+125,Ingredient_C,Pre-production,JAPAC,JAPAC,Syringe,2023,AML14,0.8,15000,12000,3000,4,4.0
+648,Ingredient_L,In Progress,JAPAC,JAPAC,Vial,2020,AML1,0.25,15000,3750,11250,4,4.0
+577,Ingredient_K,In Progress,ICON - TMEA,ICON - TMEA,50cc,2023,Sharp,0.35,15000,5250,9750,4,4.0
+81,Ingredient_B,In Progress,ICON - TMEA,ICON - TMEA,Auto Injector,2019,ABR,0.65,15000,9750,5250,4,4.0
+573,Ingredient_K,In Progress,ICON - TMEA,ICON - TMEA,50cc,2019,Sharp,0.35,15000,5250,9750,4,4.0
+423,Ingredient_J,Pre-production,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2020,"Actavis, IT",0.98,15000,14700,300,4,4.0
+1225,Ingredient_S,Pre-production,US,US,Bottle,2022,AML23,0.25,15000,3750,11250,4,2.5
+1129,Ingredient_R,Pre-production,US,US,Syringe,2021,AML14,0.8,15000,12000,3000,4,2.5
+239,Ingredient_E,Pre-production,US,US,Solution/Ampule,2022,"Catalent, IL",0.98,15000,14700,300,4,4.0
+364,Ingredient_H,Pre-production,US,US,Syringe,2021,"Patheon, IT",0.6,15000,9000,6000,4,4.0
+524,Ingredient_K,Pre-production,US,US,10cc,2020,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+50,Ingredient_B,Pre-production,JAPAC,JAPAC,Auto Injector,2023,AML14,0.8,15000,12000,3000,4,4.0
+1170,Ingredient_R,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2023,ABR,0.65,15000,9750,5250,4,2.5
+155,Ingredient_C,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2023,AML1,0.25,15000,3750,11250,4,4.0
+1043,Ingredient_Q,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2020,ABR,0.65,15000,9750,5250,4,2.5
+1309,Ingredient_T,In Progress,JAPAC,JAPAC,Vial,2021,AML1,0.25,15000,3750,11250,4,2.5
+1028,Ingredient_Q,In Progress,EU,EU,Vial,2020,ABR,0.65,15000,9750,5250,4,2.5
+160,Ingredient_C,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2023,ABR,0.65,15000,9750,5250,4,4.0
+97,Ingredient_B,In Progress,JAPAC,JAPAC,Syringe,2022,AML1,0.25,15000,3750,11250,4,4.0
+781,Ingredient_N,Pre-production,JAPAC,JAPAC,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+13,Ingredient_A,In Progress,JAPAC,JAPAC,Auto Injector,2023,AML1,0.25,15000,3750,11250,4,4.0
+44,Ingredient_B,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2021,AML14,0.8,15000,12000,3000,4,4.0
+884,Ingredient_O,Post-production,Global,Global,Global Post-production,2021,AML7,0.25,15000,3750,11250,4,2.5
+711,Ingredient_M,In Progress,EU,EU,Syringe,2023,ABR,0.65,15000,9750,5250,4,2.5
+91,Ingredient_B,In Progress,JAPAC,JAPAC,Auto Injector,2020,AML1,0.25,15000,3750,11250,4,4.0
+215,Ingredient_D,In Progress,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2023,AML1,0.25,15000,3750,11250,4,4.0
+456,Ingredient_J,In Progress,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2022,AML1,0.25,15000,3750,11250,4,4.0
+951,Ingredient_P,In Progress,ICON - LACAN,ICON - LACAN,Vial,2023,AML1,0.25,15000,3750,11250,4,2.5
+551,Ingredient_K,In Progress,EU,EU,30cc,2022,ABR,0.65,15000,9750,5250,4,4.0
+694,Ingredient_M,Pre-production,US,US,Syringe,2021,AML14,0.8,15000,12000,3000,4,2.5
+77,Ingredient_B,In Progress,ICON - LACAN,ICON - LACAN,Auto Injector,2023,AML1,0.25,15000,3750,11250,4,4.0
+705,Ingredient_M,In Progress,EU,EU,OnPro,2022,ABR,0.65,15000,9750,5250,4,2.5
+1093,Ingredient_R,Pre-production,ICON - LACAN,ICON - LACAN,Pushtronex,2020,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+64,Ingredient_B,In Progress,EU,EU,Auto Injector,2020,ABR,0.65,15000,9750,5250,4,4.0
+1104,Ingredient_R,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2022,AML14,0.8,15000,12000,3000,4,2.5
+746,Ingredient_N,Pre-production,EU,EU,Syringe,2023,AML14,0.8,15000,12000,3000,4,2.5
+182,Ingredient_D,Pre-production,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2020,ADL PM2,1.0,15000,15000,0,4,4.0
+473,Ingredient_K,Pre-production,EU,EU,10cc,2019,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+246,Ingredient_E,In Progress,US,US,Bottle,2019,AML23,0.25,15000,3750,11250,4,4.0
+378,Ingredient_H,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2019,AML1,0.25,15000,3750,11250,4,4.0
+1213,Ingredient_S,Pre-production,ICON - TMEA,ICON - TMEA,Blister,2020,AML23,0.25,15000,3750,11250,4,2.5
+747,Ingredient_N,Pre-production,EU,EU,Vial,2019,AML14,0.8,15000,12000,3000,4,2.5
+564,Ingredient_K,In Progress,ICON - LACAN,ICON - LACAN,30cc,2020,AML1,0.25,15000,3750,11250,4,4.0
+1198,Ingredient_S,Pre-production,EU,EU,Blister,2020,AML23,0.25,15000,3750,11250,4,2.5
+900,Ingredient_O,In Progress,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2022,ABR,0.65,15000,9750,5250,4,2.5
+238,Ingredient_E,Pre-production,US,US,Solution/Ampule,2021,"Catalent, IL",0.98,15000,14700,300,4,4.0
+1019,Ingredient_Q,Post-production,Global,Global,Global Post-production,2021,ASM1,0.4,15000,6000,9000,4,2.5
+445,Ingredient_J,Post-production,Global,Global,Global Post-production,2020,"Patheon, NL",0.6,15000,9000,6000,4,4.0
+422,Ingredient_J,Pre-production,EU,EU,Lyo Vial Kit,2023,ADL,1.0,15000,15000,0,4,4.0
+575,Ingredient_K,In Progress,ICON - TMEA,ICON - TMEA,50cc,2021,Sharp,0.35,15000,5250,9750,4,4.0
+1217,Ingredient_S,Pre-production,JAPAC,JAPAC,Blister,2019,AML23,0.25,15000,3750,11250,4,2.5
+527,Ingredient_K,Pre-production,US,US,10cc,2023,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+1135,Ingredient_R,Post-production,Global,Global,Global Post-production,2022,AML6,0.25,15000,3750,11250,4,2.5
+965,Ingredient_P,In Progress,US,US,Vial,2022,AML1,0.25,15000,3750,11250,4,2.5
+99,Ingredient_B,In Progress,US,US,Auto Injector,2023,AML1,0.25,15000,3750,11250,4,4.0
+1016,Ingredient_Q,Pre-production,US,US,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+1045,Ingredient_Q,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2022,ABR,0.65,15000,9750,5250,4,2.5
+910,Ingredient_O,In Progress,US,US,Lyo Vial Kit,2022,AML1,0.25,15000,3750,11250,4,2.5
+1070,Ingredient_Q,In Progress,US,US,Vial,2022,AML1,0.25,15000,3750,11250,4,2.5
+851,Ingredient_O,Pre-production,EU,EU,"Lyo Vial or Lyo Vial Kit, 250ug and 500ug",2023,ADL PM2,1.0,15000,15000,0,4,2.5
+798,Ingredient_N,In Progress,EU,EU,Syringe,2020,ABR,0.65,15000,9750,5250,4,2.5
+1075,Ingredient_R,Pre-production,EU,EU,Auto Injector,2022,AML14,0.8,15000,12000,3000,4,2.5
+531,Ingredient_K,Pre-production,US,US,30cc,2022,ADL,1.0,15000,15000,0,4,4.0
+265,Ingredient_F,Pre-production,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2023,AML14,0.8,15000,12000,3000,4,4.0
+48,Ingredient_B,Pre-production,JAPAC,JAPAC,Auto Injector,2021,AML14,0.8,15000,12000,3000,4,4.0
+635,Ingredient_L,In Progress,EU,EU,Vial,2020,ABR,0.65,15000,9750,5250,4,4.0
+504,Ingredient_K,Pre-production,ICON - TMEA,ICON - TMEA,50cc,2020,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+426,Ingredient_J,Pre-production,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2023,"Actavis, IT",0.98,15000,14700,300,4,4.0
+906,Ingredient_O,In Progress,JAPAC,JAPAC,Lyo Vial Kit,2023,ABR,0.65,15000,9750,5250,4,2.5
+84,Ingredient_B,In Progress,ICON - TMEA,ICON - TMEA,Auto Injector,2022,ABR,0.65,15000,9750,5250,4,4.0
+202,Ingredient_D,Post-production,Global,Global,Global Post-production,2020,"Lonza, UK",1.0,15000,15000,0,4,4.0
+231,Ingredient_E,Pre-production,US,US,Bottle,2019,AML23,0.25,15000,3750,11250,4,4.0
+539,Ingredient_K,Post-production,Global,Global,Global Post-production,2020,ASM2,0.4,15000,6000,9000,4,4.0
+215,Ingredient_D,In Progress,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2023,AML1,0.25,15000,3750,11250,4,4.0
+1192,Ingredient_R,In Progress,US,US,Syringe,2019,AML1,0.25,15000,3750,11250,4,2.5
+740,Ingredient_M,In Progress,US,US,Syringe,2022,AML1,0.25,15000,3750,11250,4,2.5
+517,Ingredient_K,Pre-production,JAPAC,JAPAC,30cc,2023,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+284,Ingredient_F,Pre-production,US,US,Reusable Auto Injector,2022,AML14,0.8,15000,12000,3000,4,4.0
+532,Ingredient_K,Pre-production,US,US,30cc,2023,ADL,1.0,15000,15000,0,4,4.0
+569,Ingredient_K,In Progress,ICON - LACAN,ICON - LACAN,50cc,2020,AML1,0.25,15000,3750,11250,4,4.0
+741,Ingredient_M,In Progress,US,US,Syringe,2023,AML1,0.25,15000,3750,11250,4,2.5
+23,Ingredient_B,Pre-production,EU,EU,Auto Injector,2023,AML14,0.8,15000,12000,3000,4,4.0
+150,Ingredient_C,In Progress,EU,EU,Syringe,2023,ABR,0.65,15000,9750,5250,4,4.0
+665,Ingredient_M,Pre-production,EU,EU,Syringe,2022,AML14,0.8,15000,12000,3000,4,2.5
+85,Ingredient_B,In Progress,ICON - TMEA,ICON - TMEA,Auto Injector,2023,ABR,0.65,15000,9750,5250,4,4.0
+904,Ingredient_O,In Progress,JAPAC,JAPAC,Lyo Vial Kit,2021,ABR,0.65,15000,9750,5250,4,2.5
+279,Ingredient_F,Pre-production,US,US,Lyo Vial Kit,2022,ADL PM2,1.0,15000,15000,0,4,4.0
+646,Ingredient_L,In Progress,ICON - TMEA,ICON - TMEA,Vial,2023,ABR,0.65,15000,9750,5250,4,4.0
+811,Ingredient_N,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2023,AML1,0.25,15000,3750,11250,4,2.5
+1254,Ingredient_S,In Progress,JAPAC,JAPAC,Blister,2021,"PCI, UK",0.3,15000,4500,10500,4,2.5
+310,Ingredient_F,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2023,AML1,0.25,15000,3750,11250,4,4.0
+644,Ingredient_L,In Progress,ICON - TMEA,ICON - TMEA,Vial,2021,ABR,0.65,15000,9750,5250,4,4.0
+148,Ingredient_C,In Progress,EU,EU,Syringe,2021,ABR,0.65,15000,9750,5250,4,4.0
+475,Ingredient_K,Pre-production,EU,EU,10cc,2021,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+691,Ingredient_M,Pre-production,US,US,OnPro,2023,AML14,0.8,15000,12000,3000,4,2.5
+317,Ingredient_F,In Progress,US,US,Lyo Vial Kit,2020,"PCI, US",0.3,15000,4500,10500,4,4.0
+66,Ingredient_B,In Progress,EU,EU,Auto Injector,2022,ABR,0.65,15000,9750,5250,4,4.0
+910,Ingredient_O,In Progress,US,US,Lyo Vial Kit,2022,AML1,0.25,15000,3750,11250,4,2.5
+64,Ingredient_B,In Progress,EU,EU,Auto Injector,2020,ABR,0.65,15000,9750,5250,4,4.0
+838,Ingredient_N,In Progress,US,US,Syringe,2020,AML1,0.25,15000,3750,11250,4,2.5
+288,Ingredient_F,Pre-production,US,US,Syringe,2021,AML14,0.8,15000,12000,3000,4,4.0
+604,Ingredient_K,In Progress,US,US,50cc,2020,AML1,0.25,15000,3750,11250,4,4.0
+234,Ingredient_E,Pre-production,US,US,Bottle,2022,AML23,0.25,15000,3750,11250,4,4.0
+85,Ingredient_B,In Progress,ICON - TMEA,ICON - TMEA,Auto Injector,2023,ABR,0.65,15000,9750,5250,4,4.0
+494,Ingredient_K,Pre-production,ICON - LACAN,ICON - LACAN,30cc,2020,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+1162,Ingredient_R,In Progress,ICON - TMEA,ICON - TMEA,Auto Injector,2019,ABR,0.65,15000,9750,5250,4,2.5
+461,Ingredient_J,In Progress,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2022,ABR,0.65,15000,9750,5250,4,4.0
+1122,Ingredient_R,Pre-production,US,US,Pushtronex,2019,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+1068,Ingredient_Q,In Progress,US,US,Vial,2020,AML1,0.25,15000,3750,11250,4,2.5
+532,Ingredient_K,Pre-production,US,US,30cc,2023,ADL,1.0,15000,15000,0,4,4.0
+424,Ingredient_J,Pre-production,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2021,"Actavis, IT",0.98,15000,14700,300,4,4.0
+604,Ingredient_K,In Progress,US,US,50cc,2020,AML1,0.25,15000,3750,11250,4,4.0
+1269,Ingredient_T,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2021,AML14,0.8,15000,12000,3000,4,2.5
+1196,Ingredient_R,In Progress,US,US,Syringe,2023,AML1,0.25,15000,3750,11250,4,2.5
+810,Ingredient_N,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2022,AML1,0.25,15000,3750,11250,4,2.5
+282,Ingredient_F,Pre-production,US,US,Reusable Auto Injector,2020,AML14,0.8,15000,12000,3000,4,4.0
+527,Ingredient_K,Pre-production,US,US,10cc,2023,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+220,Ingredient_D,In Progress,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2023,AML1,0.25,15000,3750,11250,4,4.0
+807,Ingredient_N,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2019,AML1,0.25,15000,3750,11250,4,2.5
+513,Ingredient_K,Pre-production,JAPAC,JAPAC,30cc,2019,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+502,Ingredient_K,Pre-production,ICON - LACAN,ICON - LACAN,50cc,2023,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+269,Ingredient_F,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2022,AML14,0.8,15000,12000,3000,4,4.0
+1211,Ingredient_S,Pre-production,ICON - LACAN,ICON - LACAN,Bottle,2023,"Patheon, CA",0.6,15000,9000,6000,4,2.5
+43,Ingredient_B,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2020,AML14,0.8,15000,12000,3000,4,4.0
+137,Ingredient_C,Post-production,Global,Global,Global Post-production,2020,AML6,0.25,15000,3750,11250,4,4.0
+761,Ingredient_N,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+573,Ingredient_K,In Progress,ICON - TMEA,ICON - TMEA,50cc,2019,Sharp,0.35,15000,5250,9750,4,4.0
+373,Ingredient_H,In Progress,EU,EU,Syringe,2022,ABR,0.65,15000,9750,5250,4,4.0
+922,Ingredient_P,Pre-production,ICON - TMEA,ICON - TMEA,Vial,2019,"Patheon, NC",0.6,15000,9000,6000,4,2.5
+1077,Ingredient_R,Pre-production,EU,EU,Pushtronex,2019,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+514,Ingredient_K,Pre-production,JAPAC,JAPAC,30cc,2020,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+970,Ingredient_Q,Pre-production,EU,EU,Syringe,2022,AML14,0.8,15000,12000,3000,4,2.5
+74,Ingredient_B,In Progress,ICON - LACAN,ICON - LACAN,Auto Injector,2020,AML1,0.25,15000,3750,11250,4,4.0
+982,Ingredient_Q,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2019,AML14,0.8,15000,12000,3000,4,2.5
+514,Ingredient_K,Pre-production,JAPAC,JAPAC,30cc,2020,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+357,Ingredient_H,Pre-production,JAPAC,JAPAC,Syringe,2019,"Patheon, IT",0.6,15000,9000,6000,4,4.0
+875,Ingredient_O,Pre-production,US,US,"Lyo Vial or Lyo Vial Kit, 250ug and 500ug",2022,ADL PM2,1.0,15000,15000,0,4,2.5
+316,Ingredient_F,In Progress,US,US,Lyo Vial Kit,2019,"PCI, US",0.3,15000,4500,10500,4,4.0
+1262,Ingredient_T,Pre-production,EU,EU,Vial,2019,AML14,0.8,15000,12000,3000,4,2.5
+7,Ingredient_A,Post-production,Global,Global,Global Post-production,2019,ATO23,1.0,15000,15000,0,4,4.0
+249,Ingredient_E,In Progress,US,US,Bottle,2022,AML23,0.25,15000,3750,11250,4,4.0
+159,Ingredient_C,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2022,ABR,0.65,15000,9750,5250,4,4.0
+2,Ingredient_A,Pre-production,US,US,Auto Injector,2019,AML14,0.8,15000,12000,3000,4,4.0
+1259,Ingredient_S,In Progress,US,US,Bottle,2021,AML23,0.25,15000,3750,11250,4,2.5
+89,Ingredient_B,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2022,ABR,0.65,15000,9750,5250,4,4.0
+1206,Ingredient_S,Pre-production,EU,EU,Capsule,2023,"Patheon, CA",0.6,15000,9000,6000,4,2.5
+602,Ingredient_K,In Progress,US,US,30cc,2023,AML1,0.25,15000,3750,11250,4,4.0
+7,Ingredient_A,Post-production,Global,Global,Global Post-production,2019,ATO23,1.0,15000,15000,0,4,4.0
+937,Ingredient_P,Post-production,Global,Global,Global Post-production,2019,"Bachem, CH",1.0,15000,15000,0,4,2.5
+589,Ingredient_K,In Progress,JAPAC,JAPAC,50cc,2020,AML1,0.25,15000,3750,11250,4,4.0
+936,Ingredient_P,Pre-production,US,US,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+1025,Ingredient_Q,In Progress,EU,EU,Syringe,2022,ABR,0.65,15000,9750,5250,4,2.5
+488,Ingredient_K,Pre-production,ICON - LACAN,ICON - LACAN,10cc,2019,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+377,Ingredient_H,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2023,AML1,0.25,15000,3750,11250,4,4.0
+666,Ingredient_M,Pre-production,EU,EU,Syringe,2023,AML14,0.8,15000,12000,3000,4,2.5
+928,Ingredient_P,Pre-production,JAPAC,JAPAC,Vial,2020,"Patheon, NC",0.6,15000,9000,6000,4,2.5
+517,Ingredient_K,Pre-production,JAPAC,JAPAC,30cc,2023,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+708,Ingredient_M,In Progress,EU,EU,Syringe,2020,ABR,0.65,15000,9750,5250,4,2.5
+748,Ingredient_N,Pre-production,EU,EU,Vial,2020,AML14,0.8,15000,12000,3000,4,2.5
+961,Ingredient_P,In Progress,JAPAC,JAPAC,Vial,2023,AML1,0.25,15000,3750,11250,4,2.5
+663,Ingredient_M,Pre-production,EU,EU,Syringe,2020,AML14,0.8,15000,12000,3000,4,2.5
+267,Ingredient_F,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2020,AML14,0.8,15000,12000,3000,4,4.0
+601,Ingredient_K,In Progress,US,US,30cc,2022,AML1,0.25,15000,3750,11250,4,4.0
+945,Ingredient_P,In Progress,EU,EU,Vial,2022,ABR,0.65,15000,9750,5250,4,2.5
+1197,Ingredient_S,Pre-production,EU,EU,Blister,2019,AML23,0.25,15000,3750,11250,4,2.5
+1270,Ingredient_T,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2022,AML14,0.8,15000,12000,3000,4,2.5
+946,Ingredient_P,In Progress,EU,EU,Vial,2023,ABR,0.65,15000,9750,5250,4,2.5
+298,Ingredient_F,In Progress,ICON - LACAN,ICON - LACAN,Auto Injector,2021,AML1,0.25,15000,3750,11250,4,4.0
+449,Ingredient_J,In Progress,EU,EU,Lyo Vial Kit,2019,ABR,0.65,15000,9750,5250,4,4.0
+806,Ingredient_N,In Progress,EU,EU,Vial,2023,ABR,0.65,15000,9750,5250,4,2.5
+933,Ingredient_P,Pre-production,US,US,Vial,2020,AML14,0.8,15000,12000,3000,4,2.5
+357,Ingredient_H,Pre-production,JAPAC,JAPAC,Syringe,2019,"Patheon, IT",0.6,15000,9000,6000,4,4.0
+65,Ingredient_B,In Progress,EU,EU,Auto Injector,2021,ABR,0.65,15000,9750,5250,4,4.0
+202,Ingredient_D,Post-production,Global,Global,Global Post-production,2020,"Lonza, UK",1.0,15000,15000,0,4,4.0
+901,Ingredient_O,In Progress,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2023,ABR,0.65,15000,9750,5250,4,2.5
+730,Ingredient_M,In Progress,JAPAC,JAPAC,Syringe,2022,AML1,0.25,15000,3750,11250,4,2.5
+431,Ingredient_J,Pre-production,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2023,ADL,1.0,15000,15000,0,4,4.0
+994,Ingredient_Q,Pre-production,ICON - TMEA,ICON - TMEA,Vial,2021,AML14,0.8,15000,12000,3000,4,2.5
+590,Ingredient_K,In Progress,JAPAC,JAPAC,50cc,2021,AML1,0.25,15000,3750,11250,4,4.0
+78,Ingredient_B,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2021,AML1,0.25,15000,3750,11250,4,4.0
+1151,Ingredient_R,In Progress,EU,EU,Syringe,2023,ABR,0.65,15000,9750,5250,4,2.5
+683,Ingredient_M,Pre-production,JAPAC,JAPAC,Syringe,2020,AML14,0.8,15000,12000,3000,4,2.5
+771,Ingredient_N,Pre-production,ICON - TMEA,ICON - TMEA,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+427,Ingredient_J,Pre-production,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2019,ADL,1.0,15000,15000,0,4,4.0
+686,Ingredient_M,Pre-production,JAPAC,JAPAC,Syringe,2023,AML14,0.8,15000,12000,3000,4,2.5
+125,Ingredient_C,Pre-production,JAPAC,JAPAC,Syringe,2023,AML14,0.8,15000,12000,3000,4,4.0
+1131,Ingredient_R,Pre-production,US,US,Syringe,2023,AML14,0.8,15000,12000,3000,4,2.5
+587,Ingredient_K,In Progress,JAPAC,JAPAC,30cc,2023,AML1,0.25,15000,3750,11250,4,4.0
+994,Ingredient_Q,Pre-production,ICON - TMEA,ICON - TMEA,Vial,2021,AML14,0.8,15000,12000,3000,4,2.5
+889,Ingredient_O,In Progress,EU,EU,Lyo Vial Kit,2021,ABR,0.65,15000,9750,5250,4,2.5
+1005,Ingredient_Q,Pre-production,JAPAC,JAPAC,Vial,2022,AML14,0.8,15000,12000,3000,4,2.5
+164,Ingredient_C,In Progress,JAPAC,JAPAC,Syringe,2022,AML1,0.25,15000,3750,11250,4,4.0
+123,Ingredient_C,Pre-production,JAPAC,JAPAC,Syringe,2021,AML14,0.8,15000,12000,3000,4,4.0
+1156,Ingredient_R,In Progress,ICON - LACAN,ICON - LACAN,Auto Injector,2023,AML1,0.25,15000,3750,11250,4,2.5
+60,Ingredient_B,Post-production,Global,Global,Global Post-production,2021,ARI5,1.0,15000,15000,0,4,4.0
+732,Ingredient_M,In Progress,US,US,OnPro,2019,AML1,0.25,15000,3750,11250,4,2.5
+1300,Ingredient_T,In Progress,ICON - LACAN,ICON - LACAN,Vial,2022,AML1,0.25,15000,3750,11250,4,2.5
+646,Ingredient_L,In Progress,ICON - TMEA,ICON - TMEA,Vial,2023,ABR,0.65,15000,9750,5250,4,4.0
+626,Ingredient_L,Pre-production,US,US,Vial,2020,AML14,0.8,15000,12000,3000,4,4.0
+28,Ingredient_B,Pre-production,EU,EU,Syringe,2023,AML14,0.8,15000,12000,3000,4,4.0
+806,Ingredient_N,In Progress,EU,EU,Vial,2023,ABR,0.65,15000,9750,5250,4,2.5
+953,Ingredient_P,In Progress,ICON - TMEA,ICON - TMEA,Vial,2020,ABR,0.65,15000,9750,5250,4,2.5
+371,Ingredient_H,Post-production,Global,Global,Global Post-production,2023,ARI5,1.0,15000,15000,0,4,4.0
+59,Ingredient_B,Post-production,Global,Global,Global Post-production,2020,ATO23,1.0,15000,15000,0,4,4.0
+224,Ingredient_D,In Progress,JAPAC,JAPAC,Lyo Vial Kit,2022,Bushu,0.35,15000,5250,9750,4,4.0
+305,Ingredient_F,In Progress,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2023,AML1,0.25,15000,3750,11250,4,4.0
+1314,Ingredient_T,In Progress,US,US,Vial,2021,AML1,0.25,15000,3750,11250,4,2.5
+1124,Ingredient_R,Pre-production,US,US,Pushtronex,2021,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+1063,Ingredient_Q,In Progress,US,US,Syringe,2020,AML1,0.25,15000,3750,11250,4,2.5
+399,Ingredient_I,Pre-production,US,US,Vial,2020,AWM,0.98,15000,14700,300,4,4.0
+136,Ingredient_C,Post-production,Global,Global,Global Post-production,2019,AML6,0.25,15000,3750,11250,4,4.0
+835,Ingredient_N,In Progress,JAPAC,JAPAC,Vial,2022,AML1,0.25,15000,3750,11250,4,2.5
+146,Ingredient_C,In Progress,EU,EU,Syringe,2019,ABR,0.65,15000,9750,5250,4,4.0
+757,Ingredient_N,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2019,AML14,0.8,15000,12000,3000,4,2.5
+726,Ingredient_M,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2023,ABR,0.65,15000,9750,5250,4,2.5
+1254,Ingredient_S,In Progress,JAPAC,JAPAC,Blister,2021,"PCI, UK",0.3,15000,4500,10500,4,2.5
+1272,Ingredient_T,Pre-production,ICON - TMEA,ICON - TMEA,Vial,2019,AML14,0.8,15000,12000,3000,4,2.5
+756,Ingredient_N,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2023,AML14,0.8,15000,12000,3000,4,2.5
+256,Ingredient_F,Pre-production,ICON - LACAN,ICON - LACAN,Auto Injector,2019,AML14,0.8,15000,12000,3000,4,4.0
+173,Ingredient_C,In Progress,US,US,Vial,2021,AML1,0.25,15000,3750,11250,4,4.0
+174,Ingredient_C,In Progress,US,US,Vial,2022,AML1,0.25,15000,3750,11250,4,4.0
+1052,Ingredient_Q,In Progress,JAPAC,JAPAC,Syringe,2019,AML1,0.25,15000,3750,11250,4,2.5
+1115,Ingredient_R,Pre-production,JAPAC,JAPAC,Pushtronex,2023,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+852,Ingredient_O,Pre-production,EU,EU,Lyo Vial or Lyo Vial Kit; 125ug SKU,2019,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+409,Ingredient_I,In Progress,EU,EU,Vial,2020,LDC,0.35,15000,5250,9750,4,4.0
+693,Ingredient_M,Pre-production,US,US,Syringe,2020,AML14,0.8,15000,12000,3000,4,2.5
+360,Ingredient_H,Pre-production,JAPAC,JAPAC,Syringe,2022,"Patheon, IT",0.6,15000,9000,6000,4,4.0
+1171,Ingredient_R,In Progress,JAPAC,JAPAC,Auto Injector,2019,Bushu,0.35,15000,5250,9750,4,2.5
+13,Ingredient_A,In Progress,JAPAC,JAPAC,Auto Injector,2023,AML1,0.25,15000,3750,11250,4,4.0
+764,Ingredient_N,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2021,AML14,0.8,15000,12000,3000,4,2.5
+155,Ingredient_C,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2023,AML1,0.25,15000,3750,11250,4,4.0
+196,Ingredient_D,Pre-production,US,US,Lyo Vial Kit,2019,ADL PM2,1.0,15000,15000,0,4,4.0
+192,Ingredient_D,Pre-production,JAPAC,JAPAC,Lyo Vial Kit,2020,ADL PM2,1.0,15000,15000,0,4,4.0
+1249,Ingredient_S,In Progress,ICON - TMEA,ICON - TMEA,Blister,2021,"PCI, UK",0.3,15000,4500,10500,4,2.5
+163,Ingredient_C,In Progress,JAPAC,JAPAC,Syringe,2021,AML1,0.25,15000,3750,11250,4,4.0
+791,Ingredient_N,Pre-production,US,US,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+1267,Ingredient_T,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2019,AML14,0.8,15000,12000,3000,4,2.5
+117,Ingredient_C,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2020,AML14,0.8,15000,12000,3000,4,4.0
+157,Ingredient_C,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2020,ABR,0.65,15000,9750,5250,4,4.0
+412,Ingredient_I,In Progress,EU,EU,Vial,2023,LDC,0.35,15000,5250,9750,4,4.0
+1189,Ingredient_R,In Progress,US,US,Pushtronex,2021,"PCI, US",0.3,15000,4500,10500,4,2.5
+1122,Ingredient_R,Pre-production,US,US,Pushtronex,2019,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+852,Ingredient_O,Pre-production,EU,EU,Lyo Vial or Lyo Vial Kit; 125ug SKU,2019,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+40,Ingredient_B,Pre-production,ICON - TMEA,ICON - TMEA,Auto Injector,2022,AML14,0.8,15000,12000,3000,4,4.0
+1000,Ingredient_Q,Pre-production,JAPAC,JAPAC,Syringe,2022,AML14,0.8,15000,12000,3000,4,2.5
+411,Ingredient_I,In Progress,EU,EU,Vial,2022,LDC,0.35,15000,5250,9750,4,4.0
+561,Ingredient_K,In Progress,ICON - LACAN,ICON - LACAN,10cc,2022,AML1,0.25,15000,3750,11250,4,4.0
+977,Ingredient_Q,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2019,AML14,0.8,15000,12000,3000,4,2.5
+1089,Ingredient_R,Pre-production,ICON - LACAN,ICON - LACAN,Auto Injector,2021,AML14,0.8,15000,12000,3000,4,2.5
+998,Ingredient_Q,Pre-production,JAPAC,JAPAC,Syringe,2020,AML14,0.8,15000,12000,3000,4,2.5
+993,Ingredient_Q,Pre-production,ICON - TMEA,ICON - TMEA,Vial,2020,AML14,0.8,15000,12000,3000,4,2.5
+303,Ingredient_F,In Progress,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2021,AML1,0.25,15000,3750,11250,4,4.0
+139,Ingredient_C,Post-production,Global,Global,Global Post-production,2022,AML6,0.25,15000,3750,11250,4,4.0
+541,Ingredient_K,Post-production,Global,Global,Global Post-production,2022,ASM2,0.4,15000,6000,9000,4,4.0
+1083,Ingredient_R,Pre-production,EU,EU,Syringe,2020,AML14,0.8,15000,12000,3000,4,2.5
+532,Ingredient_K,Pre-production,US,US,30cc,2023,ADL,1.0,15000,15000,0,4,4.0
+240,Ingredient_E,Pre-production,US,US,Solution/Ampule,2023,"Catalent, IL",0.98,15000,14700,300,4,4.0
+642,Ingredient_L,In Progress,ICON - LACAN,ICON - LACAN,Vial,2022,AML1,0.25,15000,3750,11250,4,4.0
+153,Ingredient_C,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2021,AML1,0.25,15000,3750,11250,4,4.0
+728,Ingredient_M,In Progress,JAPAC,JAPAC,Syringe,2020,AML1,0.25,15000,3750,11250,4,2.5
+833,Ingredient_N,In Progress,JAPAC,JAPAC,Vial,2020,AML1,0.25,15000,3750,11250,4,2.5
+1142,Ingredient_R,In Progress,EU,EU,Pushtronex,2019,"PCI, US",0.3,15000,4500,10500,4,2.5
+482,Ingredient_K,Pre-production,EU,EU,30cc,2023,ADL,1.0,15000,15000,0,4,4.0
+265,Ingredient_F,Pre-production,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2023,AML14,0.8,15000,12000,3000,4,4.0
+1063,Ingredient_Q,In Progress,US,US,Syringe,2020,AML1,0.25,15000,3750,11250,4,2.5
+477,Ingredient_K,Pre-production,EU,EU,10cc,2023,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+989,Ingredient_Q,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2021,AML14,0.8,15000,12000,3000,4,2.5
+648,Ingredient_L,In Progress,JAPAC,JAPAC,Vial,2020,AML1,0.25,15000,3750,11250,4,4.0
+760,Ingredient_N,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2022,AML14,0.8,15000,12000,3000,4,2.5
+1069,Ingredient_Q,In Progress,US,US,Vial,2021,AML1,0.25,15000,3750,11250,4,2.5
+585,Ingredient_K,In Progress,JAPAC,JAPAC,30cc,2021,AML1,0.25,15000,3750,11250,4,4.0
+47,Ingredient_B,Pre-production,JAPAC,JAPAC,Auto Injector,2020,AML14,0.8,15000,12000,3000,4,4.0
+207,Ingredient_D,In Progress,EU,EU,Lyo Vial Kit,2020,ABR,0.65,15000,9750,5250,4,4.0
+637,Ingredient_L,In Progress,EU,EU,Vial,2022,ABR,0.65,15000,9750,5250,4,4.0
+853,Ingredient_O,Pre-production,EU,EU,Lyo Vial or Lyo Vial Kit; 125ug SKU,2020,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+120,Ingredient_C,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2023,AML14,0.8,15000,12000,3000,4,4.0
+548,Ingredient_K,In Progress,EU,EU,30cc,2019,ABR,0.65,15000,9750,5250,4,4.0
+575,Ingredient_K,In Progress,ICON - TMEA,ICON - TMEA,50cc,2021,Sharp,0.35,15000,5250,9750,4,4.0
+867,Ingredient_O,Pre-production,JAPAC,JAPAC,Lyo Vial Kit,2019,ADL PM2,1.0,15000,15000,0,4,2.5
+588,Ingredient_K,In Progress,JAPAC,JAPAC,50cc,2019,AML1,0.25,15000,3750,11250,4,4.0
+1208,Ingredient_S,Pre-production,ICON - LACAN,ICON - LACAN,Bottle,2020,"Patheon, CA",0.6,15000,9000,6000,4,2.5
+940,Ingredient_P,Post-production,Global,Global,Global Post-production,2022,"Bachem, CH",1.0,15000,15000,0,4,2.5
+898,Ingredient_O,In Progress,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2020,ABR,0.65,15000,9750,5250,4,2.5
+406,Ingredient_I,Post-production,Global,Global,Global Post-production,2022,AWM,1.0,15000,15000,0,4,4.0
+724,Ingredient_M,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2021,ABR,0.65,15000,9750,5250,4,2.5
+101,Ingredient_C,Pre-production,EU,EU,Auto Injector,2019,AML14,0.8,15000,12000,3000,4,4.0
+498,Ingredient_K,Pre-production,ICON - LACAN,ICON - LACAN,50cc,2019,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+1253,Ingredient_S,In Progress,JAPAC,JAPAC,Blister,2020,"PCI, UK",0.3,15000,4500,10500,4,2.5
+592,Ingredient_K,In Progress,JAPAC,JAPAC,50cc,2023,AML1,0.25,15000,3750,11250,4,4.0
+197,Ingredient_D,Pre-production,US,US,Lyo Vial Kit,2020,ADL PM2,1.0,15000,15000,0,4,4.0
+365,Ingredient_H,Pre-production,US,US,Syringe,2022,"Patheon, IT",0.6,15000,9000,6000,4,4.0
+97,Ingredient_B,In Progress,JAPAC,JAPAC,Syringe,2022,AML1,0.25,15000,3750,11250,4,4.0
+176,Ingredient_D,Pre-production,EU,EU,Lyo Vial Kit,2019,ADL PM2,1.0,15000,15000,0,4,4.0
+846,Ingredient_N,In Progress,US,US,Vial,2023,AML1,0.25,15000,3750,11250,4,2.5
+161,Ingredient_C,In Progress,JAPAC,JAPAC,Syringe,2019,AML1,0.25,15000,3750,11250,4,4.0
+108,Ingredient_C,Pre-production,EU,EU,Syringe,2021,AML14,0.8,15000,12000,3000,4,4.0
+1015,Ingredient_Q,Pre-production,US,US,Vial,2022,AML14,0.8,15000,12000,3000,4,2.5
+1051,Ingredient_Q,In Progress,ICON - TMEA,ICON - TMEA,Vial,2023,ABR,0.65,15000,9750,5250,4,2.5
+341,Ingredient_G,In Progress,US,US,Vial,2019,AML1,0.25,15000,3750,11250,4,4.0
+1216,Ingredient_S,Pre-production,ICON - TMEA,ICON - TMEA,Blister,2023,AML23,0.25,15000,3750,11250,4,2.5
+531,Ingredient_K,Pre-production,US,US,30cc,2022,ADL,1.0,15000,15000,0,4,4.0
+927,Ingredient_P,Pre-production,JAPAC,JAPAC,Vial,2019,"Patheon, NC",0.6,15000,9000,6000,4,2.5
+970,Ingredient_Q,Pre-production,EU,EU,Syringe,2022,AML14,0.8,15000,12000,3000,4,2.5
+219,Ingredient_D,In Progress,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2022,AML1,0.25,15000,3750,11250,4,4.0
+387,Ingredient_H,In Progress,JAPAC,JAPAC,Syringe,2023,Bushu,0.35,15000,5250,9750,4,4.0
+1315,Ingredient_T,In Progress,US,US,Vial,2022,AML1,0.25,15000,3750,11250,4,2.5
+634,Ingredient_L,Post-production,Global,Global,Global Post-production,2023,ARI5,1.0,15000,15000,0,4,4.0
+1193,Ingredient_R,In Progress,US,US,Syringe,2020,AML1,0.25,15000,3750,11250,4,2.5
+221,Ingredient_D,In Progress,JAPAC,JAPAC,Lyo Vial Kit,2019,Bushu,0.35,15000,5250,9750,4,4.0
+646,Ingredient_L,In Progress,ICON - TMEA,ICON - TMEA,Vial,2023,ABR,0.65,15000,9750,5250,4,4.0
+372,Ingredient_H,In Progress,EU,EU,Syringe,2021,ABR,0.65,15000,9750,5250,4,4.0
+629,Ingredient_L,Pre-production,US,US,Vial,2023,AML14,0.8,15000,12000,3000,4,4.0
+1060,Ingredient_Q,In Progress,JAPAC,JAPAC,Vial,2022,AML1,0.25,15000,3750,11250,4,2.5
+1171,Ingredient_R,In Progress,JAPAC,JAPAC,Auto Injector,2019,Bushu,0.35,15000,5250,9750,4,2.5
+914,Ingredient_P,Pre-production,EU,EU,Vial,2021,AML14,0.8,15000,12000,3000,4,2.5
+1300,Ingredient_T,In Progress,ICON - LACAN,ICON - LACAN,Vial,2022,AML1,0.25,15000,3750,11250,4,2.5
+91,Ingredient_B,In Progress,JAPAC,JAPAC,Auto Injector,2020,AML1,0.25,15000,3750,11250,4,4.0
+756,Ingredient_N,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2023,AML14,0.8,15000,12000,3000,4,2.5
+740,Ingredient_M,In Progress,US,US,Syringe,2022,AML1,0.25,15000,3750,11250,4,2.5
+298,Ingredient_F,In Progress,ICON - LACAN,ICON - LACAN,Auto Injector,2021,AML1,0.25,15000,3750,11250,4,4.0
+88,Ingredient_B,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2021,ABR,0.65,15000,9750,5250,4,4.0
+796,Ingredient_N,Post-production,Global,Global,Global Post-production,2023,AML7,0.25,15000,3750,11250,4,2.5
+1262,Ingredient_T,Pre-production,EU,EU,Vial,2019,AML14,0.8,15000,12000,3000,4,2.5
+1124,Ingredient_R,Pre-production,US,US,Pushtronex,2021,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+1131,Ingredient_R,Pre-production,US,US,Syringe,2023,AML14,0.8,15000,12000,3000,4,2.5
+1203,Ingredient_S,Pre-production,EU,EU,Capsule,2020,"Patheon, CA",0.6,15000,9000,6000,4,2.5
+887,Ingredient_O,In Progress,EU,EU,Lyo Vial Kit,2019,ABR,0.65,15000,9750,5250,4,2.5
+562,Ingredient_K,In Progress,ICON - LACAN,ICON - LACAN,10cc,2023,AML1,0.25,15000,3750,11250,4,4.0
+238,Ingredient_E,Pre-production,US,US,Solution/Ampule,2021,"Catalent, IL",0.98,15000,14700,300,4,4.0
+1198,Ingredient_S,Pre-production,EU,EU,Blister,2020,AML23,0.25,15000,3750,11250,4,2.5
+1146,Ingredient_R,In Progress,EU,EU,Pushtronex,2023,"PCI, US",0.3,15000,4500,10500,4,2.5
+923,Ingredient_P,Pre-production,ICON - TMEA,ICON - TMEA,Vial,2020,"Patheon, NC",0.6,15000,9000,6000,4,2.5
+1184,Ingredient_R,In Progress,US,US,Auto Injector,2021,AML1,0.25,15000,3750,11250,4,2.5
+108,Ingredient_C,Pre-production,EU,EU,Syringe,2021,AML14,0.8,15000,12000,3000,4,4.0
+416,Ingredient_I,In Progress,US,US,Vial,2022,LDC,0.35,15000,5250,9750,4,4.0
+604,Ingredient_K,In Progress,US,US,50cc,2020,AML1,0.25,15000,3750,11250,4,4.0
+68,Ingredient_B,In Progress,EU,EU,Syringe,2019,ABR,0.65,15000,9750,5250,4,4.0
+866,Ingredient_O,Pre-production,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2023,ADL PM2,1.0,15000,15000,0,4,2.5
+309,Ingredient_F,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2022,AML1,0.25,15000,3750,11250,4,4.0
+175,Ingredient_C,In Progress,US,US,Vial,2023,AML1,0.25,15000,3750,11250,4,4.0
+267,Ingredient_F,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2020,AML14,0.8,15000,12000,3000,4,4.0
+679,Ingredient_M,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2021,AML14,0.8,15000,12000,3000,4,2.5
+584,Ingredient_K,In Progress,JAPAC,JAPAC,30cc,2020,AML1,0.25,15000,3750,11250,4,4.0
+274,Ingredient_F,Pre-production,US,US,Auto Injector,2022,AML14,0.8,15000,12000,3000,4,4.0
+796,Ingredient_N,Post-production,Global,Global,Global Post-production,2023,AML7,0.25,15000,3750,11250,4,2.5
+108,Ingredient_C,Pre-production,EU,EU,Syringe,2021,AML14,0.8,15000,12000,3000,4,4.0
+1276,Ingredient_T,Pre-production,ICON - TMEA,ICON - TMEA,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+608,Ingredient_L,Pre-production,EU,EU,Vial,2020,AML14,0.8,15000,12000,3000,4,4.0
+725,Ingredient_M,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2022,ABR,0.65,15000,9750,5250,4,2.5
+665,Ingredient_M,Pre-production,EU,EU,Syringe,2022,AML14,0.8,15000,12000,3000,4,2.5
+468,Ingredient_J,In Progress,US,US,Lyo Vial Kit,2019,AML1,0.25,15000,3750,11250,4,4.0
+418,Ingredient_J,Pre-production,EU,EU,Lyo Vial Kit,2019,ADL,1.0,15000,15000,0,4,4.0
+865,Ingredient_O,Pre-production,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2022,ADL PM2,1.0,15000,15000,0,4,2.5
+1072,Ingredient_R,Pre-production,EU,EU,Auto Injector,2019,AML14,0.8,15000,12000,3000,4,2.5
+874,Ingredient_O,Pre-production,US,US,"Lyo Vial or Lyo Vial Kit, 250ug and 500ug",2021,ADL PM2,1.0,15000,15000,0,4,2.5
+425,Ingredient_J,Pre-production,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2022,"Actavis, IT",0.98,15000,14700,300,4,4.0
+1189,Ingredient_R,In Progress,US,US,Pushtronex,2021,"PCI, US",0.3,15000,4500,10500,4,2.5
+1199,Ingredient_S,Pre-production,EU,EU,Blister,2021,AML23,0.25,15000,3750,11250,4,2.5
+1009,Ingredient_Q,Pre-production,US,US,Syringe,2021,AML14,0.8,15000,12000,3000,4,2.5
+976,Ingredient_Q,Pre-production,EU,EU,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+321,Ingredient_F,In Progress,US,US,Reusable Auto Injector,2019,AML1,0.25,15000,3750,11250,4,4.0
+1201,Ingredient_S,Pre-production,EU,EU,Blister,2023,AML23,0.25,15000,3750,11250,4,2.5
+1088,Ingredient_R,Pre-production,ICON - LACAN,ICON - LACAN,Auto Injector,2020,AML14,0.8,15000,12000,3000,4,2.5
+157,Ingredient_C,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2020,ABR,0.65,15000,9750,5250,4,4.0
+819,Ingredient_N,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2021,ABR,0.65,15000,9750,5250,4,2.5
+844,Ingredient_N,In Progress,US,US,Vial,2021,AML1,0.25,15000,3750,11250,4,2.5
+120,Ingredient_C,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2023,AML14,0.8,15000,12000,3000,4,4.0
+1110,Ingredient_R,Pre-production,JAPAC,JAPAC,Auto Injector,2023,AML14,0.8,15000,12000,3000,4,2.5
+69,Ingredient_B,In Progress,EU,EU,Syringe,2020,ABR,0.65,15000,9750,5250,4,4.0
+673,Ingredient_M,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2020,AML14,0.8,15000,12000,3000,4,2.5
+765,Ingredient_N,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2022,AML14,0.8,15000,12000,3000,4,2.5
+1218,Ingredient_S,Pre-production,JAPAC,JAPAC,Blister,2020,AML23,0.25,15000,3750,11250,4,2.5
+1079,Ingredient_R,Pre-production,EU,EU,Pushtronex,2021,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+849,Ingredient_O,Pre-production,EU,EU,"Lyo Vial or Lyo Vial Kit, 250ug and 500ug",2021,ADL PM2,1.0,15000,15000,0,4,2.5
+178,Ingredient_D,Pre-production,EU,EU,Lyo Vial Kit,2021,ADL PM2,1.0,15000,15000,0,4,4.0
+901,Ingredient_O,In Progress,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2023,ABR,0.65,15000,9750,5250,4,2.5
+247,Ingredient_E,In Progress,US,US,Bottle,2020,AML23,0.25,15000,3750,11250,4,4.0
+1111,Ingredient_R,Pre-production,JAPAC,JAPAC,Pushtronex,2019,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+681,Ingredient_M,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2023,AML14,0.8,15000,12000,3000,4,2.5
+758,Ingredient_N,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2020,AML14,0.8,15000,12000,3000,4,2.5
+229,Ingredient_D,In Progress,US,US,Lyo Vial Kit,2022,AML1,0.25,15000,3750,11250,4,4.0
+280,Ingredient_F,Pre-production,US,US,Lyo Vial Kit,2023,ADL PM2,1.0,15000,15000,0,4,4.0
+1107,Ingredient_R,Pre-production,JAPAC,JAPAC,Auto Injector,2020,AML14,0.8,15000,12000,3000,4,2.5
+0,Ingredient_A,Pre-production,JAPAC,JAPAC,Auto Injector,2022,AML14,0.8,15000,12000,3000,4,4.0
+107,Ingredient_C,Pre-production,EU,EU,Syringe,2020,AML14,0.8,15000,12000,3000,4,4.0
+97,Ingredient_B,In Progress,JAPAC,JAPAC,Syringe,2022,AML1,0.25,15000,3750,11250,4,4.0
+379,Ingredient_H,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2020,AML1,0.25,15000,3750,11250,4,4.0
+1128,Ingredient_R,Pre-production,US,US,Syringe,2020,AML14,0.8,15000,12000,3000,4,2.5
+124,Ingredient_C,Pre-production,JAPAC,JAPAC,Syringe,2022,AML14,0.8,15000,12000,3000,4,4.0
+1249,Ingredient_S,In Progress,ICON - TMEA,ICON - TMEA,Blister,2021,"PCI, UK",0.3,15000,4500,10500,4,2.5
+616,Ingredient_L,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2023,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+1079,Ingredient_R,Pre-production,EU,EU,Pushtronex,2021,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+1172,Ingredient_R,In Progress,JAPAC,JAPAC,Auto Injector,2020,Bushu,0.35,15000,5250,9750,4,2.5
+1205,Ingredient_S,Pre-production,EU,EU,Capsule,2022,"Patheon, CA",0.6,15000,9000,6000,4,2.5
+211,Ingredient_D,In Progress,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2019,AML1,0.25,15000,3750,11250,4,4.0
+89,Ingredient_B,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2022,ABR,0.65,15000,9750,5250,4,4.0
+792,Ingredient_N,Post-production,Global,Global,Global Post-production,2019,AML7,0.25,15000,3750,11250,4,2.5
+670,Ingredient_M,Pre-production,ICON - LACAN,ICON - LACAN,OnPro,2022,AML14,0.8,15000,12000,3000,4,2.5
+180,Ingredient_D,Pre-production,EU,EU,Lyo Vial Kit,2023,ADL PM2,1.0,15000,15000,0,4,4.0
+538,Ingredient_K,Post-production,Global,Global,Global Post-production,2019,Helsinn,1.0,15000,15000,0,4,4.0
+1135,Ingredient_R,Post-production,Global,Global,Global Post-production,2022,AML6,0.25,15000,3750,11250,4,2.5
+586,Ingredient_K,In Progress,JAPAC,JAPAC,30cc,2022,AML1,0.25,15000,3750,11250,4,4.0
+82,Ingredient_B,In Progress,ICON - TMEA,ICON - TMEA,Auto Injector,2020,ABR,0.65,15000,9750,5250,4,4.0
+857,Ingredient_O,Pre-production,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2019,ADL PM2,1.0,15000,15000,0,4,2.5
+173,Ingredient_C,In Progress,US,US,Vial,2021,AML1,0.25,15000,3750,11250,4,4.0
+25,Ingredient_B,Pre-production,EU,EU,Syringe,2020,AML14,0.8,15000,12000,3000,4,4.0
+1103,Ingredient_R,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2021,AML14,0.8,15000,12000,3000,4,2.5
+502,Ingredient_K,Pre-production,ICON - LACAN,ICON - LACAN,50cc,2023,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+54,Ingredient_B,Pre-production,JAPAC,JAPAC,Syringe,2023,AML14,0.8,15000,12000,3000,4,4.0
+1292,Ingredient_T,In Progress,EU,EU,Vial,2019,ABR,0.65,15000,9750,5250,4,2.5
+1268,Ingredient_T,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2020,AML14,0.8,15000,12000,3000,4,2.5
+70,Ingredient_B,In Progress,EU,EU,Syringe,2021,ABR,0.65,15000,9750,5250,4,4.0
+1174,Ingredient_R,In Progress,JAPAC,JAPAC,Auto Injector,2022,Bushu,0.35,15000,5250,9750,4,2.5
+179,Ingredient_D,Pre-production,EU,EU,Lyo Vial Kit,2022,ADL PM2,1.0,15000,15000,0,4,4.0
+244,Ingredient_E,Post-production,Global,Global,Global Post-production,2022,"FIS, IT",1.0,15000,15000,0,4,4.0
+424,Ingredient_J,Pre-production,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2021,"Actavis, IT",0.98,15000,14700,300,4,4.0
+510,Ingredient_K,Pre-production,JAPAC,JAPAC,10cc,2021,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+1251,Ingredient_S,In Progress,ICON - TMEA,ICON - TMEA,Blister,2023,"PCI, UK",0.3,15000,4500,10500,4,2.5
+526,Ingredient_K,Pre-production,US,US,10cc,2022,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+220,Ingredient_D,In Progress,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2023,AML1,0.25,15000,3750,11250,4,4.0
+39,Ingredient_B,Pre-production,ICON - TMEA,ICON - TMEA,Auto Injector,2021,AML14,0.8,15000,12000,3000,4,4.0
+131,Ingredient_C,Pre-production,US,US,Vial,2019,AML14,0.8,15000,12000,3000,4,4.0
+291,Ingredient_F,Post-production,Global,Global,Global Post-production,2019,ARI5,1.0,15000,15000,0,4,4.0
+577,Ingredient_K,In Progress,ICON - TMEA,ICON - TMEA,50cc,2023,Sharp,0.35,15000,5250,9750,4,4.0
+782,Ingredient_N,Pre-production,US,US,Syringe,2019,AML14,0.8,15000,12000,3000,4,2.5
+59,Ingredient_B,Post-production,Global,Global,Global Post-production,2020,ATO23,1.0,15000,15000,0,4,4.0
+1016,Ingredient_Q,Pre-production,US,US,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+697,Ingredient_M,Post-production,Global,Global,Global Post-production,2019,AML7,0.25,15000,3750,11250,4,2.5
+1233,Ingredient_S,In Progress,EU,EU,Blister,2020,"PCI, UK",0.3,15000,4500,10500,4,2.5
+364,Ingredient_H,Pre-production,US,US,Syringe,2021,"Patheon, IT",0.6,15000,9000,6000,4,4.0
+409,Ingredient_I,In Progress,EU,EU,Vial,2020,LDC,0.35,15000,5250,9750,4,4.0
+775,Ingredient_N,Pre-production,JAPAC,JAPAC,Syringe,2022,AML14,0.8,15000,12000,3000,4,2.5
+579,Ingredient_K,In Progress,JAPAC,JAPAC,10cc,2020,AML1,0.25,15000,3750,11250,4,4.0
+391,Ingredient_H,In Progress,US,US,Syringe,2022,AML1,0.25,15000,3750,11250,4,4.0
+1173,Ingredient_R,In Progress,JAPAC,JAPAC,Auto Injector,2021,Bushu,0.35,15000,5250,9750,4,2.5
+437,Ingredient_J,Pre-production,US,US,Lyo Vial Kit,2019,ADL,1.0,15000,15000,0,4,4.0
+290,Ingredient_F,Pre-production,US,US,Syringe,2023,AML14,0.8,15000,12000,3000,4,4.0
+1166,Ingredient_R,In Progress,ICON - TMEA,ICON - TMEA,Auto Injector,2023,ABR,0.65,15000,9750,5250,4,2.5
+1152,Ingredient_R,In Progress,ICON - LACAN,ICON - LACAN,Auto Injector,2019,AML1,0.25,15000,3750,11250,4,2.5
+557,Ingredient_K,In Progress,EU,EU,50cc,2023,ABR,0.65,15000,9750,5250,4,4.0
+784,Ingredient_N,Pre-production,US,US,Syringe,2021,AML14,0.8,15000,12000,3000,4,2.5
+652,Ingredient_L,In Progress,US,US,Vial,2019,AML1,0.25,15000,3750,11250,4,4.0
+217,Ingredient_D,In Progress,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2020,AML1,0.25,15000,3750,11250,4,4.0
+756,Ingredient_N,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2023,AML14,0.8,15000,12000,3000,4,2.5
+796,Ingredient_N,Post-production,Global,Global,Global Post-production,2023,AML7,0.25,15000,3750,11250,4,2.5
+1194,Ingredient_R,In Progress,US,US,Syringe,2021,AML1,0.25,15000,3750,11250,4,2.5
+1262,Ingredient_T,Pre-production,EU,EU,Vial,2019,AML14,0.8,15000,12000,3000,4,2.5
+1116,Ingredient_R,Pre-production,JAPAC,JAPAC,Syringe,2019,AML14,0.8,15000,12000,3000,4,2.5
+267,Ingredient_F,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2020,AML14,0.8,15000,12000,3000,4,4.0
+740,Ingredient_M,In Progress,US,US,Syringe,2022,AML1,0.25,15000,3750,11250,4,2.5
+1263,Ingredient_T,Pre-production,EU,EU,Vial,2020,AML14,0.8,15000,12000,3000,4,2.5
+969,Ingredient_Q,Pre-production,EU,EU,Syringe,2021,AML14,0.8,15000,12000,3000,4,2.5
+1297,Ingredient_T,In Progress,ICON - LACAN,ICON - LACAN,Vial,2019,AML1,0.25,15000,3750,11250,4,2.5
+931,Ingredient_P,Pre-production,JAPAC,JAPAC,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+439,Ingredient_J,Pre-production,US,US,Lyo Vial Kit,2021,ADL,1.0,15000,15000,0,4,4.0
+485,Ingredient_K,Pre-production,EU,EU,50cc,2021,ADL,1.0,15000,15000,0,4,4.0
+530,Ingredient_K,Pre-production,US,US,30cc,2021,ADL,1.0,15000,15000,0,4,4.0
+1064,Ingredient_Q,In Progress,US,US,Syringe,2021,AML1,0.25,15000,3750,11250,4,2.5
+647,Ingredient_L,In Progress,JAPAC,JAPAC,Vial,2019,AML1,0.25,15000,3750,11250,4,4.0
+78,Ingredient_B,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2021,AML1,0.25,15000,3750,11250,4,4.0
+1096,Ingredient_R,Pre-production,ICON - LACAN,ICON - LACAN,Pushtronex,2023,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+963,Ingredient_P,In Progress,US,US,Vial,2020,AML1,0.25,15000,3750,11250,4,2.5
+1046,Ingredient_Q,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2023,ABR,0.65,15000,9750,5250,4,2.5
+1216,Ingredient_S,Pre-production,ICON - TMEA,ICON - TMEA,Blister,2023,AML23,0.25,15000,3750,11250,4,2.5
+1308,Ingredient_T,In Progress,JAPAC,JAPAC,Vial,2020,AML1,0.25,15000,3750,11250,4,2.5
+499,Ingredient_K,Pre-production,ICON - LACAN,ICON - LACAN,50cc,2020,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+725,Ingredient_M,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2022,ABR,0.65,15000,9750,5250,4,2.5
+570,Ingredient_K,In Progress,ICON - LACAN,ICON - LACAN,50cc,2021,AML1,0.25,15000,3750,11250,4,4.0
+383,Ingredient_H,In Progress,JAPAC,JAPAC,Syringe,2019,Bushu,0.35,15000,5250,9750,4,4.0
+686,Ingredient_M,Pre-production,JAPAC,JAPAC,Syringe,2023,AML14,0.8,15000,12000,3000,4,2.5
+73,Ingredient_B,In Progress,ICON - LACAN,ICON - LACAN,Auto Injector,2019,AML1,0.25,15000,3750,11250,4,4.0
+401,Ingredient_I,Pre-production,US,US,Vial,2022,AWM,0.98,15000,14700,300,4,4.0
+1,Ingredient_A,Pre-production,JAPAC,JAPAC,Auto Injector,2023,AML14,0.8,15000,12000,3000,4,4.0
+452,Ingredient_J,In Progress,EU,EU,Lyo Vial Kit,2022,ABR,0.65,15000,9750,5250,4,4.0
+107,Ingredient_C,Pre-production,EU,EU,Syringe,2020,AML14,0.8,15000,12000,3000,4,4.0
+983,Ingredient_Q,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2020,AML14,0.8,15000,12000,3000,4,2.5
+1178,Ingredient_R,In Progress,JAPAC,JAPAC,Pushtronex,2021,"PCI, US",0.3,15000,4500,10500,4,2.5
+913,Ingredient_P,Pre-production,EU,EU,Vial,2020,AML14,0.8,15000,12000,3000,4,2.5
+48,Ingredient_B,Pre-production,JAPAC,JAPAC,Auto Injector,2021,AML14,0.8,15000,12000,3000,4,4.0
+1111,Ingredient_R,Pre-production,JAPAC,JAPAC,Pushtronex,2019,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+1239,Ingredient_S,In Progress,EU,EU,Capsule,2021,"Anderson Bercon, UK",0.35,15000,5250,9750,4,2.5
+584,Ingredient_K,In Progress,JAPAC,JAPAC,30cc,2020,AML1,0.25,15000,3750,11250,4,4.0
+361,Ingredient_H,Pre-production,JAPAC,JAPAC,Syringe,2023,AML14,0.8,15000,12000,3000,4,4.0
+1192,Ingredient_R,In Progress,US,US,Syringe,2019,AML1,0.25,15000,3750,11250,4,2.5
+874,Ingredient_O,Pre-production,US,US,"Lyo Vial or Lyo Vial Kit, 250ug and 500ug",2021,ADL PM2,1.0,15000,15000,0,4,2.5
+377,Ingredient_H,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2023,AML1,0.25,15000,3750,11250,4,4.0
+173,Ingredient_C,In Progress,US,US,Vial,2021,AML1,0.25,15000,3750,11250,4,4.0
+803,Ingredient_N,In Progress,EU,EU,Vial,2020,ABR,0.65,15000,9750,5250,4,2.5
+243,Ingredient_E,Post-production,Global,Global,Global Post-production,2021,"FIS, IT",1.0,15000,15000,0,4,4.0
+880,Ingredient_O,Pre-production,US,US,Lyo Vial or Lyo Vial Kit; 125ug SKU,2022,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+1025,Ingredient_Q,In Progress,EU,EU,Syringe,2022,ABR,0.65,15000,9750,5250,4,2.5
+322,Ingredient_F,In Progress,US,US,Reusable Auto Injector,2020,AML1,0.25,15000,3750,11250,4,4.0
+892,Ingredient_O,In Progress,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2019,AML1,0.25,15000,3750,11250,4,2.5
+1237,Ingredient_S,In Progress,EU,EU,Capsule,2019,"Anderson Bercon, UK",0.35,15000,5250,9750,4,2.5
+1052,Ingredient_Q,In Progress,JAPAC,JAPAC,Syringe,2019,AML1,0.25,15000,3750,11250,4,2.5
+495,Ingredient_K,Pre-production,ICON - LACAN,ICON - LACAN,30cc,2021,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+286,Ingredient_F,Pre-production,US,US,Syringe,2019,AML14,0.8,15000,12000,3000,4,4.0
+215,Ingredient_D,In Progress,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2023,AML1,0.25,15000,3750,11250,4,4.0
+890,Ingredient_O,In Progress,EU,EU,Lyo Vial Kit,2022,ABR,0.65,15000,9750,5250,4,2.5
+542,Ingredient_K,Post-production,Global,Global,Global Post-production,2023,ASM2,0.4,15000,6000,9000,4,4.0
+937,Ingredient_P,Post-production,Global,Global,Global Post-production,2019,"Bachem, CH",1.0,15000,15000,0,4,2.5
+860,Ingredient_O,Pre-production,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2022,ADL PM2,1.0,15000,15000,0,4,2.5
+498,Ingredient_K,Pre-production,ICON - LACAN,ICON - LACAN,50cc,2019,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+32,Ingredient_B,Pre-production,ICON - LACAN,ICON - LACAN,Auto Injector,2022,AML14,0.8,15000,12000,3000,4,4.0
+866,Ingredient_O,Pre-production,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2023,ADL PM2,1.0,15000,15000,0,4,2.5
+1180,Ingredient_R,In Progress,JAPAC,JAPAC,Pushtronex,2023,"PCI, US",0.3,15000,4500,10500,4,2.5
+1015,Ingredient_Q,Pre-production,US,US,Vial,2022,AML14,0.8,15000,12000,3000,4,2.5
+1304,Ingredient_T,In Progress,ICON - TMEA,ICON - TMEA,Vial,2021,ABR,0.65,15000,9750,5250,4,2.5
+964,Ingredient_P,In Progress,US,US,Vial,2021,AML1,0.25,15000,3750,11250,4,2.5
+521,Ingredient_K,Pre-production,JAPAC,JAPAC,50cc,2022,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+778,Ingredient_N,Pre-production,JAPAC,JAPAC,Vial,2020,AML14,0.8,15000,12000,3000,4,2.5
+182,Ingredient_D,Pre-production,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2020,ADL PM2,1.0,15000,15000,0,4,4.0
+312,Ingredient_F,In Progress,US,US,Auto Injector,2020,AML1,0.25,15000,3750,11250,4,4.0
+455,Ingredient_J,In Progress,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2021,AML1,0.25,15000,3750,11250,4,4.0
+281,Ingredient_F,Pre-production,US,US,Reusable Auto Injector,2019,AML14,0.8,15000,12000,3000,4,4.0
+880,Ingredient_O,Pre-production,US,US,Lyo Vial or Lyo Vial Kit; 125ug SKU,2022,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+1217,Ingredient_S,Pre-production,JAPAC,JAPAC,Blister,2019,AML23,0.25,15000,3750,11250,4,2.5
+973,Ingredient_Q,Pre-production,EU,EU,Vial,2020,AML14,0.8,15000,12000,3000,4,2.5
+758,Ingredient_N,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2020,AML14,0.8,15000,12000,3000,4,2.5
+336,Ingredient_G,Post-production,Global,Global,Global Post-production,2019,ATO7,0.1,15000,1500,13500,4,4.0
+393,Ingredient_I,Pre-production,EU,EU,Vial,2019,AWM,0.98,15000,14700,300,4,4.0
+1213,Ingredient_S,Pre-production,ICON - TMEA,ICON - TMEA,Blister,2020,AML23,0.25,15000,3750,11250,4,2.5
+854,Ingredient_O,Pre-production,EU,EU,Lyo Vial or Lyo Vial Kit; 125ug SKU,2021,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+1270,Ingredient_T,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2022,AML14,0.8,15000,12000,3000,4,2.5
+1293,Ingredient_T,In Progress,EU,EU,Vial,2020,ABR,0.65,15000,9750,5250,4,2.5
+516,Ingredient_K,Pre-production,JAPAC,JAPAC,30cc,2022,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+380,Ingredient_H,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2021,AML1,0.25,15000,3750,11250,4,4.0
+35,Ingredient_B,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2022,AML14,0.8,15000,12000,3000,4,4.0
+1264,Ingredient_T,Pre-production,EU,EU,Vial,2021,AML14,0.8,15000,12000,3000,4,2.5
+476,Ingredient_K,Pre-production,EU,EU,10cc,2022,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+543,Ingredient_K,In Progress,EU,EU,10cc,2019,ABR,0.65,15000,9750,5250,4,4.0
+729,Ingredient_M,In Progress,JAPAC,JAPAC,Syringe,2021,AML1,0.25,15000,3750,11250,4,2.5
+771,Ingredient_N,Pre-production,ICON - TMEA,ICON - TMEA,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+15,Ingredient_A,In Progress,US,US,Auto Injector,2020,AML1,0.25,15000,3750,11250,4,4.0
+918,Ingredient_P,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2020,"Patheon, NC",0.6,15000,9000,6000,4,2.5
+717,Ingredient_M,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2019,AML1,0.25,15000,3750,11250,4,2.5
+991,Ingredient_Q,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2023,AML14,0.8,15000,12000,3000,4,2.5
+523,Ingredient_K,Pre-production,US,US,10cc,2019,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+418,Ingredient_J,Pre-production,EU,EU,Lyo Vial Kit,2019,ADL,1.0,15000,15000,0,4,4.0
+513,Ingredient_K,Pre-production,JAPAC,JAPAC,30cc,2019,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+1075,Ingredient_R,Pre-production,EU,EU,Auto Injector,2022,AML14,0.8,15000,12000,3000,4,2.5
+856,Ingredient_O,Pre-production,EU,EU,Lyo Vial or Lyo Vial Kit; 125ug SKU,2023,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+317,Ingredient_F,In Progress,US,US,Lyo Vial Kit,2020,"PCI, US",0.3,15000,4500,10500,4,4.0
+368,Ingredient_H,Post-production,Global,Global,Global Post-production,2020,ARI5,1.0,15000,15000,0,4,4.0
+479,Ingredient_K,Pre-production,EU,EU,30cc,2020,ADL,1.0,15000,15000,0,4,4.0
+1259,Ingredient_S,In Progress,US,US,Bottle,2021,AML23,0.25,15000,3750,11250,4,2.5
+612,Ingredient_L,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2019,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+137,Ingredient_C,Post-production,Global,Global,Global Post-production,2020,AML6,0.25,15000,3750,11250,4,4.0
+955,Ingredient_P,In Progress,ICON - TMEA,ICON - TMEA,Vial,2022,ABR,0.65,15000,9750,5250,4,2.5
+495,Ingredient_K,Pre-production,ICON - LACAN,ICON - LACAN,30cc,2021,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+966,Ingredient_P,In Progress,US,US,Vial,2023,AML1,0.25,15000,3750,11250,4,2.5
+725,Ingredient_M,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2022,ABR,0.65,15000,9750,5250,4,2.5
+1133,Ingredient_R,Post-production,Global,Global,Global Post-production,2020,ARI5,1.0,15000,15000,0,4,2.5
+728,Ingredient_M,In Progress,JAPAC,JAPAC,Syringe,2020,AML1,0.25,15000,3750,11250,4,2.5
+642,Ingredient_L,In Progress,ICON - LACAN,ICON - LACAN,Vial,2022,AML1,0.25,15000,3750,11250,4,4.0
+351,Ingredient_H,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2023,AML14,0.8,15000,12000,3000,4,4.0
+445,Ingredient_J,Post-production,Global,Global,Global Post-production,2020,"Patheon, NL",0.6,15000,9000,6000,4,4.0
+635,Ingredient_L,In Progress,EU,EU,Vial,2020,ABR,0.65,15000,9750,5250,4,4.0
+211,Ingredient_D,In Progress,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2019,AML1,0.25,15000,3750,11250,4,4.0
+424,Ingredient_J,Pre-production,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2021,"Actavis, IT",0.98,15000,14700,300,4,4.0
+1092,Ingredient_R,Pre-production,ICON - LACAN,ICON - LACAN,Pushtronex,2019,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+1305,Ingredient_T,In Progress,ICON - TMEA,ICON - TMEA,Vial,2022,ABR,0.65,15000,9750,5250,4,2.5
+1177,Ingredient_R,In Progress,JAPAC,JAPAC,Pushtronex,2020,"PCI, US",0.3,15000,4500,10500,4,2.5
+290,Ingredient_F,Pre-production,US,US,Syringe,2023,AML14,0.8,15000,12000,3000,4,4.0
+1066,Ingredient_Q,In Progress,US,US,Syringe,2023,AML1,0.25,15000,3750,11250,4,2.5
+778,Ingredient_N,Pre-production,JAPAC,JAPAC,Vial,2020,AML14,0.8,15000,12000,3000,4,2.5
+66,Ingredient_B,In Progress,EU,EU,Auto Injector,2022,ABR,0.65,15000,9750,5250,4,4.0
+361,Ingredient_H,Pre-production,JAPAC,JAPAC,Syringe,2023,AML14,0.8,15000,12000,3000,4,4.0
+773,Ingredient_N,Pre-production,JAPAC,JAPAC,Syringe,2020,AML14,0.8,15000,12000,3000,4,2.5
+87,Ingredient_B,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2020,ABR,0.65,15000,9750,5250,4,4.0
+187,Ingredient_D,Pre-production,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2020,ADL PM2,1.0,15000,15000,0,4,4.0
+964,Ingredient_P,In Progress,US,US,Vial,2021,AML1,0.25,15000,3750,11250,4,2.5
+578,Ingredient_K,In Progress,JAPAC,JAPAC,10cc,2019,AML1,0.25,15000,3750,11250,4,4.0
+528,Ingredient_K,Pre-production,US,US,30cc,2019,ADL,1.0,15000,15000,0,4,4.0
+444,Ingredient_J,Post-production,Global,Global,Global Post-production,2020,ARI5,1.0,15000,15000,0,4,4.0
+916,Ingredient_P,Pre-production,EU,EU,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+1310,Ingredient_T,In Progress,JAPAC,JAPAC,Vial,2022,AML1,0.25,15000,3750,11250,4,2.5
+455,Ingredient_J,In Progress,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2021,AML1,0.25,15000,3750,11250,4,4.0
+1141,Ingredient_R,In Progress,EU,EU,Auto Injector,2023,ABR,0.65,15000,9750,5250,4,2.5
+781,Ingredient_N,Pre-production,JAPAC,JAPAC,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+984,Ingredient_Q,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2021,AML14,0.8,15000,12000,3000,4,2.5
+942,Ingredient_P,In Progress,EU,EU,Vial,2019,ABR,0.65,15000,9750,5250,4,2.5
+548,Ingredient_K,In Progress,EU,EU,30cc,2019,ABR,0.65,15000,9750,5250,4,4.0
+528,Ingredient_K,Pre-production,US,US,30cc,2019,ADL,1.0,15000,15000,0,4,4.0
+7,Ingredient_A,Post-production,Global,Global,Global Post-production,2019,ATO23,1.0,15000,15000,0,4,4.0
+997,Ingredient_Q,Pre-production,JAPAC,JAPAC,Syringe,2019,AML14,0.8,15000,12000,3000,4,2.5
+230,Ingredient_D,In Progress,US,US,Lyo Vial Kit,2023,AML1,0.25,15000,3750,11250,4,4.0
+108,Ingredient_C,Pre-production,EU,EU,Syringe,2021,AML14,0.8,15000,12000,3000,4,4.0
+489,Ingredient_K,Pre-production,ICON - LACAN,ICON - LACAN,10cc,2020,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+154,Ingredient_C,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2022,AML1,0.25,15000,3750,11250,4,4.0
+380,Ingredient_H,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2021,AML1,0.25,15000,3750,11250,4,4.0
+212,Ingredient_D,In Progress,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2020,AML1,0.25,15000,3750,11250,4,4.0
+1296,Ingredient_T,In Progress,EU,EU,Vial,2023,ABR,0.65,15000,9750,5250,4,2.5
+1279,Ingredient_T,Pre-production,JAPAC,JAPAC,Vial,2021,AML14,0.8,15000,12000,3000,4,2.5
+484,Ingredient_K,Pre-production,EU,EU,50cc,2020,ADL,1.0,15000,15000,0,4,4.0
+215,Ingredient_D,In Progress,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2023,AML1,0.25,15000,3750,11250,4,4.0
+575,Ingredient_K,In Progress,ICON - TMEA,ICON - TMEA,50cc,2021,Sharp,0.35,15000,5250,9750,4,4.0
+575,Ingredient_K,In Progress,ICON - TMEA,ICON - TMEA,50cc,2021,Sharp,0.35,15000,5250,9750,4,4.0
+925,Ingredient_P,Pre-production,ICON - TMEA,ICON - TMEA,Vial,2022,AML14,0.8,15000,12000,3000,4,2.5
+955,Ingredient_P,In Progress,ICON - TMEA,ICON - TMEA,Vial,2022,ABR,0.65,15000,9750,5250,4,2.5
+1040,Ingredient_Q,In Progress,ICON - LACAN,ICON - LACAN,Vial,2022,AML1,0.25,15000,3750,11250,4,2.5
+747,Ingredient_N,Pre-production,EU,EU,Vial,2019,AML14,0.8,15000,12000,3000,4,2.5
+823,Ingredient_N,In Progress,ICON - TMEA,ICON - TMEA,Vial,2020,ABR,0.65,15000,9750,5250,4,2.5
+501,Ingredient_K,Pre-production,ICON - LACAN,ICON - LACAN,50cc,2022,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+78,Ingredient_B,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2021,AML1,0.25,15000,3750,11250,4,4.0
+1193,Ingredient_R,In Progress,US,US,Syringe,2020,AML1,0.25,15000,3750,11250,4,2.5
+115,Ingredient_C,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2023,AML14,0.8,15000,12000,3000,4,4.0
+993,Ingredient_Q,Pre-production,ICON - TMEA,ICON - TMEA,Vial,2020,AML14,0.8,15000,12000,3000,4,2.5
+197,Ingredient_D,Pre-production,US,US,Lyo Vial Kit,2020,ADL PM2,1.0,15000,15000,0,4,4.0
+1019,Ingredient_Q,Post-production,Global,Global,Global Post-production,2021,ASM1,0.4,15000,6000,9000,4,2.5
+977,Ingredient_Q,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2019,AML14,0.8,15000,12000,3000,4,2.5
+387,Ingredient_H,In Progress,JAPAC,JAPAC,Syringe,2023,Bushu,0.35,15000,5250,9750,4,4.0
+1315,Ingredient_T,In Progress,US,US,Vial,2022,AML1,0.25,15000,3750,11250,4,2.5
+750,Ingredient_N,Pre-production,EU,EU,Vial,2022,AML14,0.8,15000,12000,3000,4,2.5
+1294,Ingredient_T,In Progress,EU,EU,Vial,2021,ABR,0.65,15000,9750,5250,4,2.5
+1135,Ingredient_R,Post-production,Global,Global,Global Post-production,2022,AML6,0.25,15000,3750,11250,4,2.5
+636,Ingredient_L,In Progress,EU,EU,Vial,2021,ABR,0.65,15000,9750,5250,4,4.0
+286,Ingredient_F,Pre-production,US,US,Syringe,2019,AML14,0.8,15000,12000,3000,4,4.0
+411,Ingredient_I,In Progress,EU,EU,Vial,2022,LDC,0.35,15000,5250,9750,4,4.0
+96,Ingredient_B,In Progress,JAPAC,JAPAC,Syringe,2021,AML1,0.25,15000,3750,11250,4,4.0
+726,Ingredient_M,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2023,ABR,0.65,15000,9750,5250,4,2.5
+378,Ingredient_H,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2019,AML1,0.25,15000,3750,11250,4,4.0
+363,Ingredient_H,Pre-production,US,US,Syringe,2020,"Patheon, IT",0.6,15000,9000,6000,4,4.0
+612,Ingredient_L,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2019,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+707,Ingredient_M,In Progress,EU,EU,Syringe,2019,ABR,0.65,15000,9750,5250,4,2.5
+758,Ingredient_N,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2020,AML14,0.8,15000,12000,3000,4,2.5
+894,Ingredient_O,In Progress,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2021,AML1,0.25,15000,3750,11250,4,2.5
+562,Ingredient_K,In Progress,ICON - LACAN,ICON - LACAN,10cc,2023,AML1,0.25,15000,3750,11250,4,4.0
+772,Ingredient_N,Pre-production,JAPAC,JAPAC,Syringe,2019,AML14,0.8,15000,12000,3000,4,2.5
+1242,Ingredient_S,In Progress,ICON - LACAN,ICON - LACAN,Bottle,2019,"Patheon, CA",0.6,15000,9000,6000,4,2.5
+206,Ingredient_D,In Progress,EU,EU,Lyo Vial Kit,2019,ABR,0.65,15000,9750,5250,4,4.0
+642,Ingredient_L,In Progress,ICON - LACAN,ICON - LACAN,Vial,2022,AML1,0.25,15000,3750,11250,4,4.0
+685,Ingredient_M,Pre-production,JAPAC,JAPAC,Syringe,2022,AML14,0.8,15000,12000,3000,4,2.5
+182,Ingredient_D,Pre-production,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2020,ADL PM2,1.0,15000,15000,0,4,4.0
+91,Ingredient_B,In Progress,JAPAC,JAPAC,Auto Injector,2020,AML1,0.25,15000,3750,11250,4,4.0
+741,Ingredient_M,In Progress,US,US,Syringe,2023,AML1,0.25,15000,3750,11250,4,2.5
+1045,Ingredient_Q,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2022,ABR,0.65,15000,9750,5250,4,2.5
+353,Ingredient_H,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2020,"Patheon, IT",0.6,15000,9000,6000,4,4.0
+589,Ingredient_K,In Progress,JAPAC,JAPAC,50cc,2020,AML1,0.25,15000,3750,11250,4,4.0
+1219,Ingredient_S,Pre-production,JAPAC,JAPAC,Blister,2021,AML23,0.25,15000,3750,11250,4,2.5
+276,Ingredient_F,Pre-production,US,US,Lyo Vial Kit,2019,ADL PM2,1.0,15000,15000,0,4,4.0
+58,Ingredient_B,Post-production,Global,Global,Global Post-production,2020,ARI5,1.0,15000,15000,0,4,4.0
+159,Ingredient_C,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2022,ABR,0.65,15000,9750,5250,4,4.0
+231,Ingredient_E,Pre-production,US,US,Bottle,2019,AML23,0.25,15000,3750,11250,4,4.0
+311,Ingredient_F,In Progress,US,US,Auto Injector,2019,AML1,0.25,15000,3750,11250,4,4.0
+349,Ingredient_H,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2021,"Patheon, IT",0.6,15000,9000,6000,4,4.0
+1139,Ingredient_R,In Progress,EU,EU,Auto Injector,2021,ABR,0.65,15000,9750,5250,4,2.5
+189,Ingredient_D,Pre-production,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2022,ADL PM2,1.0,15000,15000,0,4,4.0
+591,Ingredient_K,In Progress,JAPAC,JAPAC,50cc,2022,AML1,0.25,15000,3750,11250,4,4.0
+338,Ingredient_G,Post-production,Global,Global,Global Post-production,2021,ATO7,0.1,15000,1500,13500,4,4.0
+196,Ingredient_D,Pre-production,US,US,Lyo Vial Kit,2019,ADL PM2,1.0,15000,15000,0,4,4.0
+724,Ingredient_M,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2021,ABR,0.65,15000,9750,5250,4,2.5
+601,Ingredient_K,In Progress,US,US,30cc,2022,AML1,0.25,15000,3750,11250,4,4.0
+864,Ingredient_O,Pre-production,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2021,ADL PM2,1.0,15000,15000,0,4,2.5
+717,Ingredient_M,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2019,AML1,0.25,15000,3750,11250,4,2.5
+460,Ingredient_J,In Progress,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2021,ABR,0.65,15000,9750,5250,4,4.0
+422,Ingredient_J,Pre-production,EU,EU,Lyo Vial Kit,2023,ADL,1.0,15000,15000,0,4,4.0
+810,Ingredient_N,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2022,AML1,0.25,15000,3750,11250,4,2.5
+622,Ingredient_L,Pre-production,JAPAC,JAPAC,Vial,2021,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+107,Ingredient_C,Pre-production,EU,EU,Syringe,2020,AML14,0.8,15000,12000,3000,4,4.0
+11,Ingredient_A,Post-production,Global,Global,Global Post-production,2023,ASM1,0.4,15000,6000,9000,4,4.0
+385,Ingredient_H,In Progress,JAPAC,JAPAC,Syringe,2021,Bushu,0.35,15000,5250,9750,4,4.0
+335,Ingredient_G,Pre-production,US,US,Vial,2023,AML14,0.8,15000,12000,3000,4,4.0
+1234,Ingredient_S,In Progress,EU,EU,Blister,2021,"PCI, UK",0.3,15000,4500,10500,4,2.5
+688,Ingredient_M,Pre-production,US,US,OnPro,2020,AML14,0.8,15000,12000,3000,4,2.5
+1210,Ingredient_S,Pre-production,ICON - LACAN,ICON - LACAN,Bottle,2022,"Patheon, CA",0.6,15000,9000,6000,4,2.5
+1222,Ingredient_S,Pre-production,US,US,Bottle,2019,AML23,0.25,15000,3750,11250,4,2.5
+65,Ingredient_B,In Progress,EU,EU,Auto Injector,2021,ABR,0.65,15000,9750,5250,4,4.0
+658,Ingredient_M,Pre-production,EU,EU,OnPro,2020,AML14,0.8,15000,12000,3000,4,2.5
+236,Ingredient_E,Pre-production,US,US,Solution/Ampule,2019,"Catalent, IL",0.98,15000,14700,300,4,4.0
+719,Ingredient_M,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2021,AML1,0.25,15000,3750,11250,4,2.5
+814,Ingredient_N,In Progress,ICON - LACAN,ICON - LACAN,Vial,2021,AML1,0.25,15000,3750,11250,4,2.5
+567,Ingredient_K,In Progress,ICON - LACAN,ICON - LACAN,30cc,2023,AML1,0.25,15000,3750,11250,4,4.0
+324,Ingredient_F,In Progress,US,US,Reusable Auto Injector,2022,AML1,0.25,15000,3750,11250,4,4.0
+584,Ingredient_K,In Progress,JAPAC,JAPAC,30cc,2020,AML1,0.25,15000,3750,11250,4,4.0
+1196,Ingredient_R,In Progress,US,US,Syringe,2023,AML1,0.25,15000,3750,11250,4,2.5
+1063,Ingredient_Q,In Progress,US,US,Syringe,2020,AML1,0.25,15000,3750,11250,4,2.5
+1298,Ingredient_T,In Progress,ICON - LACAN,ICON - LACAN,Vial,2020,AML1,0.25,15000,3750,11250,4,2.5
+1026,Ingredient_Q,In Progress,EU,EU,Syringe,2023,ABR,0.65,15000,9750,5250,4,2.5
+804,Ingredient_N,In Progress,EU,EU,Vial,2021,ABR,0.65,15000,9750,5250,4,2.5
+474,Ingredient_K,Pre-production,EU,EU,10cc,2020,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+5,Ingredient_A,Pre-production,US,US,Auto Injector,2022,AML14,0.8,15000,12000,3000,4,4.0
+448,Ingredient_J,Post-production,Global,Global,Global Post-production,2023,ARI5,1.0,15000,15000,0,4,4.0
+918,Ingredient_P,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2020,"Patheon, NC",0.6,15000,9000,6000,4,2.5
+127,Ingredient_C,Pre-production,US,US,Syringe,2020,AML14,0.8,15000,12000,3000,4,4.0
+555,Ingredient_K,In Progress,EU,EU,50cc,2021,ABR,0.65,15000,9750,5250,4,4.0
+177,Ingredient_D,Pre-production,EU,EU,Lyo Vial Kit,2020,ADL PM2,1.0,15000,15000,0,4,4.0
+528,Ingredient_K,Pre-production,US,US,30cc,2019,ADL,1.0,15000,15000,0,4,4.0
+929,Ingredient_P,Pre-production,JAPAC,JAPAC,Vial,2021,"Patheon, NC",0.6,15000,9000,6000,4,2.5
+530,Ingredient_K,Pre-production,US,US,30cc,2021,ADL,1.0,15000,15000,0,4,4.0
+926,Ingredient_P,Pre-production,ICON - TMEA,ICON - TMEA,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+1315,Ingredient_T,In Progress,US,US,Vial,2022,AML1,0.25,15000,3750,11250,4,2.5
+107,Ingredient_C,Pre-production,EU,EU,Syringe,2020,AML14,0.8,15000,12000,3000,4,4.0
+355,Ingredient_H,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2022,"Patheon, IT",0.6,15000,9000,6000,4,4.0
+512,Ingredient_K,Pre-production,JAPAC,JAPAC,10cc,2023,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+490,Ingredient_K,Pre-production,ICON - LACAN,ICON - LACAN,10cc,2021,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+1072,Ingredient_R,Pre-production,EU,EU,Auto Injector,2019,AML14,0.8,15000,12000,3000,4,2.5
+1074,Ingredient_R,Pre-production,EU,EU,Auto Injector,2021,AML14,0.8,15000,12000,3000,4,2.5
+549,Ingredient_K,In Progress,EU,EU,30cc,2020,ABR,0.65,15000,9750,5250,4,4.0
+1217,Ingredient_S,Pre-production,JAPAC,JAPAC,Blister,2019,AML23,0.25,15000,3750,11250,4,2.5
+142,Ingredient_C,In Progress,EU,EU,Auto Injector,2020,ABR,0.65,15000,9750,5250,4,4.0
+653,Ingredient_L,In Progress,US,US,Vial,2020,AML1,0.25,15000,3750,11250,4,4.0
+128,Ingredient_C,Pre-production,US,US,Syringe,2021,AML14,0.8,15000,12000,3000,4,4.0
+316,Ingredient_F,In Progress,US,US,Lyo Vial Kit,2019,"PCI, US",0.3,15000,4500,10500,4,4.0
+875,Ingredient_O,Pre-production,US,US,"Lyo Vial or Lyo Vial Kit, 250ug and 500ug",2022,ADL PM2,1.0,15000,15000,0,4,2.5
+712,Ingredient_M,In Progress,ICON - LACAN,ICON - LACAN,OnPro,2019,AML1,0.25,15000,3750,11250,4,2.5
+410,Ingredient_I,In Progress,EU,EU,Vial,2021,LDC,0.35,15000,5250,9750,4,4.0
+662,Ingredient_M,Pre-production,EU,EU,Syringe,2019,AML14,0.8,15000,12000,3000,4,2.5
+1137,Ingredient_R,In Progress,EU,EU,Auto Injector,2019,ABR,0.65,15000,9750,5250,4,2.5
+461,Ingredient_J,In Progress,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2022,ABR,0.65,15000,9750,5250,4,4.0
+565,Ingredient_K,In Progress,ICON - LACAN,ICON - LACAN,30cc,2021,AML1,0.25,15000,3750,11250,4,4.0
+1013,Ingredient_Q,Pre-production,US,US,Vial,2020,AML14,0.8,15000,12000,3000,4,2.5
+1240,Ingredient_S,In Progress,EU,EU,Capsule,2022,"Anderson Bercon, UK",0.35,15000,5250,9750,4,2.5
+1117,Ingredient_R,Pre-production,US,US,Auto Injector,2019,AML14,0.8,15000,12000,3000,4,2.5
+900,Ingredient_O,In Progress,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2022,ABR,0.65,15000,9750,5250,4,2.5
+1144,Ingredient_R,In Progress,EU,EU,Pushtronex,2021,"PCI, US",0.3,15000,4500,10500,4,2.5
+830,Ingredient_N,In Progress,JAPAC,JAPAC,Syringe,2022,AML1,0.25,15000,3750,11250,4,2.5
+790,Ingredient_N,Pre-production,US,US,Vial,2022,AML14,0.8,15000,12000,3000,4,2.5
+536,Ingredient_K,Pre-production,US,US,50cc,2022,ADL,1.0,15000,15000,0,4,4.0
+595,Ingredient_K,In Progress,US,US,10cc,2021,AML1,0.25,15000,3750,11250,4,4.0
+2,Ingredient_A,Pre-production,US,US,Auto Injector,2019,AML14,0.8,15000,12000,3000,4,4.0
+544,Ingredient_K,In Progress,EU,EU,10cc,2020,ABR,0.65,15000,9750,5250,4,4.0
+369,Ingredient_H,Post-production,Global,Global,Global Post-production,2021,ARI5,1.0,15000,15000,0,4,4.0
+89,Ingredient_B,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2022,ABR,0.65,15000,9750,5250,4,4.0
+459,Ingredient_J,In Progress,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2020,ABR,0.65,15000,9750,5250,4,4.0
+1310,Ingredient_T,In Progress,JAPAC,JAPAC,Vial,2022,AML1,0.25,15000,3750,11250,4,2.5
+500,Ingredient_K,Pre-production,ICON - LACAN,ICON - LACAN,50cc,2021,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+1025,Ingredient_Q,In Progress,EU,EU,Syringe,2022,ABR,0.65,15000,9750,5250,4,2.5
+1221,Ingredient_S,Pre-production,JAPAC,JAPAC,Blister,2023,AML23,0.25,15000,3750,11250,4,2.5
+1187,Ingredient_R,In Progress,US,US,Pushtronex,2019,"PCI, US",0.3,15000,4500,10500,4,2.5
+1271,Ingredient_T,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+1047,Ingredient_Q,In Progress,ICON - TMEA,ICON - TMEA,Vial,2019,ABR,0.65,15000,9750,5250,4,2.5
+836,Ingredient_N,In Progress,JAPAC,JAPAC,Vial,2023,AML1,0.25,15000,3750,11250,4,2.5
+483,Ingredient_K,Pre-production,EU,EU,50cc,2019,ADL,1.0,15000,15000,0,4,4.0
+719,Ingredient_M,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2021,AML1,0.25,15000,3750,11250,4,2.5
+452,Ingredient_J,In Progress,EU,EU,Lyo Vial Kit,2022,ABR,0.65,15000,9750,5250,4,4.0
+1100,Ingredient_R,Pre-production,ICON - TMEA,ICON - TMEA,Auto Injector,2022,AML14,0.8,15000,12000,3000,4,2.5
+1275,Ingredient_T,Pre-production,ICON - TMEA,ICON - TMEA,Vial,2022,AML14,0.8,15000,12000,3000,4,2.5
+973,Ingredient_Q,Pre-production,EU,EU,Vial,2020,AML14,0.8,15000,12000,3000,4,2.5
+102,Ingredient_C,Pre-production,EU,EU,Auto Injector,2020,AML14,0.8,15000,12000,3000,4,4.0
+1297,Ingredient_T,In Progress,ICON - LACAN,ICON - LACAN,Vial,2019,AML1,0.25,15000,3750,11250,4,2.5
+392,Ingredient_H,In Progress,US,US,Syringe,2023,AML1,0.25,15000,3750,11250,4,4.0
+627,Ingredient_L,Pre-production,US,US,Vial,2021,AML14,0.8,15000,12000,3000,4,4.0
+118,Ingredient_C,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2021,AML14,0.8,15000,12000,3000,4,4.0
+817,Ingredient_N,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2019,ABR,0.65,15000,9750,5250,4,2.5
+438,Ingredient_J,Pre-production,US,US,Lyo Vial Kit,2020,ADL,1.0,15000,15000,0,4,4.0
+1241,Ingredient_S,In Progress,EU,EU,Capsule,2023,"Anderson Bercon, UK",0.35,15000,5250,9750,4,2.5
+1287,Ingredient_T,Post-production,Global,Global,Global Post-production,2019,ARI5,1.0,15000,15000,0,4,2.5
+1151,Ingredient_R,In Progress,EU,EU,Syringe,2023,ABR,0.65,15000,9750,5250,4,2.5
+549,Ingredient_K,In Progress,EU,EU,30cc,2020,ABR,0.65,15000,9750,5250,4,4.0
+606,Ingredient_K,In Progress,US,US,50cc,2022,AML1,0.25,15000,3750,11250,4,4.0
+74,Ingredient_B,In Progress,ICON - LACAN,ICON - LACAN,Auto Injector,2020,AML1,0.25,15000,3750,11250,4,4.0
+373,Ingredient_H,In Progress,EU,EU,Syringe,2022,ABR,0.65,15000,9750,5250,4,4.0
+815,Ingredient_N,In Progress,ICON - LACAN,ICON - LACAN,Vial,2022,AML1,0.25,15000,3750,11250,4,2.5
+449,Ingredient_J,In Progress,EU,EU,Lyo Vial Kit,2019,ABR,0.65,15000,9750,5250,4,4.0
+1196,Ingredient_R,In Progress,US,US,Syringe,2023,AML1,0.25,15000,3750,11250,4,2.5
+969,Ingredient_Q,Pre-production,EU,EU,Syringe,2021,AML14,0.8,15000,12000,3000,4,2.5
+1078,Ingredient_R,Pre-production,EU,EU,Pushtronex,2020,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+608,Ingredient_L,Pre-production,EU,EU,Vial,2020,AML14,0.8,15000,12000,3000,4,4.0
+514,Ingredient_K,Pre-production,JAPAC,JAPAC,30cc,2020,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+822,Ingredient_N,In Progress,ICON - TMEA,ICON - TMEA,Vial,2019,ABR,0.65,15000,9750,5250,4,2.5
+77,Ingredient_B,In Progress,ICON - LACAN,ICON - LACAN,Auto Injector,2023,AML1,0.25,15000,3750,11250,4,4.0
+223,Ingredient_D,In Progress,JAPAC,JAPAC,Lyo Vial Kit,2021,Bushu,0.35,15000,5250,9750,4,4.0
+798,Ingredient_N,In Progress,EU,EU,Syringe,2020,ABR,0.65,15000,9750,5250,4,2.5
+1097,Ingredient_R,Pre-production,ICON - TMEA,ICON - TMEA,Auto Injector,2019,AML14,0.8,15000,12000,3000,4,2.5
+862,Ingredient_O,Pre-production,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2019,ADL PM2,1.0,15000,15000,0,4,2.5
+346,Ingredient_H,Pre-production,EU,EU,Syringe,2021,"Patheon, IT",0.6,15000,9000,6000,4,4.0
+1135,Ingredient_R,Post-production,Global,Global,Global Post-production,2022,AML6,0.25,15000,3750,11250,4,2.5
+4,Ingredient_A,Pre-production,US,US,Auto Injector,2021,AML14,0.8,15000,12000,3000,4,4.0
+437,Ingredient_J,Pre-production,US,US,Lyo Vial Kit,2019,ADL,1.0,15000,15000,0,4,4.0
+602,Ingredient_K,In Progress,US,US,30cc,2023,AML1,0.25,15000,3750,11250,4,4.0
+449,Ingredient_J,In Progress,EU,EU,Lyo Vial Kit,2019,ABR,0.65,15000,9750,5250,4,4.0
+605,Ingredient_K,In Progress,US,US,50cc,2021,AML1,0.25,15000,3750,11250,4,4.0
+948,Ingredient_P,In Progress,ICON - LACAN,ICON - LACAN,Vial,2020,AML1,0.25,15000,3750,11250,4,2.5
+738,Ingredient_M,In Progress,US,US,Syringe,2020,AML1,0.25,15000,3750,11250,4,2.5
+679,Ingredient_M,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2021,AML14,0.8,15000,12000,3000,4,2.5
+869,Ingredient_O,Pre-production,JAPAC,JAPAC,Lyo Vial Kit,2021,ADL PM2,1.0,15000,15000,0,4,2.5
+1251,Ingredient_S,In Progress,ICON - TMEA,ICON - TMEA,Blister,2023,"PCI, UK",0.3,15000,4500,10500,4,2.5
+778,Ingredient_N,Pre-production,JAPAC,JAPAC,Vial,2020,AML14,0.8,15000,12000,3000,4,2.5
+711,Ingredient_M,In Progress,EU,EU,Syringe,2023,ABR,0.65,15000,9750,5250,4,2.5
+357,Ingredient_H,Pre-production,JAPAC,JAPAC,Syringe,2019,"Patheon, IT",0.6,15000,9000,6000,4,4.0
+959,Ingredient_P,In Progress,JAPAC,JAPAC,Vial,2021,AML1,0.25,15000,3750,11250,4,2.5
+823,Ingredient_N,In Progress,ICON - TMEA,ICON - TMEA,Vial,2020,ABR,0.65,15000,9750,5250,4,2.5
+1181,Ingredient_R,In Progress,JAPAC,JAPAC,Syringe,2019,AML1,0.25,15000,3750,11250,4,2.5
+1157,Ingredient_R,In Progress,ICON - LACAN,ICON - LACAN,Pushtronex,2019,"PCI, US",0.3,15000,4500,10500,4,2.5
+463,Ingredient_J,In Progress,JAPAC,JAPAC,Lyo Vial Kit,2019,AML1,0.25,15000,3750,11250,4,4.0
+1052,Ingredient_Q,In Progress,JAPAC,JAPAC,Syringe,2019,AML1,0.25,15000,3750,11250,4,2.5
+1186,Ingredient_R,In Progress,US,US,Auto Injector,2023,AML1,0.25,15000,3750,11250,4,2.5
+1024,Ingredient_Q,In Progress,EU,EU,Syringe,2021,ABR,0.65,15000,9750,5250,4,2.5
+771,Ingredient_N,Pre-production,ICON - TMEA,ICON - TMEA,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+780,Ingredient_N,Pre-production,JAPAC,JAPAC,Vial,2022,AML14,0.8,15000,12000,3000,4,2.5
+615,Ingredient_L,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2022,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+87,Ingredient_B,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2020,ABR,0.65,15000,9750,5250,4,4.0
+55,Ingredient_B,Pre-production,US,US,Auto Injector,2023,AML14,0.8,15000,12000,3000,4,4.0
+88,Ingredient_B,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2021,ABR,0.65,15000,9750,5250,4,4.0
+998,Ingredient_Q,Pre-production,JAPAC,JAPAC,Syringe,2020,AML14,0.8,15000,12000,3000,4,2.5
+532,Ingredient_K,Pre-production,US,US,30cc,2023,ADL,1.0,15000,15000,0,4,4.0
+747,Ingredient_N,Pre-production,EU,EU,Vial,2019,AML14,0.8,15000,12000,3000,4,2.5
+629,Ingredient_L,Pre-production,US,US,Vial,2023,AML14,0.8,15000,12000,3000,4,4.0
+349,Ingredient_H,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2021,"Patheon, IT",0.6,15000,9000,6000,4,4.0
+139,Ingredient_C,Post-production,Global,Global,Global Post-production,2022,AML6,0.25,15000,3750,11250,4,4.0
+30,Ingredient_B,Pre-production,ICON - LACAN,ICON - LACAN,Auto Injector,2020,AML14,0.8,15000,12000,3000,4,4.0
+964,Ingredient_P,In Progress,US,US,Vial,2021,AML1,0.25,15000,3750,11250,4,2.5
+687,Ingredient_M,Pre-production,US,US,OnPro,2019,AML14,0.8,15000,12000,3000,4,2.5
+1030,Ingredient_Q,In Progress,EU,EU,Vial,2022,ABR,0.65,15000,9750,5250,4,2.5
+960,Ingredient_P,In Progress,JAPAC,JAPAC,Vial,2022,AML1,0.25,15000,3750,11250,4,2.5
+685,Ingredient_M,Pre-production,JAPAC,JAPAC,Syringe,2022,AML14,0.8,15000,12000,3000,4,2.5
+820,Ingredient_N,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2022,ABR,0.65,15000,9750,5250,4,2.5
+1264,Ingredient_T,Pre-production,EU,EU,Vial,2021,AML14,0.8,15000,12000,3000,4,2.5
+136,Ingredient_C,Post-production,Global,Global,Global Post-production,2019,AML6,0.25,15000,3750,11250,4,4.0
+909,Ingredient_O,In Progress,US,US,Lyo Vial Kit,2021,AML1,0.25,15000,3750,11250,4,2.5
+1289,Ingredient_T,Post-production,Global,Global,Global Post-production,2021,ARI5,1.0,15000,15000,0,4,2.5
+958,Ingredient_P,In Progress,JAPAC,JAPAC,Vial,2020,AML1,0.25,15000,3750,11250,4,2.5
+239,Ingredient_E,Pre-production,US,US,Solution/Ampule,2022,"Catalent, IL",0.98,15000,14700,300,4,4.0
+775,Ingredient_N,Pre-production,JAPAC,JAPAC,Syringe,2022,AML14,0.8,15000,12000,3000,4,2.5
+91,Ingredient_B,In Progress,JAPAC,JAPAC,Auto Injector,2020,AML1,0.25,15000,3750,11250,4,4.0
+382,Ingredient_H,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2023,AML1,0.25,15000,3750,11250,4,4.0
+731,Ingredient_M,In Progress,JAPAC,JAPAC,Syringe,2023,AML1,0.25,15000,3750,11250,4,2.5
+1265,Ingredient_T,Pre-production,EU,EU,Vial,2022,AML14,0.8,15000,12000,3000,4,2.5
+58,Ingredient_B,Post-production,Global,Global,Global Post-production,2020,ARI5,1.0,15000,15000,0,4,4.0
+44,Ingredient_B,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2021,AML14,0.8,15000,12000,3000,4,4.0
+932,Ingredient_P,Pre-production,US,US,Vial,2019,AML14,0.8,15000,12000,3000,4,2.5
+24,Ingredient_B,Pre-production,EU,EU,Syringe,2019,AML14,0.8,15000,12000,3000,4,4.0
+1056,Ingredient_Q,In Progress,JAPAC,JAPAC,Syringe,2023,AML1,0.25,15000,3750,11250,4,2.5
+1280,Ingredient_T,Pre-production,JAPAC,JAPAC,Vial,2022,AML14,0.8,15000,12000,3000,4,2.5
+73,Ingredient_B,In Progress,ICON - LACAN,ICON - LACAN,Auto Injector,2019,AML1,0.25,15000,3750,11250,4,4.0
+1214,Ingredient_S,Pre-production,ICON - TMEA,ICON - TMEA,Blister,2021,AML23,0.25,15000,3750,11250,4,2.5
+1301,Ingredient_T,In Progress,ICON - LACAN,ICON - LACAN,Vial,2023,AML1,0.25,15000,3750,11250,4,2.5
+9,Ingredient_A,Post-production,Global,Global,Global Post-production,2021,ASM1,0.4,15000,6000,9000,4,4.0
+534,Ingredient_K,Pre-production,US,US,50cc,2020,ADL,1.0,15000,15000,0,4,4.0
+363,Ingredient_H,Pre-production,US,US,Syringe,2020,"Patheon, IT",0.6,15000,9000,6000,4,4.0
+1220,Ingredient_S,Pre-production,JAPAC,JAPAC,Blister,2022,AML23,0.25,15000,3750,11250,4,2.5
+413,Ingredient_I,In Progress,US,US,Vial,2019,LDC,0.35,15000,5250,9750,4,4.0
+1240,Ingredient_S,In Progress,EU,EU,Capsule,2022,"Anderson Bercon, UK",0.35,15000,5250,9750,4,2.5
+15,Ingredient_A,In Progress,US,US,Auto Injector,2020,AML1,0.25,15000,3750,11250,4,4.0
+834,Ingredient_N,In Progress,JAPAC,JAPAC,Vial,2021,AML1,0.25,15000,3750,11250,4,2.5
+1206,Ingredient_S,Pre-production,EU,EU,Capsule,2023,"Patheon, CA",0.6,15000,9000,6000,4,2.5
+212,Ingredient_D,In Progress,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2020,AML1,0.25,15000,3750,11250,4,4.0
+1090,Ingredient_R,Pre-production,ICON - LACAN,ICON - LACAN,Auto Injector,2022,AML14,0.8,15000,12000,3000,4,2.5
+40,Ingredient_B,Pre-production,ICON - TMEA,ICON - TMEA,Auto Injector,2022,AML14,0.8,15000,12000,3000,4,4.0
+1316,Ingredient_T,In Progress,US,US,Vial,2023,AML1,0.25,15000,3750,11250,4,2.5
+547,Ingredient_K,In Progress,EU,EU,10cc,2023,ABR,0.65,15000,9750,5250,4,4.0
+290,Ingredient_F,Pre-production,US,US,Syringe,2023,AML14,0.8,15000,12000,3000,4,4.0
+692,Ingredient_M,Pre-production,US,US,Syringe,2019,AML14,0.8,15000,12000,3000,4,2.5
+1010,Ingredient_Q,Pre-production,US,US,Syringe,2022,AML14,0.8,15000,12000,3000,4,2.5
+1251,Ingredient_S,In Progress,ICON - TMEA,ICON - TMEA,Blister,2023,"PCI, UK",0.3,15000,4500,10500,4,2.5
+900,Ingredient_O,In Progress,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2022,ABR,0.65,15000,9750,5250,4,2.5
+1171,Ingredient_R,In Progress,JAPAC,JAPAC,Auto Injector,2019,Bushu,0.35,15000,5250,9750,4,2.5
+1071,Ingredient_Q,In Progress,US,US,Vial,2023,AML1,0.25,15000,3750,11250,4,2.5
+431,Ingredient_J,Pre-production,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2023,ADL,1.0,15000,15000,0,4,4.0
+502,Ingredient_K,Pre-production,ICON - LACAN,ICON - LACAN,50cc,2023,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+885,Ingredient_O,Post-production,Global,Global,Global Post-production,2022,AML7,0.25,15000,3750,11250,4,2.5
+1054,Ingredient_Q,In Progress,JAPAC,JAPAC,Syringe,2021,AML1,0.25,15000,3750,11250,4,2.5
+774,Ingredient_N,Pre-production,JAPAC,JAPAC,Syringe,2021,AML14,0.8,15000,12000,3000,4,2.5
+1022,Ingredient_Q,In Progress,EU,EU,Syringe,2019,ABR,0.65,15000,9750,5250,4,2.5
+188,Ingredient_D,Pre-production,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2021,ADL PM2,1.0,15000,15000,0,4,4.0
+16,Ingredient_A,In Progress,US,US,Auto Injector,2021,AML1,0.25,15000,3750,11250,4,4.0
+139,Ingredient_C,Post-production,Global,Global,Global Post-production,2022,AML6,0.25,15000,3750,11250,4,4.0
+315,Ingredient_F,In Progress,US,US,Auto Injector,2023,AML1,0.25,15000,3750,11250,4,4.0
+823,Ingredient_N,In Progress,ICON - TMEA,ICON - TMEA,Vial,2020,ABR,0.65,15000,9750,5250,4,2.5
+224,Ingredient_D,In Progress,JAPAC,JAPAC,Lyo Vial Kit,2022,Bushu,0.35,15000,5250,9750,4,4.0
+210,Ingredient_D,In Progress,EU,EU,Lyo Vial Kit,2023,ABR,0.65,15000,9750,5250,4,4.0
+244,Ingredient_E,Post-production,Global,Global,Global Post-production,2022,"FIS, IT",1.0,15000,15000,0,4,4.0
+1060,Ingredient_Q,In Progress,JAPAC,JAPAC,Vial,2022,AML1,0.25,15000,3750,11250,4,2.5
+927,Ingredient_P,Pre-production,JAPAC,JAPAC,Vial,2019,"Patheon, NC",0.6,15000,9000,6000,4,2.5
+400,Ingredient_I,Pre-production,US,US,Vial,2021,AWM,0.98,15000,14700,300,4,4.0
+277,Ingredient_F,Pre-production,US,US,Lyo Vial Kit,2020,ADL PM2,1.0,15000,15000,0,4,4.0
+561,Ingredient_K,In Progress,ICON - LACAN,ICON - LACAN,10cc,2022,AML1,0.25,15000,3750,11250,4,4.0
+1234,Ingredient_S,In Progress,EU,EU,Blister,2021,"PCI, UK",0.3,15000,4500,10500,4,2.5
+970,Ingredient_Q,Pre-production,EU,EU,Syringe,2022,AML14,0.8,15000,12000,3000,4,2.5
+648,Ingredient_L,In Progress,JAPAC,JAPAC,Vial,2020,AML1,0.25,15000,3750,11250,4,4.0
+746,Ingredient_N,Pre-production,EU,EU,Syringe,2023,AML14,0.8,15000,12000,3000,4,2.5
+1269,Ingredient_T,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2021,AML14,0.8,15000,12000,3000,4,2.5
+301,Ingredient_F,In Progress,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2019,"PCI, US",0.3,15000,4500,10500,4,4.0
+610,Ingredient_L,Pre-production,EU,EU,Vial,2022,AML14,0.8,15000,12000,3000,4,4.0
+950,Ingredient_P,In Progress,ICON - LACAN,ICON - LACAN,Vial,2022,AML1,0.25,15000,3750,11250,4,2.5
+707,Ingredient_M,In Progress,EU,EU,Syringe,2019,ABR,0.65,15000,9750,5250,4,2.5
+222,Ingredient_D,In Progress,JAPAC,JAPAC,Lyo Vial Kit,2020,Bushu,0.35,15000,5250,9750,4,4.0
+561,Ingredient_K,In Progress,ICON - LACAN,ICON - LACAN,10cc,2022,AML1,0.25,15000,3750,11250,4,4.0
+694,Ingredient_M,Pre-production,US,US,Syringe,2021,AML14,0.8,15000,12000,3000,4,2.5
+1000,Ingredient_Q,Pre-production,JAPAC,JAPAC,Syringe,2022,AML14,0.8,15000,12000,3000,4,2.5
+326,Ingredient_F,In Progress,US,US,Syringe,2019,AML1,0.25,15000,3750,11250,4,4.0
+775,Ingredient_N,Pre-production,JAPAC,JAPAC,Syringe,2022,AML14,0.8,15000,12000,3000,4,2.5
+1205,Ingredient_S,Pre-production,EU,EU,Capsule,2022,"Patheon, CA",0.6,15000,9000,6000,4,2.5
+484,Ingredient_K,Pre-production,EU,EU,50cc,2020,ADL,1.0,15000,15000,0,4,4.0
+389,Ingredient_H,In Progress,US,US,Syringe,2020,AML1,0.25,15000,3750,11250,4,4.0
+680,Ingredient_M,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2022,AML14,0.8,15000,12000,3000,4,2.5
+1190,Ingredient_R,In Progress,US,US,Pushtronex,2022,"PCI, US",0.3,15000,4500,10500,4,2.5
+456,Ingredient_J,In Progress,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2022,AML1,0.25,15000,3750,11250,4,4.0
+296,Ingredient_F,In Progress,ICON - LACAN,ICON - LACAN,Auto Injector,2019,AML1,0.25,15000,3750,11250,4,4.0
+1007,Ingredient_Q,Pre-production,US,US,Syringe,2019,AML14,0.8,15000,12000,3000,4,2.5
+780,Ingredient_N,Pre-production,JAPAC,JAPAC,Vial,2022,AML14,0.8,15000,12000,3000,4,2.5
+171,Ingredient_C,In Progress,US,US,Vial,2019,AML1,0.25,15000,3750,11250,4,4.0
+986,Ingredient_Q,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+233,Ingredient_E,Pre-production,US,US,Bottle,2021,AML23,0.25,15000,3750,11250,4,4.0
+555,Ingredient_K,In Progress,EU,EU,50cc,2021,ABR,0.65,15000,9750,5250,4,4.0
+683,Ingredient_M,Pre-production,JAPAC,JAPAC,Syringe,2020,AML14,0.8,15000,12000,3000,4,2.5
+265,Ingredient_F,Pre-production,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2023,AML14,0.8,15000,12000,3000,4,4.0
+1072,Ingredient_R,Pre-production,EU,EU,Auto Injector,2019,AML14,0.8,15000,12000,3000,4,2.5
+857,Ingredient_O,Pre-production,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2019,ADL PM2,1.0,15000,15000,0,4,2.5
+751,Ingredient_N,Pre-production,EU,EU,Vial,2023,AML14,0.8,15000,12000,3000,4,2.5
+770,Ingredient_N,Pre-production,ICON - TMEA,ICON - TMEA,Vial,2022,AML14,0.8,15000,12000,3000,4,2.5
+19,Ingredient_B,Pre-production,EU,EU,Auto Injector,2019,AML14,0.8,15000,12000,3000,4,4.0
+803,Ingredient_N,In Progress,EU,EU,Vial,2020,ABR,0.65,15000,9750,5250,4,2.5
+461,Ingredient_J,In Progress,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2022,ABR,0.65,15000,9750,5250,4,4.0
+1060,Ingredient_Q,In Progress,JAPAC,JAPAC,Vial,2022,AML1,0.25,15000,3750,11250,4,2.5
+729,Ingredient_M,In Progress,JAPAC,JAPAC,Syringe,2021,AML1,0.25,15000,3750,11250,4,2.5
+1050,Ingredient_Q,In Progress,ICON - TMEA,ICON - TMEA,Vial,2022,ABR,0.65,15000,9750,5250,4,2.5
+1302,Ingredient_T,In Progress,ICON - TMEA,ICON - TMEA,Vial,2019,ABR,0.65,15000,9750,5250,4,2.5
+1157,Ingredient_R,In Progress,ICON - LACAN,ICON - LACAN,Pushtronex,2019,"PCI, US",0.3,15000,4500,10500,4,2.5
+1219,Ingredient_S,Pre-production,JAPAC,JAPAC,Blister,2021,AML23,0.25,15000,3750,11250,4,2.5
+1312,Ingredient_T,In Progress,US,US,Vial,2019,AML1,0.25,15000,3750,11250,4,2.5
+519,Ingredient_K,Pre-production,JAPAC,JAPAC,50cc,2020,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+426,Ingredient_J,Pre-production,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2023,"Actavis, IT",0.98,15000,14700,300,4,4.0
+621,Ingredient_L,Pre-production,JAPAC,JAPAC,Vial,2020,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+1210,Ingredient_S,Pre-production,ICON - LACAN,ICON - LACAN,Bottle,2022,"Patheon, CA",0.6,15000,9000,6000,4,2.5
+826,Ingredient_N,In Progress,ICON - TMEA,ICON - TMEA,Vial,2023,ABR,0.65,15000,9750,5250,4,2.5
+529,Ingredient_K,Pre-production,US,US,30cc,2020,ADL,1.0,15000,15000,0,4,4.0
+532,Ingredient_K,Pre-production,US,US,30cc,2023,ADL,1.0,15000,15000,0,4,4.0
+501,Ingredient_K,Pre-production,ICON - LACAN,ICON - LACAN,50cc,2022,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+587,Ingredient_K,In Progress,JAPAC,JAPAC,30cc,2023,AML1,0.25,15000,3750,11250,4,4.0
+121,Ingredient_C,Pre-production,JAPAC,JAPAC,Syringe,2019,AML14,0.8,15000,12000,3000,4,4.0
+530,Ingredient_K,Pre-production,US,US,30cc,2021,ADL,1.0,15000,15000,0,4,4.0
+337,Ingredient_G,Post-production,Global,Global,Global Post-production,2020,ATO7,0.1,15000,1500,13500,4,4.0
+842,Ingredient_N,In Progress,US,US,Vial,2019,AML1,0.25,15000,3750,11250,4,2.5
+1204,Ingredient_S,Pre-production,EU,EU,Capsule,2021,"Patheon, CA",0.6,15000,9000,6000,4,2.5
+228,Ingredient_D,In Progress,US,US,Lyo Vial Kit,2021,AML1,0.25,15000,3750,11250,4,4.0
+1260,Ingredient_S,In Progress,US,US,Bottle,2022,AML23,0.25,15000,3750,11250,4,2.5
+438,Ingredient_J,Pre-production,US,US,Lyo Vial Kit,2020,ADL,1.0,15000,15000,0,4,4.0
+897,Ingredient_O,In Progress,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2019,ABR,0.65,15000,9750,5250,4,2.5
+978,Ingredient_Q,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2020,AML14,0.8,15000,12000,3000,4,2.5
+766,Ingredient_N,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2023,AML14,0.8,15000,12000,3000,4,2.5
+370,Ingredient_H,Post-production,Global,Global,Global Post-production,2022,ARI5,1.0,15000,15000,0,4,4.0
+1206,Ingredient_S,Pre-production,EU,EU,Capsule,2023,"Patheon, CA",0.6,15000,9000,6000,4,2.5
+507,Ingredient_K,Pre-production,ICON - TMEA,ICON - TMEA,50cc,2023,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+526,Ingredient_K,Pre-production,US,US,10cc,2022,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+23,Ingredient_B,Pre-production,EU,EU,Auto Injector,2023,AML14,0.8,15000,12000,3000,4,4.0
+880,Ingredient_O,Pre-production,US,US,Lyo Vial or Lyo Vial Kit; 125ug SKU,2022,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+753,Ingredient_N,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2020,AML14,0.8,15000,12000,3000,4,2.5
+724,Ingredient_M,In Progress,ICON - TMEA,ICON - TMEA,Syringe,2021,ABR,0.65,15000,9750,5250,4,2.5
+719,Ingredient_M,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2021,AML1,0.25,15000,3750,11250,4,2.5
+365,Ingredient_H,Pre-production,US,US,Syringe,2022,"Patheon, IT",0.6,15000,9000,6000,4,4.0
+909,Ingredient_O,In Progress,US,US,Lyo Vial Kit,2021,AML1,0.25,15000,3750,11250,4,2.5
+875,Ingredient_O,Pre-production,US,US,"Lyo Vial or Lyo Vial Kit, 250ug and 500ug",2022,ADL PM2,1.0,15000,15000,0,4,2.5
+651,Ingredient_L,In Progress,JAPAC,JAPAC,Vial,2023,AML1,0.25,15000,3750,11250,4,4.0
+36,Ingredient_B,Pre-production,ICON - LACAN,ICON - LACAN,Syringe,2023,AML14,0.8,15000,12000,3000,4,4.0
+257,Ingredient_F,Pre-production,ICON - LACAN,ICON - LACAN,Auto Injector,2020,AML14,0.8,15000,12000,3000,4,4.0
+583,Ingredient_K,In Progress,JAPAC,JAPAC,30cc,2019,AML1,0.25,15000,3750,11250,4,4.0
+666,Ingredient_M,Pre-production,EU,EU,Syringe,2023,AML14,0.8,15000,12000,3000,4,2.5
+1119,Ingredient_R,Pre-production,US,US,Auto Injector,2021,AML14,0.8,15000,12000,3000,4,2.5
+783,Ingredient_N,Pre-production,US,US,Syringe,2020,AML14,0.8,15000,12000,3000,4,2.5
+175,Ingredient_C,In Progress,US,US,Vial,2023,AML1,0.25,15000,3750,11250,4,4.0
+664,Ingredient_M,Pre-production,EU,EU,Syringe,2021,AML14,0.8,15000,12000,3000,4,2.5
+430,Ingredient_J,Pre-production,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2022,ADL,1.0,15000,15000,0,4,4.0
+1048,Ingredient_Q,In Progress,ICON - TMEA,ICON - TMEA,Vial,2020,ABR,0.65,15000,9750,5250,4,2.5
+22,Ingredient_B,Pre-production,EU,EU,Auto Injector,2022,AML14,0.8,15000,12000,3000,4,4.0
+1254,Ingredient_S,In Progress,JAPAC,JAPAC,Blister,2021,"PCI, UK",0.3,15000,4500,10500,4,2.5
+628,Ingredient_L,Pre-production,US,US,Vial,2022,AML14,0.8,15000,12000,3000,4,4.0
+407,Ingredient_I,Post-production,Global,Global,Global Post-production,2023,AWM,1.0,15000,15000,0,4,4.0
+1215,Ingredient_S,Pre-production,ICON - TMEA,ICON - TMEA,Blister,2022,AML23,0.25,15000,3750,11250,4,2.5
+576,Ingredient_K,In Progress,ICON - TMEA,ICON - TMEA,50cc,2022,Sharp,0.35,15000,5250,9750,4,4.0
+503,Ingredient_K,Pre-production,ICON - TMEA,ICON - TMEA,50cc,2019,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+299,Ingredient_F,In Progress,ICON - LACAN,ICON - LACAN,Auto Injector,2022,AML1,0.25,15000,3750,11250,4,4.0
+225,Ingredient_D,In Progress,JAPAC,JAPAC,Lyo Vial Kit,2023,Bushu,0.35,15000,5250,9750,4,4.0
+892,Ingredient_O,In Progress,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2019,AML1,0.25,15000,3750,11250,4,2.5
+217,Ingredient_D,In Progress,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2020,AML1,0.25,15000,3750,11250,4,4.0
+476,Ingredient_K,Pre-production,EU,EU,10cc,2022,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+41,Ingredient_B,Pre-production,ICON - TMEA,ICON - TMEA,Auto Injector,2023,AML14,0.8,15000,12000,3000,4,4.0
+1038,Ingredient_Q,In Progress,ICON - LACAN,ICON - LACAN,Vial,2020,AML1,0.25,15000,3750,11250,4,2.5
+417,Ingredient_I,In Progress,US,US,Vial,2023,LDC,0.35,15000,5250,9750,4,4.0
+929,Ingredient_P,Pre-production,JAPAC,JAPAC,Vial,2021,"Patheon, NC",0.6,15000,9000,6000,4,2.5
+971,Ingredient_Q,Pre-production,EU,EU,Syringe,2023,AML14,0.8,15000,12000,3000,4,2.5
+37,Ingredient_B,Pre-production,ICON - TMEA,ICON - TMEA,Auto Injector,2019,AML14,0.8,15000,12000,3000,4,4.0
+47,Ingredient_B,Pre-production,JAPAC,JAPAC,Auto Injector,2020,AML14,0.8,15000,12000,3000,4,4.0
+505,Ingredient_K,Pre-production,ICON - TMEA,ICON - TMEA,50cc,2021,"Patheon, NC",0.6,15000,9000,6000,4,4.0
+809,Ingredient_N,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2021,AML1,0.25,15000,3750,11250,4,2.5
+198,Ingredient_D,Pre-production,US,US,Lyo Vial Kit,2021,ADL PM2,1.0,15000,15000,0,4,4.0
+1202,Ingredient_S,Pre-production,EU,EU,Capsule,2019,"Patheon, CA",0.6,15000,9000,6000,4,2.5
+594,Ingredient_K,In Progress,US,US,10cc,2020,AML1,0.25,15000,3750,11250,4,4.0
+1066,Ingredient_Q,In Progress,US,US,Syringe,2023,AML1,0.25,15000,3750,11250,4,2.5
+596,Ingredient_K,In Progress,US,US,10cc,2022,AML1,0.25,15000,3750,11250,4,4.0
+1122,Ingredient_R,Pre-production,US,US,Pushtronex,2019,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+808,Ingredient_N,In Progress,ICON - LACAN,ICON - LACAN,Syringe,2020,AML1,0.25,15000,3750,11250,4,2.5
+46,Ingredient_B,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2023,AML14,0.8,15000,12000,3000,4,4.0
+949,Ingredient_P,In Progress,ICON - LACAN,ICON - LACAN,Vial,2021,AML1,0.25,15000,3750,11250,4,2.5
+456,Ingredient_J,In Progress,ICON - LACAN,ICON - LACAN,Lyo Vial Kit,2022,AML1,0.25,15000,3750,11250,4,4.0
+219,Ingredient_D,In Progress,ICON - TMEA,ICON - TMEA,Lyo Vial Kit,2022,AML1,0.25,15000,3750,11250,4,4.0
+918,Ingredient_P,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2020,"Patheon, NC",0.6,15000,9000,6000,4,2.5
+418,Ingredient_J,Pre-production,EU,EU,Lyo Vial Kit,2019,ADL,1.0,15000,15000,0,4,4.0
+293,Ingredient_F,Post-production,Global,Global,Global Post-production,2021,AML6,0.25,15000,3750,11250,4,4.0
+165,Ingredient_C,In Progress,JAPAC,JAPAC,Syringe,2023,AML1,0.25,15000,3750,11250,4,4.0
+195,Ingredient_D,Pre-production,JAPAC,JAPAC,Lyo Vial Kit,2023,ADL PM2,1.0,15000,15000,0,4,4.0
+85,Ingredient_B,In Progress,ICON - TMEA,ICON - TMEA,Auto Injector,2023,ABR,0.65,15000,9750,5250,4,4.0
+142,Ingredient_C,In Progress,EU,EU,Auto Injector,2020,ABR,0.65,15000,9750,5250,4,4.0
+1015,Ingredient_Q,Pre-production,US,US,Vial,2022,AML14,0.8,15000,12000,3000,4,2.5
+1273,Ingredient_T,Pre-production,ICON - TMEA,ICON - TMEA,Vial,2020,AML14,0.8,15000,12000,3000,4,2.5
+656,Ingredient_L,In Progress,US,US,Vial,2023,AML1,0.25,15000,3750,11250,4,4.0
+764,Ingredient_N,Pre-production,ICON - TMEA,ICON - TMEA,Syringe,2021,AML14,0.8,15000,12000,3000,4,2.5
+982,Ingredient_Q,Pre-production,ICON - LACAN,ICON - LACAN,Vial,2019,AML14,0.8,15000,12000,3000,4,2.5
+74,Ingredient_B,In Progress,ICON - LACAN,ICON - LACAN,Auto Injector,2020,AML1,0.25,15000,3750,11250,4,4.0
+387,Ingredient_H,In Progress,JAPAC,JAPAC,Syringe,2023,Bushu,0.35,15000,5250,9750,4,4.0
+101,Ingredient_C,Pre-production,EU,EU,Auto Injector,2019,AML14,0.8,15000,12000,3000,4,4.0
+1079,Ingredient_R,Pre-production,EU,EU,Pushtronex,2021,"Patheon, IT",0.6,15000,9000,6000,4,2.5
+653,Ingredient_L,In Progress,US,US,Vial,2020,AML1,0.25,15000,3750,11250,4,4.0
+1262,Ingredient_T,Pre-production,EU,EU,Vial,2019,AML14,0.8,15000,12000,3000,4,2.5
+99,Ingredient_B,In Progress,US,US,Auto Injector,2023,AML1,0.25,15000,3750,11250,4,4.0
+548,Ingredient_K,In Progress,EU,EU,30cc,2019,ABR,0.65,15000,9750,5250,4,4.0
+1061,Ingredient_Q,In Progress,JAPAC,JAPAC,Vial,2023,AML1,0.25,15000,3750,11250,4,2.5
+246,Ingredient_E,In Progress,US,US,Bottle,2019,AML23,0.25,15000,3750,11250,4,4.0
