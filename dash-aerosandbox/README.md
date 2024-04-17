@@ -2,7 +2,7 @@
 by Peter Sharpe
 
 ## Description
-An interactive demo of AeroSandbox, powered by Dash! Work in progress.
+An interactive demo of AeroSandbox, powered by Dash!
 
 ## Installation and Usage
 1. Install all dependencies listed in `requirements.txt` - all packages are pip-installable. In particular, be sure to get a recent version of AeroSandbox (`pip install --upgrade aerosandbox`).
@@ -10,3 +10,6 @@ An interactive demo of AeroSandbox, powered by Dash! Work in progress.
 
 ## Illustration
 ![Screenshot of Demo](assets/screenshot.png)
+
+# View the App
+https://dash-gallery.plotly.com/

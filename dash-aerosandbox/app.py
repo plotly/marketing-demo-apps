@@ -25,9 +25,6 @@ app.layout = dbc.Container(
                     ],
                     width=True,
                 ),
-                # dbc.Col([
-                #     html.Img(src="assets/MIT-logo-red-gray-72x38.svg", alt="MIT Logo", height="30px"),
-                # ], width=1)
             ],
             align="end",
         ),
@@ -93,7 +90,6 @@ app.layout = dbc.Container(
                 ),
                 dbc.Col(
                     [
-                        # html.Div(id='display')
                         dbc.Spinner(
                             dcc.Graph(id="display", style={"height": "80vh"}),
                             color="primary",
