@@ -90,25 +90,6 @@ def stop_production(n_clicks, current):
     return not current, "stop" if current else "start"
 
 
-# @callback(
-#     Output("markdown", "style"),
-#     Input("learn-more-button", "n_clicks"), 
-#     Input("markdown_close", "n_clicks"),
-# )
-# def update_click_output(button_click, close_click):
-#     """
-#         Callbacks for modal popup
-#     """
-#     ctx = callback_context
-
-#     if ctx.triggered:
-#         prop_id = ctx.triggered[0]["prop_id"].split(".")[0]
-#         if prop_id == "learn-more-button":
-#             return {"display": "block"}
-
-#     return {"display": "none"}
-
-
 @callback(
     Output("progress-gauge", "value"),
     Input("interval-component", "n_intervals"),
