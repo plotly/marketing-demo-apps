@@ -42,7 +42,7 @@ app.layout = html.Div(
                     [
                         html.A(
                             html.Button("SOURCE CODE", className="link-button"),
-                            href="https://github.com/plotly/dash-sample-apps/tree/main/apps/dash-wind-streaming",
+                            href="https://github.com/plotly/marketing-gallery",
                         ),
                         html.A(
                             html.Button("ENTERPRISE DEMO", className="link-button"),
