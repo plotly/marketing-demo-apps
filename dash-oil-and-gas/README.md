@@ -24,8 +24,8 @@ Clone the git repo, then install the requirements with pip
 
 ```
 
-git clone https://github.com/plotly/dash-sample-apps
-cd dash-sample-apps/apps/dash-oil-and-gas
+git clone https://github.com/plotly/marketing-gallery.git
+cd dash-oil-and-gas
 pip install -r requirements.txt
 
 ```
