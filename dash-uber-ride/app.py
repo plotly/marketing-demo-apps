@@ -18,7 +18,7 @@ server = app.server
 
 
 # Plotly mapbox public token. Note that this token is URL locked to the services server, and will not work from your local machine. You can get a tiling plan from Mapbox here: https://www.mapbox.com/. You will need a (free) public token.
-mapbox_access_token = 'pk.eyJ1IjoiamFja2x1byIsImEiOiJjaXhzYTB0bHcwOHNoMnFtOWZ3YWdreDB3In0.pjROwb9_CEuyKPE-x0lRUw'
+mapbox_access_token = "pk.eyJ1IjoicGxvdGx5LWRvY3MiLCJhIjoiY2s1MnJ3M3E4MDEweDNtbWNldjJscmN4YyJ9.SKegztUXh4SxUWwMm8PqXw"
 
 
 # Dictionary of important locations in New York
