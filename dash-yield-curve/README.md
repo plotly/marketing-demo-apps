@@ -26,8 +26,8 @@ Clone the git repo, then install the requirements with pip
 
 ```
 
-git clone https://github.com/plotly/dash-sample-apps
-cd dash-sample-apps/apps/dash-yield-curve
+git clone https://github.com/plotly/marketing-gallery
+cd dash-yield-curve
 pip install -r requirements.txt
 
 ```
