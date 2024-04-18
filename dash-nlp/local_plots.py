@@ -123,12 +123,6 @@ def main():
 
     # Visualising proportions
     comp_grp_df = pd.read_csv("data/comp_bigram_data.csv", index_col=0)
-    # fig = px.scatter(comp_grp_df, x='bigram', y='company', size='count', color='Words', template='plotly_white',
-    #                  labels={'Words':'Length<BR>(words)', 'bigram': 'Bigram', 'company': 'Company'},
-    #                  category_orders=top_comps, range_color=[150, 450], color_continuous_scale=px.colors.sequential.YlOrRd)
-    # fig.update_traces(marker=dict(line=dict(width=1, color='Gray')))
-    # fig.update_layout(width=1200, height=500)
-    # fig.show()
 
     fig = px.bar(
         comp_grp_df,

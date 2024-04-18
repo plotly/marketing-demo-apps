@@ -96,7 +96,7 @@ info_collapse = dbc.Collapse(
             boxes). You can choose between two different UIs, a basic and an advanced one.
             Both UIs were created using [streetscape.gl](https://avs.auto/#/streetscape.gl/overview/introduction)
             and are available as Dash components inside [this repo](https://github.com/plotly/dash-avs-ui).
-            The source code for this demo is available [here](https://github.com/plotly/dash-avs-demo).
+            The source code for this demo is available [here](https://github.com/plotly/marketing-gallery).
             """
                 )
             ),

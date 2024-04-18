@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 **For initializing this app with conda environment:**
 ```
-conda create -n newvenv python=3.6
+conda create -n newvenv python=3.9.4
 conda activate newvenv
 ```
 

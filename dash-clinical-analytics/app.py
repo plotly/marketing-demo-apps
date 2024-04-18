@@ -1,7 +1,4 @@
 import dash
-# import dash_core_components as dcc
-# import dash_html_components as html
-# from dash.dependencies import Input, Output, ClientsideFunction
 from dash import dcc, html, Input, Output, ClientsideFunction
 import numpy as np
 import pandas as pd
@@ -18,12 +15,6 @@ app.title = "Clinical Analytics Dashboard"
 server = app.server
 app.config.suppress_callback_exceptions = True
 
-# Path
-# BASE_PATH = pathlib.Path(__file__).parent.parent.resolve()
-# print(BASE_PATH)
-# DATA_PATH = BASE_PATH.joinpath("data").resolve()
-# print(DATA_PATH)
-# Read data
 df = pd.read_csv("data/clinical_analytics.csv.gz")
 
 clinic_list = df["Clinic Name"].unique()
@@ -118,10 +109,6 @@ def generate_control_card():
                 multi=True,
             ),
             html.Br(),
-            # html.Div(
-            #     id="reset-btn-outer",
-            #     children=html.Button(id="reset-btn", children="Reset", n_clicks=0),
-            # ),
         ],
     )
 
@@ -400,8 +387,6 @@ def generate_patient_table(figure_list, departments, wait_time_xrange, score_xra
     ]
 
     # department_row
-    # print(type(departments))
-    # print(departments)
     rows = [generate_table_row_helper(department) for department in departments]
     # empty_row
     empty_departments = [item for item in all_departments if item not in departments]
@@ -735,11 +720,8 @@ def update_table(start, end, clinic, admit_type, heatmap_click, reset_click, *ar
                 score_selected_index,
             )
             figure_list.append(department_score_figure)
-    # print('BREAKBREAKBREAKBREAK')
     # departments = np.insert(departments, 0, None)
     # figure_list[0]['layout']['margin']['b'] = 1
-    # print(figure_list[0]['data'][0])
-    # print(figure_list[0]['layout']['margin']['t'])
     # Put figures in table
     table = generate_patient_table(
         figure_list, departments, wait_time_xrange, score_xrange

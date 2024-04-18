@@ -2,13 +2,13 @@
 
 Clone the repo:
 ```
-git clone https://github.com/plotly/dash-self-driving
-cd dash-self-driving
+git clone https://github.com/plotly/marketing-gallery
+cd teaser-self-driving
 ```
 
 Create a environment:
 ```
-conda create -n dash-self-driving python=3.7
+conda create -n dash-self-driving python=3.9.4
 conda activate dash-self-driving
 pip install -r requirements.txt
 ```

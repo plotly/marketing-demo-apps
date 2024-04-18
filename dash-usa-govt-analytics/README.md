@@ -1,7 +1,7 @@
 # USA Gov Analytics
 
 This dashboard provides users with an interactive view into publicly available US government data
-View this app on [Dash Deployment Server](https://dash-demo.plotly.host/usa-gov-analytics/).
+View this app on [Dash Deployment Server](https://dash-gallery.plotly.com).
 
 ## Requirements
 
@@ -10,7 +10,7 @@ View this app on [Dash Deployment Server](https://dash-demo.plotly.host/usa-gov-
 ## Local installation
 
 ```shell
-cd apps/usa-gov-analytics
+cd dash-usa-govt-analytics
 virtualenv ~/.virtualenvs/usa-gov-analytics
 source ~/.virtualenvs/usa-gov-analytics/bin/activate
 pip install -r requirements.txt

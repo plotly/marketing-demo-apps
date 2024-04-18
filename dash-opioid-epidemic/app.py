@@ -105,7 +105,7 @@ app.layout = html.Div(
                 ),
                 html.A(
                     html.Button("Source Code", className="link-button"),
-                    href="https://github.com/plotly/dash-sample-apps/tree/main/apps/dash-opioid-epidemic",
+                    href="https://github.com/plotly/marketing-gallery",
                 ),
                 html.H4(children="Rate of US Poison-Induced Deaths"),
                 html.P(
