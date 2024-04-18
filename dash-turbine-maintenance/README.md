@@ -18,8 +18,8 @@
 ## Requirements
 Clone this repo and create a clean environment:
 ```
-git clone https://github.com/iameminmammadov/dash-predictive-maintenance.git
-cd dash-predictive-maintenance
+git clone https://github.com/plotly/marketing-gallery.git
+cd dash-turbine-maintenance
 python3 -m virtualenv venv
 ```
 To activate the virtualenv in UNIX:

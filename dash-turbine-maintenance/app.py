@@ -42,7 +42,7 @@ def logo(app):
             ),
             html.A(
                 dbc.Button("Source Code", color="secondary", className="mr-1"),
-                href="https://github.com/plotly/dash-sample-apps/tree/main/apps/dash-turbine-maintenance",
+                href="https://github.com/plotly/marketing-gallery",
                 target="_blank",
             ),
             html.A(
