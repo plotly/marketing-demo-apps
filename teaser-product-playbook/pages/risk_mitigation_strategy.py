@@ -32,21 +32,6 @@ def layout(product):
                     year_df["RevProtected"].sum() / year_df["TotalRev"].sum()
                 )
 
-        # ## Filter dataframe by stage
-        # dfi_ds=drp[drp['Stage']=='DS']
-        # for y in dfi_ds['Year'].unique():
-        #     year_filter = d
-        # dfi_dp=drp[drp['Stage']=='DP']
-        # dfi_fdp=drp[drp['Stage']=='FDP']
-        # ## Calc % Total Revenue Protected by stage
-        # if i == 'DS':
-        #     trp_ds = dfi_ds['RevProtected'].sum() / dfi_ds['TotalRev'].sum()
-        # elif i == 'DP':
-        #     trp_dp = dfi_dp['RevProtected'].sum() / dfi_dp['TotalRev'].sum()
-        # elif i == 'FDP':
-        #     # filtered dataframe for fdp stage
-        #     trp_fdp = dfi_fdp['RevProtected'].sum() / dfi_fdp['TotalRev'].sum()
-
     # Create Graphs
     # recommend using PX when data is in tidy format (ie all data is in 1 dataframe)
     rev_ds_fig = {"data": [{"type": "bar", "x": year, "y": ds_protected}]}

@@ -3,7 +3,7 @@ A full-fledged application illustrating the depth of capabailities of a Dash app
 
 The app also includes a "product playbook", which shows overview data and textual information about each individual product, broken down into several unique sections.
 
-View this app on [Dash Deployment Server](https://dash-demo.plotly.host/product-playbook/).
+View this app on [Dash Deployment Server](https://dash-gallery.plotly.com/).
 
 ## Screenshots
 ![demo](assets/1.png)

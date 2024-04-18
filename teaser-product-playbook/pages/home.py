@@ -18,9 +18,7 @@ DF = DF.sort_values("Stage")
 
 
 marks = {year: str(year) for year in sorted(DF['Year'].unique())}
-# marks={year: f'{year:04}' for year in sorted(DF['Year'].unique())},
-# marks = sorted(DF['Year'].unique())
-print(marks)
+
 ## Layouts
 def control_card():
     return ddk.ControlCard(
@@ -33,11 +31,7 @@ def control_card():
                     step=1,
                     min=DF["Year"].min(),
                     max=DF["Year"].max(),
-                    # marks={year: str(year) for year in sorted(DF['Year'].unique())},
-                    # marks= (i for i in range(marks)),
-                    # marks={year: f'{year:04}' for year in sorted(DF['Year'].unique())},
                     marks={i: '{}'.format(i) for i in range(2019, 2023)},
-                    # marks=marks,
                     value=[DF["Year"].min(), DF["Year"].max()],
                 ),
                 label="Year",
