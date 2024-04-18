@@ -11,8 +11,8 @@ This is a demo of the Dash interactive Python framework developed by [Plotly](ht
 To run this app first clone repository and then open a terminal to the app folder.
 
 ```
-git clone https://github.com/plotly/dash-sample-apps.git
-cd dash-sample-apps/apps/dash-uber-rides-demo
+git clone https://github.com/plotly/marketing-gallery.git
+cd dash-uber-ride
 ```
 
 Create and activate a new virtual environment (recommended) by running

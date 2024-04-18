@@ -175,7 +175,7 @@ app.layout = html.Div(
                             """
                             Source: [FiveThirtyEight](https://github.com/fivethirtyeight/uber-tlc-foil-response/tree/master/uber-trip-data)
 
-                            Links: [Source Code](https://github.com/plotly/dash-sample-apps/tree/main/apps/dash-uber-rides-demo) | [Enterprise Demo](https://plotly.com/get-demo/)
+                            Links: [Source Code](https://github.com/plotly/marketing-gallery) | [Enterprise Demo](https://plotly.com/get-demo/)
                             """
                         ),
                     ],
