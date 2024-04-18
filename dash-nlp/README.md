@@ -9,8 +9,8 @@ A tidy example of how plotly's excellent dash framework can be used for Natural 
 To run this app first clone repository and then open a terminal to the app folder.
 
 ```
-git clone https://github.com/plotly/dash-sample-apps.git
-cd dash-sample-apps/apps/dash-nlp
+git clone https://github.com/plotly/marketing-gallery.git
+cd dash-nlp
 ```
 
 Install the requirements:
