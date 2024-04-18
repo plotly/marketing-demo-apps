@@ -21,7 +21,7 @@ due to unforeseen circumstances.
 [Dash](https://plot.ly/products/dash/). It comprises a robust set of controls that make it simpler to integrate data
 acquisition and controls into your Dash applications.
 
-Try out the [demo app here](https://dash-gallery.plotly.host/dash-daq-satellite-dashboard/).
+Try out the [demo app here](https://dash-gallery.plotly.com/).
 
 
 ## Screenshots
@@ -57,8 +57,8 @@ Clone the git repo, then install the requirements with pip
 
 ```
 
-git clone https://github.com/plotly/dash-sample-apps
-cd dash-sample-apps/apps/dash-daq-satellite-dashboard
+git clone https://github.com/plotly/marketing-gallery
+cd dash-daq-satellite
 pip install -r requirements.txt
 
 ```
