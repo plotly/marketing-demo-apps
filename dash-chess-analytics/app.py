@@ -487,7 +487,7 @@ dropdown_menus = dbc.Row(
 )
 
 
-app.layout = dbc.Jumbotron(
+app.layout = html.Div(
     style={"background-color": "#ebebeb"},  # ADD SETTINGS HERE
     children=[
         # Banner
