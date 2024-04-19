@@ -1,4 +1,4 @@
---extra-index-url=https://dash-playground.plotly.host/Docs/packages
+--extra-index-url=https://dash-gallery.plotly.host/Docs/packages
 dash==2.12.1
 gunicorn==20.0.4
 plotly==5.0.0
