@@ -114,6 +114,7 @@ app.layout = dbc.Container(
                             )
                         ]
                     ),
+                    width=6,
                 ),
                 dbc.Col(
                     dbc.Card(
@@ -145,6 +146,7 @@ app.layout = dbc.Container(
                             )
                         ]
                     ),
+                    width=6,
                 ),
             ],
             form=True,
@@ -183,6 +185,7 @@ app.layout = dbc.Container(
                             )
                         ]
                     ),
+                    width=6,
                 ),
                 dbc.Col(
                     dbc.Card(
@@ -214,6 +217,7 @@ app.layout = dbc.Container(
                             )
                         ]
                     ),
+                    width=6,
                 ),
             ],
             form=True,
@@ -249,6 +253,7 @@ app.layout = dbc.Container(
                             )
                         ]
                     ),
+                    width=6,
                 ),
                 dbc.Col(
                     dbc.Card(
@@ -280,6 +285,7 @@ app.layout = dbc.Container(
                             )
                         ]
                     ),
+                    width=6,
                 ),
             ],
             form=True,
@@ -320,6 +326,7 @@ app.layout = dbc.Container(
                             )
                         ]
                     ),
+                    width=6,
                 ),
             ],
             form=True,
