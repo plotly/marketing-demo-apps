@@ -1,0 +1,13 @@
+.simulation-container .simulation-row {
+    margin-top: 30px !important;
+}
+
+.simulation-container div.block {
+    padding-left: 1vw !important;
+    padding-right: 1vw !important;
+}
+/* 
+.simulation-container div.block button {
+    margin: 0 auto;
+    display: block;
+} */
