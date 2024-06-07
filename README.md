@@ -2,6 +2,12 @@
 
 This monorepo holds code for the apps deployed to https://dash-enterprise-demo.plotly.com created for the marketing gallery. using the full dash enterprise stack.
 
+<div align="center">
+  <a href="https://dash.plotly.com/project-maintenance">
+    <img src="https://dash.plotly.com/assets/images/maintained-by-plotly.png" width="400px" alt="Maintained by Plotly">
+  </a>
+</div>
+
 ## Running an example app
 
 You will need to run applications, and specify filenames, from the
