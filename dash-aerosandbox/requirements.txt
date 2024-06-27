@@ -8,3 +8,4 @@ gunicorn==20.0.4
 pandas==1.5.1
 seaborn
 importlib-resources
+numpy<2.0.0
