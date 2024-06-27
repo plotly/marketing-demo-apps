@@ -8,5 +8,3 @@ opencv-python-headless==4.9.0.80
 Flask-Caching==2.1.0
 requests==2.31.0
 redis==3.5.3
-
-
