@@ -1,0 +1,9 @@
+dash-enterprise-libraries==1.5.3
+dash-mantine-components==0.14.4
+redis==5.0.8
+dash-iconify==0.1.2
+pandas==2.2.2
+openai==1.51.0
+python-dotenv==1.0.1
+dash[diskcache]
+dash[celery]
