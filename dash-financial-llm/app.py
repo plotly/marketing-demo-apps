@@ -33,6 +33,7 @@ from utils.llm_utils import (
     add_gfsi_events,
     generate_ticker_descriptions,
 )
+from theme import layout_colorway
 
 load_dotenv()
 if "REDIS_URL" in os.environ:
@@ -629,9 +630,13 @@ def set_logo(query):
     Input("select_stock", "value"),
 )
 def add_stock_descriptions(stocks):
+    if not stocks:
+        return dash.no_update
+
     response = generate_ticker_descriptions(stocks)
     if not response:
         return dash.no_update
+
     layout = []
     for i, (ticker, description) in enumerate(
         zip(response.ticker, response.description)
@@ -643,7 +648,9 @@ def add_stock_descriptions(stocks):
                         ticker,
                         className="badge",
                         style={
-                            "background-color": "#012169",
+                            "background-color": layout_colorway[
+                                i % len(layout_colorway)
+                            ],
                             "color": "white",
                             "padding": "5px 10px",
                             "border-radius": "10px",

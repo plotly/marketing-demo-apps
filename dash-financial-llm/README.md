@@ -1,10 +1,18 @@
-# Dash app
+# Financial Markets AI-Powered Dashboard
 
-This Dash app was created for BofA.
+This Dash app is a tool focused on financial markets, leveraging AI technologies to provide smart insights and interactive visualizations.
 
-## Development
+## Description
 
-Install development-specific requirements by running
+This dashboard combines the power of financial data with advanced AI capabilities to deliver a unique user experience. Key features include:
+
+- Financial markets theme with stock data visualization
+- Generative AI powered by GPT's Large Language Model from OpenAI
+- Smart insights generation for selected stocks and market trends
+- Streaming outputs for real-time analysis and updates
+- Structured outputs for clear, actionable information
+
+The app showcases how AI can be seamlessly integrated into financial analysis tools, providing users with intelligent, on-demand insights about the stock market and individual companies.
 
 ```
 pip install -r requirements-dev.txt
@@ -17,33 +25,16 @@ pip install -r requirements-dev.txt
 ```
 pip install -r requirements.txt --extra-index-url <your-dash-enterprise-packages-url>
 ```
-
-> For better database performance, we've included the `psycopg2` library in
-> `requirements.txt`. If you are having trouble installing this library
-> on your development workstation, we recommend trying out
-> Dash Enterprise Workspaces or skipping the `psycopg2`
-> install. If `psycopg2` isn't installed, `dash-snapshots` will revert to a
-> less performant driver that is suitable for development but not production.
-
-2. Install & Run Redis
-
+2. Install & Run Redis (Deployed application ONLY)
+This only applies to the Deployed application. Ensure Redis is attached in the services tab.
 This application uses `celery` to run tasks in a background job queue.
 Celery uses Redis to transfer data between the Dash app and its job queue.
-See Read this First in the Dash Enterprise documentation for instructions on how to install & run Redis.
 
-> Note: If you are using the Dash Enterprise's built-in development environment Workspaces (/Docs/workspaces) on Dash Enterprise Single Node, then you can simply create & link and Redis database to your app.
-> The same Redis instance will be shared with your app and the workspace and the `dash-snapshots` library will automatically partition the data on Redis separately between workspace and deployed application.
-> If you are using Dash Enterprise on Kubernetes, then you will need to provide an external Redis instance via an environment variable into your workspace.
-> See deploying `dash-snapshots` (/Docs/dash-snapshots/deployment).
 
 3. In separate terminals, run the following commands:
 
 ```python
 python app.py
-```
-
-```python
-celery -A utils.snapshot_utils:celery_instance worker --loglevel=INFO --concurrency=2
 ```
 
 > Note:
