@@ -51,15 +51,31 @@ def generate_SP_500_stocks(stocks, weighted_stocks):
     if weighted_stocks == "Weighted":
         df["PRICE"] = df["PRICE"] * df["WEIGHT"]
 
-    # Convert DAY to datetime and sort
     df["DAY"] = pd.to_datetime(df["DAY"], format="%d-%b-%y")
     df = df.sort_values("DAY")
-    fig = px.line(
-        df,
-        x="DAY",
-        y="PRICE",
-    )
+
+    colors = px.colors.qualitative.Plotly
+
+    traces = []
+    for i, ticker in enumerate(stocks):
+        stock_data = df[df["TICKER"] == ticker]
+        color = colors[
+            i % len(colors)
+        ]  #cycle through colors if more stocks than colors
+        trace = go.Scatter(
+            x=stock_data["DAY"],
+            y=stock_data["PRICE"],
+            mode="lines",
+            name=ticker,
+            line=dict(color=color),
+        )
+        traces.append(trace)
+
+    fig = go.Figure(data=traces)
     fig.update_layout(
-        legend=dict(orientation="v", yanchor="top", xanchor="left", x=1.02, y=1)
+        title=f"S&P 500 Stock Prices {'(Weighted)' if weighted_stocks == 'Weighted' else ''}",
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+        xaxis_title="Date",
+        yaxis_title="Price",
     )
     return fig

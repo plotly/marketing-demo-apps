@@ -386,13 +386,6 @@ app.layout = dmc.MantineProvider(
                     ),
                 ],
             ),
-            ddk.Block(
-                [
-                    html.P(
-                        "This chart illustrates the volatility skew for the UKX options, providing valuable insights into market sentiment and investor behaviour. Monitoring these trends can help identify shifts in risk perception. For example, a rising put skew might indicate growing caution in the market, while a falling call skew can signal lower expectations for significant upward movements.",
-                    ),
-                ]
-            ),
             dmc.Space(h=10),
             dmc.Divider(variant="dashed"),
             dmc.Space(h=10),
@@ -425,7 +418,7 @@ app.layout = dmc.MantineProvider(
                                         style={"marginRight": "10px"},
                                     ),
                                     html.Div(
-                                        "With Smart Insights, your app's users can get automatically generated text-based insights about the figures in your app and interact with the figure data by asking questions.Insights can be generated using AI—via large language models (LLMs)—or can be manually defined."
+                                        "Smart Insights offers AI-generated or manually defined explanations of figures, helping users to understand data and interact through questions."
                                     ),
                                     dmc.Button(
                                         "Learn more",
@@ -439,6 +432,7 @@ app.layout = dmc.MantineProvider(
                                 style={
                                     "display": "flex",
                                     "flexDirection": "row",
+                                    "justifyContent": "space-between",
                                     "alignItems": "center",
                                 },
                             ),
@@ -454,14 +448,23 @@ app.layout = dmc.MantineProvider(
                         [
                             html.Div(
                                 [
-                                    DashIconify(
-                                        icon="feather:info",
-                                        color="#012169",
-                                        width=30,
-                                        style={"marginRight": "10px"},
-                                    ),
                                     html.Div(
-                                        "When stocks are selected in the dropdown, an LLM is queried to provide additional context about the stock."
+                                        [
+                                            DashIconify(
+                                                icon="feather:info",
+                                                color="#012169",
+                                                width=30,
+                                                style={"marginRight": "10px"},
+                                            ),
+                                            html.Div(
+                                                "When stocks are selected in the dropdown, an LLM is queried to provide additional context about the stock."
+                                            ),
+                                        ],
+                                        style={
+                                            "display": "flex",
+                                            "flexDirection": "row",
+                                            "alignItems": "center",
+                                        },
                                     ),
                                     dmc.Button(
                                         "Learn more",
@@ -475,7 +478,7 @@ app.layout = dmc.MantineProvider(
                                 style={
                                     "display": "flex",
                                     "flexDirection": "row",
-                                    "alignItems": "center",
+                                    "justifyContent": "space-between",
                                 },
                             ),
                             html.Div(
@@ -640,7 +643,7 @@ def add_stock_descriptions(stocks):
                         ticker,
                         className="badge",
                         style={
-                            "background-color": "#012169" "#012169",
+                            "background-color": "#012169",
                             "color": "white",
                             "padding": "5px 10px",
                             "border-radius": "10px",
