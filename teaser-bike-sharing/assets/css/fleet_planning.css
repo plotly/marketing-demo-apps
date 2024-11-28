@@ -1,0 +1,18 @@
+
+/*  mantine select component */
+#fleet-planning-map-dropdown-items {
+    border: none !important;
+}
+#fleet-planning-map-dropdown-items {
+    background-color: #1C1D1F !important;
+}
+.mantine-MultiSelect-item {
+    background-color: #1C1D1F !important;
+    color: white !important;
+}
+.mantine-MultiSelect-item:hover:not(.mantine-MultiSelect-selected) {
+    color: #7A76FF !important;
+}
+.mantine-MultiSelect-selected {
+    background-color: #7A76FF !important;
+}
